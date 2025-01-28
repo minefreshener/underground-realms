@@ -280,7 +280,7 @@
       {
 				"name": "Military Infrastructure",
 				"row": 4,
-				"prerequisites": ["Military Organization","Copper working"],
+				"prerequisites": ["Military Organization","Copper Working"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -292,7 +292,7 @@
       {
 				"name": "Masonry",
 				"row": 7,
-				"prerequisites": ["Copper working","Mathematics"],
+				"prerequisites": ["Copper Working","Mathematics"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
       {
