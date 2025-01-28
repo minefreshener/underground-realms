@@ -232,7 +232,7 @@
 			},
       {
 				"name": "Military Philosophy",
-				"row": 3,
+				"row": 5,
 				"prerequisites": ["Spellworking","Statecraft"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
@@ -286,7 +286,7 @@
 			{
 				"name": "Currency",
 				"row": 6,
-				"prerequisites": ["Trade","Copper working","Mathematics"],
+				"prerequisites": ["Trade","Copper Working","Mathematics"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
       {
@@ -298,7 +298,7 @@
       {
 				"name": "Melting Furnace",
 				"row": 8,
-				"prerequisites": ["Copper working"],
+				"prerequisites": ["Copper Working"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
       {
