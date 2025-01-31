@@ -1,1 +1,140 @@
-
+[
+	{
+		"name": "Forestry Camp",
+		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
+		"food": 1,
+		"turnsToBuild": 5,
+		"techRequired": "Foraging",
+		"uniques": ["Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "s"
+	},
+  {
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": ["Can also be built on tiles adjacent to fresh water","Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "F"
+	},
+  {
+		"name": "Lumber mill",
+		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
+		"production": 1,
+		"turnsToBuild": 5,
+		"techRequired": "Settlementation",
+		"uniques": ["Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "L"
+	},
+  {
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 8,
+		"techRequired": "Mining",
+		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "M"
+	},
+  {
+		"name": "Camp",
+		"turnsToBuild": 5,
+		"techRequired": "Trapping",
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","Can only be built to improve a resource",
+      "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "C"
+	},
+  {
+		"name": "Pasture",
+		"turnsToBuild": 7,
+		"techRequired": "Taming",
+		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "P"
+	},
+  {
+		"name": "Plantation",
+		"turnsToBuild": 7,
+		"gold": 1,
+		"techRequired": "Future Tech",
+		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "P"
+	},
+  {
+		"name": "Quarry",
+    "terrainsCanBeBuiltOn": ["Mountain"],
+		"turnsToBuild": 8,
+		"techRequired": "Stoneworking",
+		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "Q"
+	},
+  {
+		"name": "Fishing Boats",
+		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
+		"food": 1,
+		"techRequired": "Sailing",
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "F"
+	},
+ 	{
+		"name": "Road",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"techRequired": "The Wheel",
+		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
+		"shortcutKey": "R",
+        "civilopediaText": [
+            {"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
+            {"text":"Reduces movement cost to ⅓ with Machinery", "link":"Technology/Machinery"},
+            {"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}
+        ]
+	}, 
+  {
+		"name": "Remove Road",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"]
+	},
+	{
+		"name": "Remove Railroad",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"]
+	},
+	{
+		"name": "Cancel improvement order",
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "."
+	},
+  {
+        "name": "Repair",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 1,
+        "shortcutKey": "E",
+        "uniques": ["Unbuildable", "Excluded from map editor"],
+        "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
+  },
+  	{
+		"name": "Ancient ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable"]
+	},
+	{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable"],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+	},
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Ensures a minimum tile yield of [+2 Food, +2 Production]",
+            "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor","[+1 Production, +1 food] <after discovering [Settlementation]>"],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
+		]
+	},
+	{
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable", "Excluded from map editor"],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+	}
+]
