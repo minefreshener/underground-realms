@@ -125,7 +125,7 @@
 		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Ensures a minimum tile yield of [+2 Food, +2 Production]",
-            "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor","[+1 Production, +1 food] <after discovering [Settlementation]>"],
+            "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},
 			{"text":"Appearance changes with the technological era of the owning civilization"}
