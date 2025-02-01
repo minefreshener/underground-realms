@@ -4,8 +4,51 @@
         "movementType": "Land"
     },
     {
-        "name": "Infantry",
+        "name": "Civilian Water",
+        "movementType": "Water"
+    },
+    {
+        "name": "Light Infantry",
         "movementType": "Land"
     }
-    
+    {
+        "name": "Heavy Infantry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Spear Infantry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Missile Infantry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Light Cavalry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Heavy Cavalry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Missile Cavalry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Chariot",
+        "movementType": "Land"
+    },
+    {
+        "name": "Siege",
+        "movementType": "Land"
+    },
+    {
+        "name": "Light Artillery",
+        "movementType": "Land"
+    },
+    {
+        "name": "Heavy Artillery",
+        "movementType": "Land"
+    }
 ]
