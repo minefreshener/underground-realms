@@ -1,12 +1,341 @@
 [
   	{
-		"name": "Heal Instantly",
-		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Chariot","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege","Light Artillery",
+	"name": "Heal Instantly",
+	"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Chariot","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege","Light Artillery",
       "Heavy Artillery","Warship","Water Carrier","Submarine"],
-		"innerColor": [195,53,43],
-		"outerColor": [253,236,234],
+	"innerColor": [195,53,43],
+	"outerColor": [253,236,234],
         "row": 0,
         "column": 0
-	}
+	},
+	{
+	"name": "Dagger",
+        "column": 1,
+        "row": 1
+    	},
+	{
+	"name": "Assassination I",
+	"prerequisites": ["Dagger"],
+	"uniques": ["[+15]% to Flank Attack bonuses"],
+        "column": 1,
+        "row": 2
+    	},
+	{
+	"name": "Assassination II",
+	"prerequisites": ["Assassination I"],
+	"uniques": ["[+15]% to Flank Attack bonuses"],
+        "column": 1,
+        "row": 3
+    	},
+	{
+	"name": "Assassination III",
+	"prerequisites": ["Assassination II"],
+	"uniques": ["[+15]% to Flank Attack bonuses"],
+        "column": 1,
+        "row": 4
+    	},
+	{
+	"name": "Sword",
+        "column": 2,
+        "row": 1
+    	},
+	{
+	"name": "Drill I",
+	"prerequisites": ["Sword","Axe","Spear"],
+	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+        "column": 2,
+        "row": 2
+    	},
+	{
+	"name": "Drill II",
+	"prerequisites": ["Drill I"],
+	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+        "column": 2,
+        "row": 3
+    	},
+	{
+	"name": "Drill III",
+	"prerequisites": ["Drill II"],
+	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+        "column": 2,
+        "row": 4
+    	},
+	{
+	"name": "Axe",
+        "column": 3,
+        "row": 1
+    	},
+	{
+	"name": "Shock I",
+	"prerequisites": ["Sword","Axe"],
+	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+        "column": 3,
+        "row": 2
+    	},
+	{
+	"name": "Shock II",
+	"prerequisites": ["Shock I"],
+	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+        "column": 3,
+        "row": 3
+    	},
+	{
+	"name": "Shock III",
+	"prerequisites": ["Shock II"],
+	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+        "column": 3,
+        "row": 4
+    	},
+	{
+	"name": "Javelin",
+        "column": 4,
+        "row": 1
+    	},
+	{
+	"name": "Accuracy I",
+	"prerequisites": ["Javelin","Bow"],
+	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+        "column": 4,
+        "row": 2
+    	},
+	{
+	"name": "Accuracy II",
+	"prerequisites": ["Accuracy I"],
+	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+        "column": 4,
+        "row": 3
+    	},
+	{
+	"name": "Accuracy III",
+	"prerequisites": ["Accuracy II"],
+	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+        "column": 4,
+        "row": 4
+    	},
+	{
+	"name": "Bow",
+        "column": 5,
+        "row": 1
+    	},
+	{
+	"name": "Barrage I",
+	"prerequisites": ["Bow"],
+	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+        "column": 5,
+        "row": 2
+    	},
+	{
+	"name": "Barrage II",
+	"prerequisites": ["Barrage I"],
+	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+        "column": 5,
+        "row": 3
+    	},
+	{
+	"name": "Barrage III",
+	"prerequisites": ["Barrage II"],
+	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+        "column": 5,
+        "row": 4
+    	},
+	{
+	"name": "Spear",
+        "column": 6,
+        "row": 1
+    	},
+	{
+	"name": "Schiltrom I",
+	"prerequisites": ["Spear"],
+	"uniques": ["[+15]% Strength <vs [Light Cavalry] units> <when defending>","[+15]% Strength <vs [Heavy Cavalry] units> <when defending>"],
+        "column": 6,
+        "row": 2
+    	},
+	{
+	"name": "Schiltrom II",
+	"prerequisites": ["Schiltrom I"],
+	"uniques": ["[+15]% Strength <vs [Light Cavalry] units> <when defending>","[+15]% Strength <vs [Heavy Cavalry] units> <when defending>"],
+        "column": 6,
+        "row": 3
+    	},
+	{
+	"name": "Schiltrom III",
+	"prerequisites": ["Schiltrom II"],
+	"uniques": ["[+15]% Strength <vs [Light Cavalry] units> <when defending>","[+15]% Strength <vs [Heavy Cavalry] units> <when defending>"],
+        "column": 6,
+        "row": 4
+    	},
+	{
+	"name": "Pike",
+        "column": 7,
+        "row": 1
+    	},
+	{
+	"name": "Phalanx I",
+	"prerequisites": ["Pike"],
+	"uniques": ["[+15]% Strength <when defending>","[+33]% Strength <vs [Light Cavalry] units> <when defending>",
+		"[+33]% Strength <vs [Heavy Cavalry] units> <when defending>"],
+        "column": 7,
+        "row": 2
+    	},
+	{
+	"name": "Phalanx II",
+	"prerequisites": ["Phalanx I"],
+	"uniques": ["[+15]% Strength <when defending>","[+33]% Strength <vs [Light Cavalry] units> <when defending>",
+		"[+33]% Strength <vs [Heavy Cavalry] units> <when defending>"],
+        "column": 7,
+        "row": 3
+    	},
+	{
+	"name": "Phalanx III",
+	"prerequisites": ["Phalanx II"],
+	"uniques": ["[+15]% Strength <when defending>","[+33]% Strength <vs [Light Cavalry] units> <when defending>",
+		"[+33]% Strength <vs [Heavy Cavalry] units> <when defending>"],
+        "column": 7,
+        "row": 4
+    	},
+	{
+	"name": "Shield",
+        "column": 8,
+        "row": 1
+    	},
+	{
+	"name": "Shield Wall I",
+	"prerequisites": ["Shield"],
+	"uniques": ["[+15]% Strength <when defending>","[+33]% Strength <vs [Missile Infantry] units> <when defending>",
+		"[+33]% Strength <vs [Missile Cavalry] units> <when defending>"],
+        "column": 8,
+        "row": 2
+    	},
+	{
+	"name": "Shield Wall II",
+	"prerequisites": ["Shield Wall I"],
+	"uniques": ["[+15]% Strength <when defending>","[+33]% Strength <vs [Missile Infantry] units> <when defending>",
+		"[+33]% Strength <vs [Missile Cavalry] units> <when defending>"],
+        "column": 8,
+        "row": 3
+    	},
+	{
+	"name": "Shield Wall III",
+	"prerequisites": ["Shield Wall II"],
+	"uniques": ["[+15]% Strength <when defending>","[+33]% Strength <vs [Missile Infantry] units> <when defending>",
+		"[+33]% Strength <vs [Missile Cavalry] units> <when defending>"],
+        "column": 8,
+        "row": 4
+    	},
+	{
+	"name": "Hunting Dog",
+        "column": 9,
+        "row": 1
+    	},
+	{
+	"name": "Scouting I",
+	"prerequisites": ["Hunting Dog","Horse"],
+	"uniques": ["[+1] Sight"],
+        "column": 9,
+        "row": 2
+    	},
+	{
+	"name": "Scouting II",
+	"prerequisites": ["Scouting I"],
+	"uniques": ["[+1] Sight"],
+        "column": 9,
+        "row": 3
+    	},
+	{
+	"name": "Scouting III",
+	"prerequisites": ["Scouting II"],
+	"uniques": ["[+1] Sight"],
+        "column": 9,
+        "row": 4
+    	},
+	{
+	"name": "Staff",
+        "column": 10,
+        "row": 1
+    	},
+	{
+	"name": "Survivalism I",
+	"prerequisites": ["Staff"],
+	"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
+        "column": 10,
+        "row": 2
+    	},
+	{
+	"name": "Survivalism II",
+	"prerequisites": ["Survivalism I"],
+	"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
+        "column": 10,
+        "row": 3
+    	},
+	{
+	"name": "Survivalism III",
+	"prerequisites": ["Survivalism II"],
+	"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
+        "column": 10,
+        "row": 4
+    	},
+	{
+	"name": "Horse",
+        "column": 11,
+        "row": 1
+    	},
+	{
+	"name": "Charge I",
+	"prerequisites": ["Horse","Chariot"],
+	"uniques": ["[+15]% Strength <vs [Wounded] units>"],
+        "column": 11,
+        "row": 2
+    	},
+	{
+	"name": "Charge II",
+	"prerequisites": ["Charge I"],
+	"uniques": ["[+15]% Strength <vs [Wounded] units>"],
+        "column": 11,
+        "row": 3
+    	},
+	{
+	"name": "Charge III",
+	"prerequisites": ["Charge II"],
+	"uniques": ["[+15]% Strength <vs [Wounded] units>"],
+        "column": 11,
+        "row": 4
+    	},
+	{
+	"name": "Chariot",
+        "column": 12,
+        "row": 1
+    	},
+	{
+	"name": "Road Warfare I",
+	"prerequisites": ["Chariot"],
+	"uniques": ["[+33]% Strength <when fighting in [Road] tiles>"],
+        "column": 12,
+        "row": 2
+    	},
+	{
+	"name": "Road Warfare II",
+	"prerequisites": ["Road Warfare I"],
+	"uniques": ["[+33]% Strength <when fighting in [Road] tiles>"],
+        "column": 12,
+        "row": 3
+    	},
+	{
+	"name": "Road Warfare III",
+	"prerequisites": ["Road Warfare II"],
+	"uniques": ["[+33]% Strength <when fighting in [Road] tiles>"],
+        "column": 12,
+        "row": 4
+    	},
+	{
+	"name": "Suspension Upgrade",
+	"prerequisites": ["Road Warfare III"],
+	"uniques": ["Double movement in [Road]"],
+        "column": 12,
+        "row": 5
+    	},
+	{
+	"name": "Ignore terrain cost",
+	"uniques": ["Ignores terrain cost"]
+	},
 ]
