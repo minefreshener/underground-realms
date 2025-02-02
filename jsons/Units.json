@@ -71,6 +71,7 @@
 		"upgradesTo": "Levy Javelinman 2A",
 		"obsoleteTech": "Military Organization",
 		"uniques": ["[+25]% Strength <vs [Heavy Infantry] units>"],
+		"promotions": ["Javelin"],
 		"attackSound": "throw"
 	},
 	{
@@ -85,6 +86,7 @@
 		"upgradesTo": "Levy Javelinman 3A",
 		"obsoleteTech": "Bronze Working",
 		"uniques": ["[+25]% Strength <vs [Heavy Infantry] units>"],
+		"promotions": ["Javelin"],
 		"attackSound": "throw"
 	},
 	{
@@ -97,6 +99,7 @@
 		"cost": 70,
 		"requiredTech": "Bronze Working",
 		"uniques": ["[+25]% Strength <vs [Heavy Infantry] units>"],
+		"promotions": ["Javelin","Shield"],
 		"attackSound": "throw"
 	},
 	{
@@ -111,6 +114,7 @@
 		"obsoleteTech": "Copper Working",
 		"upgradesTo": "Levy Archer 2A",
 		"uniques": [],
+		"promotions": ["Bow"],
 		"attackSound": "arrow"
 	},
 	{
@@ -125,6 +129,7 @@
 		"obsoleteTech": "Bronze Working",
 		"upgradesTo": "Levy Archer 3A",
 		"uniques": [],
+		"promotions": ["Bow"],
 		"attackSound": "arrow"
 	},
 	{
@@ -137,6 +142,7 @@
 		"cost": 70,
 		"requiredTech": "Bronze Working",
 		"uniques": [],
+		"promotions": ["Bow"],
 		"attackSound": "arrow"
 	},
 	{
@@ -149,6 +155,7 @@
 		"upgradesTo": "Levy Axeman 2A",
 		"obsoleteTech": "Copper Working",
 		"uniques": ["[+25]% Strength <vs [Heavy Infantry] units>"],
+		"promotions": ["Axe"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -162,6 +169,7 @@
 		"upgradesTo": "Levy Axeman 3A",
 		"obsoleteTech": "Civil Construction",
 		"uniques": ["[+25]% Strength <vs [Heavy Infantry] units>","Consumes [1] [Copper]"],
+		"promotions": ["Axe"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -173,6 +181,7 @@
 		"cost": 70,
 		"requiredTech": "Civil Construction",
 		"uniques": ["[+25]% Strength <vs [Heavy Infantry] units>","Consumes [1] [Copper]"],
+		"promotions": ["Axe"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -186,6 +195,7 @@
 		"upgradesTo": "Elite Axeman 2A",
 		"obsoleteTech": "Military Organization",
 		"uniques": ["[+25]% Strength <vs [Heavy Infantry] units>"],
+		"promotions": ["Axe"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -199,6 +209,7 @@
 		"upgradesTo": "Elite Axeman 3A",
 		"obsoleteTech": "Bronze Working",
 		"uniques": ["[+25]% Strength <vs [Heavy Infantry] units>","Consumes [1] [Copper]"],
+		"promotions": ["Axe","Shield"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -210,6 +221,7 @@
 		"cost": 140,
 		"requiredTech": "Bronze Working",
 		"uniques": ["[+25]% Strength <vs [Heavy Infantry] units>","Consumes [1] [Bronze]"],
+		"promotions": ["Axe","Shield"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -223,6 +235,7 @@
 		"upgradesTo": "Elite Swordsman 3A",
 		"obsoleteTech": "Bronze Working",
 		"uniques": ["[+25]% Strength <vs [Spear Infantry] units>","Consumes [1] [Copper]"],
+		"promotions": ["Sword","Shield"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -234,6 +247,7 @@
 		"cost": 140,
 		"requiredTech": "Bronze Working",
 		"uniques": ["[+25]% Strength <vs [Spear Infantry] units>","Consumes [1] [Bronze]"],
+		"promotions": ["Sword","Shield"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -247,6 +261,7 @@
 		"upgradesTo": "Levy Spearman 2A",
 		"obsoleteTech": "Statecraft",
 		"uniques": ["[+50]% Strength <vs [Light Cavalry] units>","[+25]% Strength <vs [Heavy Cavalry] units>"],
+		"promotions": ["Spear"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -260,6 +275,7 @@
 		"upgradesTo": "Levy Spearman 3A",
 		"obsoleteTech": "Civil Construction",
 		"uniques": ["[+50]% Strength <vs [Light Cavalry] units>","[+25]% Strength <vs [Heavy Cavalry] units>"],
+		"promotions": ["Spear","Shield"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -271,6 +287,7 @@
 		"cost": 70,
 		"requiredTech": "Civil Construction",
 		"uniques": ["[+50]% Strength <vs [Light Cavalry] units>","[+25]% Strength <vs [Heavy Cavalry] units>"],
+		"promotions": ["Spear","Shield"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -283,7 +300,9 @@
 		"requiredTech": "Military Organization",
 		"upgradesTo": "Elite Spearman 3A",
 		"obsoleteTech": "Bronze Working",
-		"uniques": ["[+50]% Strength <vs [Light Cavalry] units>","[+25]% Strength <vs [Heavy Cavalry] units>","Consumes [1] [Copper]"],
+		"uniques": ["[+50]% Strength <vs [Charioteer] units>","[+50]% Strength <vs [Light Cavalry] units>","[+25]% Strength <vs [Heavy Cavalry] units>",
+			"Consumes [1] [Copper]"],
+		"promotions": ["Spear","Shield"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -294,13 +313,15 @@
 		"strength": 20,
 		"cost": 140,
 		"requiredTech": "Bronze Working",
-		"uniques": ["[+50]% Strength <vs [Light Cavalry] units>","[+25]% Strength <vs [Heavy Cavalry] units>","Consumes [1] [Bronze]"],
+		"uniques": ["[+50]% Strength <vs [Charioteer] units>","[+50]% Strength <vs [Light Cavalry] units>","[+25]% Strength <vs [Heavy Cavalry] units>",
+			"Consumes [1] [Bronze]"],
+		"promotions": ["Spear","Shield"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "War Chariot 2A",
-		"unitType": "Chariot",
+		"unitType": "Charioteer",
 		"movement": 4,
 		"strength": 15,
 		"range": 1,
@@ -312,11 +333,12 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Rough terrain penalty","Consumes [1] [Horses]",
 			"[+25]% Strength <vs [Light Infantry] units>","[-25]% Strength <vs [Light Cavalry] units> <when defending>",
 			"[-50]% Strength <vs [Heavy Cavalry] units> <when defending>"],
+		"promotions": ["Chariot","Javelin"],
 		"attackSound": "arrow"
 	},
 	{
 		"name": "War Chariot 3A",
-		"unitType": "Chariot",
+		"unitType": "Charioteer",
 		"movement": 4,
 		"strength": 20,
 		"range": 2,
@@ -326,6 +348,7 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Rough terrain penalty","Consumes [1] [Horses]",
 			"[+25]% Strength <vs [Light Infantry] units>","[-25]% Strength <vs [Light Cavalry] units> <when defending>",
 			"[-50]% Strength <vs [Heavy Cavalry] units> <when defending>"],
+		"promotions": ["Chariot","Bow"],
 		"attackSound": "arrow"
 	},
 	{
@@ -337,6 +360,7 @@
 		"requiredTech": "Horseback Riding",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]",
 			"[+25]% Strength <vs [Missile Infantry] units>"],
+		"promotions": ["Horse","Sword"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -351,6 +375,7 @@
 		"requiredTech": "Horseback Riding",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]",
 			"[+25]% Strength <vs [Heavy Infantry] units>"],
+		"promotions": ["Horse","Javelin"],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
@@ -365,6 +390,7 @@
 		"requiredTech": "Bronze Working",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]",
 			"[+25]% Strength <vs [Light Infantry] units> <when attacking>"],
+		"promotions": ["Horse","Bow"],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
@@ -375,8 +401,9 @@
 		"strength": 15,
 		"cost": 150,
 		"requiredTech": "The Phalanx",
-		"uniques": ["[+100]% Strength <vs [Light Cavalry] units>","[+100]% Strength <vs [Chariot] units>","[+50]% Strength <vs [Heavy Cavalry] units>",
+		"uniques": ["[+100]% Strength <vs [Light Cavalry] units>","[+100]% Strength <vs [Charioteer] units>","[+50]% Strength <vs [Heavy Cavalry] units>",
 			"[+25]% Strength <vs [Light Infantry] units>","Consumes [1] [Copper]"],
+		"promotions": ["Pike","Shield"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	}
