@@ -32,7 +32,7 @@
 		"upgradesTo": "Scout 2A",
 		"obsoleteTech": "Horseback Riding",
 		"uniques": [],
-		"promotions": [],
+		"promotions": ["Dagger","Staff","Hunting Dog","Ignore Terrain Cost"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -45,7 +45,7 @@
 		"upgradesTo": "Scout 3A",
 		"obsoleteTech": "Tactical Study",
 		"uniques": ["Can move after attacking","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": [],
+		"promotions": ["Dagger","Staff","Horse","Ignore Terrain Cost"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -56,7 +56,7 @@
 		"cost": 50,
 		"requiredTech": "Tactical Study",
 		"uniques": ["Can move after attacking","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": [],
+		"promotions": ["Dagger","Staff","Horse","Ignore Terrain Cost"],
 		"attackSound": "nonmetalhit"
 	},
 	{
