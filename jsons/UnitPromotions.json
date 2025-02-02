@@ -68,7 +68,7 @@
     	},
 	{
 	"name": "Shock I",
-	"prerequisites": ["Sword","Axe"],
+	"prerequisites": ["Sword","Axe","Chariot"],
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
         "column": 3,
         "row": 2
