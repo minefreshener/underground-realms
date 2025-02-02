@@ -3,10 +3,10 @@
 		"name": "Heal Instantly",
 		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Chariot","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege","Light Artillery",
-      "Heavy Artillery"],
+      "Heavy Artillery","Warship","Water Carrier","Submarine"],
 		"innerColor": [195,53,43],
 		"outerColor": [253,236,234],
         "row": 0,
         "column": 0
-    }
+	}
 ]
