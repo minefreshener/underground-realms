@@ -1,1 +1,33 @@
-
+Tilesets.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/HexaRealm/Tiles/Tin
+  rotate: false
+  xy: 112, 446
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Elephants
+  rotate: false
+  xy: 573, 1319
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Elephants+Camp
+  rotate: false
+  xy: 645, 1342
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Forestry Camp
+  rotate: false
+  xy: 1246, 1922
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
