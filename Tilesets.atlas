@@ -31,3 +31,199 @@ TileSets/HexaRealm/Tiles/Forestry Camp
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Scout 1A
+  rotate: false
+  xy: 364, 1189
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Scout 2A
+  rotate: false
+  xy: 256, 467
+  size: 64, 63
+  orig: 64, 63
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Scout 3A
+  rotate: false
+  xy: 256, 467
+  size: 64, 63
+  orig: 64, 63
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Javelinman 1A
+  rotate: false
+  xy: 220, 817
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Javelinman 2A
+  rotate: false
+  xy: 220, 817
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Javelinman 3A
+  rotate: false
+  xy: 436, 1093
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Archer 1A
+  rotate: false
+  xy: 220, 1009
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Archer 2A
+  rotate: false
+  xy: 220, 1009
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Archer 3A
+  rotate: false
+  xy: 220, 1009
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Axeman 1A
+  rotate: false
+  xy: 1441, 1392
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Axeman 2A
+  rotate: false
+  xy: 1441, 1392
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Axeman 3A
+  rotate: false
+  xy: 1441, 1392
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Axeman 1A
+  rotate: false
+  xy: 1873, 1066
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Axeman 2A
+  rotate: false
+  xy: 1873, 1066
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Axeman 3A
+  rotate: false
+  xy: 1873, 1066
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Swordsman 2A
+  rotate: false
+  xy: 793, 1616
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Swordsman 3A
+  rotate: false
+  xy: 1873, 1066
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Spearman 1A
+  rotate: false
+  xy: 436, 517
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Spearman 2A
+  rotate: false
+  xy: 436, 517
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Spearman 3A
+  rotate: false
+  xy: 436, 517
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Spearman 2A
+  rotate: false
+  xy: 1441, 1328
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Spearman 3A
+  rotate: false
+  xy: 789, 1222
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/War Chariot 2A
+  rotate: false
+  xy: 1462, 1858
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/War Chariot 3A
+  rotate: false
+  xy: 580, 954
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Regular Cavalry 2A
+  rotate: false
+  xy: 1318, 1689
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Javelin Cavalry 2A
+  rotate: false
+  xy: 256, 467
+  size: 64, 63
+  orig: 64, 63
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Horse Archer 3A
+  rotate: false
+  xy: 501, 1360
+  size: 64, 63
+  orig: 64, 63
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Phalangist 2A
+  rotate: false
+  xy: 429, 1383
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
