@@ -18,6 +18,8 @@
 	"name": "Assassination I",
 	"prerequisites": ["Dagger"],
 	"uniques": ["[+15]% to Flank Attack bonuses"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 1,
         "row": 2
     	},
@@ -25,6 +27,8 @@
 	"name": "Assassination II",
 	"prerequisites": ["Assassination I"],
 	"uniques": ["[+15]% to Flank Attack bonuses"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 1,
         "row": 3
     	},
@@ -32,6 +36,8 @@
 	"name": "Assassination III",
 	"prerequisites": ["Assassination II"],
 	"uniques": ["[+15]% to Flank Attack bonuses"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 1,
         "row": 4
     	},
@@ -44,6 +50,8 @@
 	"name": "Drill I",
 	"prerequisites": ["Sword","Axe","Spear"],
 	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 2,
         "row": 2
     	},
@@ -51,6 +59,8 @@
 	"name": "Drill II",
 	"prerequisites": ["Drill I"],
 	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 2,
         "row": 3
     	},
@@ -58,8 +68,19 @@
 	"name": "Drill III",
 	"prerequisites": ["Drill II"],
 	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 2,
         "row": 4
+    	},
+	{
+	"name": "Woodsman",
+	"prerequisites": ["Drill III"],
+	"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 2,
+        "row": 5
     	},
 	{
 	"name": "Axe",
@@ -70,6 +91,8 @@
 	"name": "Shock I",
 	"prerequisites": ["Sword","Axe","Chariot"],
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 3,
         "row": 2
     	},
@@ -77,6 +100,8 @@
 	"name": "Shock II",
 	"prerequisites": ["Shock I"],
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 3,
         "row": 3
     	},
@@ -84,8 +109,19 @@
 	"name": "Shock III",
 	"prerequisites": ["Shock II"],
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 3,
         "row": 4
+    	},
+	{
+	"name": "Field Mastery",
+	"prerequisites": ["Shock III"],
+	"uniques": ["Double movement in [Open terrain]"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 3,
+        "row": 5
     	},
 	{
 	"name": "Javelin",
@@ -96,6 +132,8 @@
 	"name": "Accuracy I",
 	"prerequisites": ["Javelin","Bow"],
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 4,
         "row": 2
     	},
@@ -103,6 +141,8 @@
 	"name": "Accuracy II",
 	"prerequisites": ["Accuracy I"],
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 4,
         "row": 3
     	},
@@ -110,8 +150,19 @@
 	"name": "Accuracy III",
 	"prerequisites": ["Accuracy II"],
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 4,
         "row": 4
+    	},
+	{
+	"name": "Extended Range",
+	"prerequisites": ["Accuracy III"],
+	"uniques": ["[+1] Range"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 4,
+        "row": 5
     	},
 	{
 	"name": "Bow",
@@ -122,6 +173,8 @@
 	"name": "Barrage I",
 	"prerequisites": ["Bow"],
 	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 5,
         "row": 2
     	},
@@ -129,6 +182,8 @@
 	"name": "Barrage II",
 	"prerequisites": ["Barrage I"],
 	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 5,
         "row": 3
     	},
@@ -136,8 +191,19 @@
 	"name": "Barrage III",
 	"prerequisites": ["Barrage II"],
 	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 5,
         "row": 4
+    	},
+	{
+	"name": "Volley",
+	"prerequisites": ["Barrage III"],
+	"uniques": ["[1] additional attacks per turn"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 5,
+        "row": 5
     	},
 	{
 	"name": "Spear",
@@ -148,6 +214,8 @@
 	"name": "Schiltrom I",
 	"prerequisites": ["Spear"],
 	"uniques": ["[+15]% Strength <vs [Light Cavalry] units> <when defending>","[+15]% Strength <vs [Heavy Cavalry] units> <when defending>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 6,
         "row": 2
     	},
@@ -155,6 +223,8 @@
 	"name": "Schiltrom II",
 	"prerequisites": ["Schiltrom I"],
 	"uniques": ["[+15]% Strength <vs [Light Cavalry] units> <when defending>","[+15]% Strength <vs [Heavy Cavalry] units> <when defending>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 6,
         "row": 3
     	},
@@ -162,6 +232,8 @@
 	"name": "Schiltrom III",
 	"prerequisites": ["Schiltrom II"],
 	"uniques": ["[+15]% Strength <vs [Light Cavalry] units> <when defending>","[+15]% Strength <vs [Heavy Cavalry] units> <when defending>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 6,
         "row": 4
     	},
@@ -175,6 +247,8 @@
 	"prerequisites": ["Pike"],
 	"uniques": ["[+15]% Strength <when defending>","[+33]% Strength <vs [Light Cavalry] units> <when defending>",
 		"[+33]% Strength <vs [Heavy Cavalry] units> <when defending>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 7,
         "row": 2
     	},
@@ -183,6 +257,8 @@
 	"prerequisites": ["Phalanx I"],
 	"uniques": ["[+15]% Strength <when defending>","[+33]% Strength <vs [Light Cavalry] units> <when defending>",
 		"[+33]% Strength <vs [Heavy Cavalry] units> <when defending>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 7,
         "row": 3
     	},
@@ -191,6 +267,8 @@
 	"prerequisites": ["Phalanx II"],
 	"uniques": ["[+15]% Strength <when defending>","[+33]% Strength <vs [Light Cavalry] units> <when defending>",
 		"[+33]% Strength <vs [Heavy Cavalry] units> <when defending>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 7,
         "row": 4
     	},
@@ -204,6 +282,8 @@
 	"prerequisites": ["Shield"],
 	"uniques": ["[+15]% Strength <when defending>","[+33]% Strength <vs [Missile Infantry] units> <when defending>",
 		"[+33]% Strength <vs [Missile Cavalry] units> <when defending>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 8,
         "row": 2
     	},
@@ -212,6 +292,8 @@
 	"prerequisites": ["Shield Wall I"],
 	"uniques": ["[+15]% Strength <when defending>","[+33]% Strength <vs [Missile Infantry] units> <when defending>",
 		"[+33]% Strength <vs [Missile Cavalry] units> <when defending>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 8,
         "row": 3
     	},
@@ -220,6 +302,8 @@
 	"prerequisites": ["Shield Wall II"],
 	"uniques": ["[+15]% Strength <when defending>","[+33]% Strength <vs [Missile Infantry] units> <when defending>",
 		"[+33]% Strength <vs [Missile Cavalry] units> <when defending>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 8,
         "row": 4
     	},
@@ -232,6 +316,8 @@
 	"name": "Scouting I",
 	"prerequisites": ["Hunting Dog","Horse"],
 	"uniques": ["[+1] Sight"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 9,
         "row": 2
     	},
@@ -239,6 +325,8 @@
 	"name": "Scouting II",
 	"prerequisites": ["Scouting I"],
 	"uniques": ["[+1] Sight"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 9,
         "row": 3
     	},
@@ -246,8 +334,19 @@
 	"name": "Scouting III",
 	"prerequisites": ["Scouting II"],
 	"uniques": ["[+1] Sight"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 9,
         "row": 4
+    	},
+	{
+	"name": "Mobility",
+	"prerequisites": ["Scouting III"],
+	"uniques": ["[+1] Movement"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 9,
+        "row": 5
     	},
 	{
 	"name": "Staff",
@@ -258,6 +357,8 @@
 	"name": "Survivalism I",
 	"prerequisites": ["Staff"],
 	"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 10,
         "row": 2
     	},
@@ -265,6 +366,8 @@
 	"name": "Survivalism II",
 	"prerequisites": ["Survivalism I"],
 	"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 10,
         "row": 3
     	},
@@ -272,6 +375,8 @@
 	"name": "Survivalism III",
 	"prerequisites": ["Survivalism II"],
 	"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 10,
         "row": 4
     	},
@@ -284,6 +389,8 @@
 	"name": "Charge I",
 	"prerequisites": ["Horse","Chariot"],
 	"uniques": ["[+15]% Strength <vs [Wounded] units>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 11,
         "row": 2
     	},
@@ -291,6 +398,8 @@
 	"name": "Charge II",
 	"prerequisites": ["Charge I"],
 	"uniques": ["[+15]% Strength <vs [Wounded] units>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 11,
         "row": 3
     	},
@@ -298,8 +407,19 @@
 	"name": "Charge III",
 	"prerequisites": ["Charge II"],
 	"uniques": ["[+15]% Strength <vs [Wounded] units>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 11,
         "row": 4
+    	},
+	{
+	"name": "Blitz",
+	"prerequisites": ["Charge III"],
+	"uniques": ["[1] additional attacks per turn"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 11,
+        "row": 5
     	},
 	{
 	"name": "Chariot",
@@ -310,6 +430,8 @@
 	"name": "Road Warfare I",
 	"prerequisites": ["Chariot"],
 	"uniques": ["[+33]% Strength <when fighting in [Road] tiles>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 12,
         "row": 2
     	},
@@ -317,6 +439,8 @@
 	"name": "Road Warfare II",
 	"prerequisites": ["Road Warfare I"],
 	"uniques": ["[+33]% Strength <when fighting in [Road] tiles>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 12,
         "row": 3
     	},
@@ -324,6 +448,8 @@
 	"name": "Road Warfare III",
 	"prerequisites": ["Road Warfare II"],
 	"uniques": ["[+33]% Strength <when fighting in [Road] tiles>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 12,
         "row": 4
     	},
@@ -331,6 +457,8 @@
 	"name": "Suspension Upgrade",
 	"prerequisites": ["Road Warfare III"],
 	"uniques": ["Double movement in [Road]"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 12,
         "row": 5
     	},
