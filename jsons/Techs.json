@@ -407,7 +407,7 @@
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
-				"name": "Standng Army",
+				"name": "Standing Army",
 				"row": 9,
 				"prerequisites": ["The Phalanx","Bronze Working"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
@@ -443,7 +443,7 @@
 			{
 				"name": "Tax Collection",
 				"row": 6,
-				"prerequisites": ["Regulated Trade","Crop Rotation","Standng Army"],
+				"prerequisites": ["Regulated Trade","Crop Rotation","Standing Army"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
