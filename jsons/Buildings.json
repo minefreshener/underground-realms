@@ -1,23 +1,71 @@
 [
+	/////////////// admin buildings
   	{
-		"name": "Palace",
+		"name": "Leader's Lodge",
 		"isNationalWonder": true,
-		"production": 3,
-		"science": 3,
-		"gold": 3,
+		"food": 1,
+		"production": 1,
+		"science": 1,
+		"gold": 1,
 		"culture": 1,
-		"cityStrength": 2,
+		"cityStrength": 5,
 		"cost": 1,
 		"uniques": ["Indicates the capital city"]
 	},
 	{
+		"name": "Gathering Square",
+		"happiness": 1,
+		"culture": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Settlementation",
+		"uniques": []
+	},
+	{
+		"name": "Watchtower",
+		"cityStrength": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Settlementation",
+		"uniques": ["[+1 Production] from [Pillaged] tiles [in this city]","Destroyed when the city is captured"]
+	},
+	{
+		"name": "Courthouse",
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>"],
+		"requiredTech": "Mathematics"
+	},
+	///////////// Culture Buildings
+	{
+		"name": "Cave Shelter",
+		"food": 1,
+		"culture": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Storage",
+		"uniques": []
+	},
+	{
 		"name": "Monument",
+		"requiredBuilding": "Cave Shelter",
 		"culture": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"uniques": [],
 		"requiredTech": "Stoneworking"
 	},
+	{
+		"name": "Amphitheater",
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [],
+		"requiredTech": "Drama And Poetry"
+	},
+	////////////////// faith buildings
 	{
 		"name": "Shrine",
 		"faith": 1,
@@ -26,12 +74,14 @@
 		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
-		"name": "Granary",
-		"food": 2,
+		"name": "Ritual Site",
+		"faith": 1,
+		"culture": 1,
+		"requiredBuilding": "Shrine",
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Bananas] tiles [in this city]","[+1 Food] from [Wheat] tiles [in this city]"],
-		"requiredTech": "Agriculture"
+		"requiredTech": "Philosophy",
+		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Temple",
@@ -42,4 +92,286 @@
 		"requiredTech": "Worship",
 		"uniques": ["Only available <when religion is enabled>"]
 	},
+	{
+		"name": "Grand Temple",
+		"culture": 1,
+		"faith": 8,
+		"uniques": ["Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
+			"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>","Can only be built <in [Holy] cities>"],
+		"requiredTech": "Theocracy",
+		"isNationalWonder": true
+	},
+	////////////// food buildings
+	{
+		"name": "Hunting Camp",
+		"food": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Hunting",
+		"uniques": []
+	},
+	{
+		"name": "Granary",
+		"requiredBuilding": "Hunting Camp",
+		"food": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Bananas] tiles [in this city]","[+1 Food] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "Fish Traps",
+		"requiredBuilding": "Hunting Camp",
+		"hurryCostModifier": 25,
+		"food": 1,
+		"maintenance": 1,
+		"uniques": ["Must be next to [Coast]","[+1 Food] from [Fish] tiles [in this city]" ],
+		"requiredTech": "Sailing"
+	},
+	{
+		"name": "Sundial",
+		"percentStatBonus": {"food": 5},
+		"hurryCostModifier": 25,
+		"requiredTech": "Calendar",
+		"uniques": []
+	},
+	//////////////// production buildings
+	{
+		"name": "Stone Anvil",
+		"production": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Labor Organization",
+		"uniques": []
+	},
+	{
+		"name": "Stone Works",
+		"requiredBuilding": "Stone Anvil",
+		"production": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Stone] tiles [in this city]","[+1 Gold] from [Marble] tiles [in this city]",
+			"[+1 Production] from [Mountain] tiles [in this city]"],
+		"requiredTech": "Stoneworking"
+	},
+	{
+		"name": "Brick Works",
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]"],
+		"requiredTech": "Masonry"
+	},
+	{
+		"name": "Smeltery",
+		"requiredNearbyImprovedResources": ["Copper","Tin","Iron"],
+		"maintenance": 1,
+		"production": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Copper] tiles [in this city]","[+1 Production] from [Tin] tiles [in this city]",
+			"[+1 Production] from [Iron] tiles [in this city]"],
+		"requiredTech": "Melting Furnace"
+	},
+	{
+		"name": "Bronzesmith",
+		"requiredNearbyImprovedResources": ["Copper","Tin"],
+		"maintenance": 1,
+		"production": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["Consumes [1] [Copper]","Consumes [1] [Tin]","Provides [2] [Bronze]"],
+		"requiredTech": "Bronze Working"
+	},
+	////////////////// Defensive Buildings
+	{
+		"name": "Pallisade",
+		"cityHealth": 10,
+		"hurryCostModifier": 25,
+		"requiredTech": "Woodworking",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Planked Walls",
+		"requiredBuilding": "Pallisade",
+		"cityHealth": 10,
+		"hurryCostModifier": 25,
+		"requiredTech": "Military Organization",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Walls",
+		"requiredBuilding": "Planked Walls",
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Archer Towers",
+		"cityStrength": 5,
+		"hurryCostModifier": 25,
+		"requiredTech": "Archery",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Ramparts",
+		"cityStrength": 10,
+		"cityHealth": 10,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Wizard Tower",
+		"requiredNearbyImprovedResources": ["Magic Crystals"],
+		"cityStrength": 5,
+		"science": 3,
+		"culture": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Theology",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	//////////////// Military Buildings
+	{
+		"name": "Raiding Camp",
+		"production": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Raiding",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Bowyer",
+		"requiredBuilding": "Stone Anvil",
+		"production": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+10]% Production when constructing [Missile Infantry] units [in this city]",
+			"[+10]% Production when constructing [Missile cavalry] units [in this city]"],
+		"requiredTech": "Archery"
+	},
+	{
+		"name": "Shipyard",
+		"production": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+10]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Shipbuilding"
+	},
+	{
+		"name": "Docklands",
+		"production": 1,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+20]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Naval Engineering"
+	},
+	{
+		"name": "Arena",
+		"happiness": 1,
+		"culture": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["New [Elite] units start with [15] Experience [in this city]"],
+		"requiredTech": "Military Philosophy"
+	},
+	{
+		"name": "Mustering Hall",
+		"food": -1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+10]% Production when constructing [Militia] units [in this city]","Destroyed when the city is captured"],
+		"requiredTech": "Military Organization"
+	},
+	{
+		"name": "Stable",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Horses"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+10]% Production when constructing [Light Cavalry] units [in this city]","[+10]% Production when constructing [Heavy Cavalry] units [in this city]",
+			"[+10]% Production when constructing [Missile Cavalry] units [in this city]","[+10]% Production when constructing [Charioteer] units [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]"],
+		"requiredTech": "Horseback Riding"
+	},
+	{
+		"name": "Armory",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+10]% Production when constructing [Military] units [in this city]","New [Military] units start with [5] Experience [in this city]",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Military Infrastructure"
+	},
+	{
+		"name": "Archery range",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["New [Missile Infantry] units start with [15] Experience [in this city]","New [Missile Cavalry] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Military Infrastructure"
+	},
+	{
+		"name": "Training Grounds",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]","Destroyed when the city is captured"],
+		"requiredTech": "Tactical Study"
+	},
+	{
+		"name": "Supply Depot",
+		"requiredBuilding": "Armory",
+		"production": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+10]% Production when constructing [Military] units [in this city]"],
+		"requiredTech": "Logistics"
+	},
+	///////////////// science buildings
+	{
+		"name": "Carving Station",
+		"science": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Written Language",
+		"uniques": []
+	},
+	{
+		"name": "Shamanic Lodge",
+		"science": 2,
+		"culture": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Spellworking",
+		"uniques": []
+	},
+	{
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]","[+1 Science] per [4] population [in this city]",
+			"[+1 Science] per [6] population [in this city] <after discovering [calendar]>"],
+		"requiredTech": "Record Keeping"
+	},
+	{
+		"name": "Magic Crystal Refinery",
+		"requiredNearbyImprovedResources": ["Magic Crystals"],
+		"science": 3,
+		"culture": 3,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Magical Composition Theory",
+		"uniques": ["Consumes [1] [Magic Crystals]","[+1 Production] from [Magic Crystals] tiles [in this city]"]
+	},
+	/////////////// gold buildings
+	{
+		"name": "Bartering Hall",
+		"gold": 2,
+		"production": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Trade",
+		"uniques": []
+	},
+	{
+		"name": "Mint",
+		"requiredNearbyImprovedResources": ["Copper","Silver","Gold Ore"],
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Gold] from [Copper] tiles [in this city]","[+2 Gold] from [Silver] tiles [in this city]","[+3 Gold] from [Gold Ore] tiles [in this city]"],
+		"requiredTech": "Currency"
+	}
 ]
