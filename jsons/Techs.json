@@ -324,7 +324,7 @@
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
       {
-				"name": "Theocracy",
+				"name": "Theology",
 				"row": 3,
 				"prerequisites": ["Record Keeping"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
@@ -343,7 +343,7 @@
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
       {
-				"name": "Civil Construction",
+				"name": "Construction",
 				"row": 7,
 				"prerequisites": ["Masonry"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
@@ -357,9 +357,251 @@
 
 		]
 	},
-  {
+	    {
 		"columnNumber": 9,
 		"era": "Third Age",
+		"techCost": 550,
+		"buildingCost": 130,
+		"wonderCost": 550,
+		"techs": [
+      {
+				"name": "Logistics",
+				"row": 1,
+				"prerequisites": ["Tactical Study","Calendar"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Magical Composition Theory",
+				"row": 2,
+				"prerequisites": ["Calendar","Theocracy"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Theocracy",
+				"row": 3,
+				"prerequisites": ["Theology"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Crop Rotation",
+				"row": 4,
+				"prerequisites": ["Calendar"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Optics",
+				"row": 5,
+				"prerequisites": ["Calendar","Naval Engineering"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Regulated Trade",
+				"row": 6,
+				"prerequisites": ["Currency","Construction"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Engineering",
+				"row": 8,
+				"prerequisites": ["Bronze Working","Construction"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Standng Army",
+				"row": 9,
+				"prerequisites": ["The Phalanx","Bronze Working"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			}
+
+		]
+	},
+	{
+		"columnNumber": 10,
+		"era": "Third Age",
+		"techCost": 600,
+		"buildingCost": 140,
+		"wonderCost": 600,
+		"techs": [
+			{
+				"name": "Entertainment",
+				"row": 2,
+				"prerequisites": ["Magical Composition Theory"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Professional Wizardry",
+				"row": 3,
+				"prerequisites": ["Magical Composition Theory","Theocracy"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+      			{
+				"name": "Profit Farming",
+				"row": 4,
+				"prerequisites": ["Logistics","Crop Rotation","Regulated Trade"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Tax Collection",
+				"row": 6,
+				"prerequisites": ["Regulated Trade","Crop Rotation","Standng Army"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Siege Engineering",
+				"row": 7,
+				"prerequisites": ["Logistics","Engineering","Standing Army"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Metal casting",
+				"row": 8,
+				"prerequisites": ["Engineering","Logistics"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			}
+
+		]
+	},
+	{
+		"columnNumber": 11,
+		"era": "Fourth Age",
+		"techCost": 700,
+		"buildingCost": 150,
+		"wonderCost": 700,
+		"techs": [
+			{
+				"name": "Professional Arts",
+				"row": 2,
+				"prerequisites": ["Entertainment"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Fermentation",
+				"row": 4,
+				"prerequisites": ["Profit Farming"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Astrology",
+				"row": 5,
+				"prerequisites": ["Optics","Professional Wizardry"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Breeding",
+				"row": 6,
+				"prerequisites": ["Tax Collection","Profit Farming"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Shaft Mining",
+				"row": 7,
+				"prerequisites": ["Metal Casting","Siege Engineering"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Iron Working",
+				"row": 8,
+				"prerequisites": ["Metal Casting"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Elephant Taming",
+				"row": 9,
+				"prerequisites": ["Siege Engineering","Profit Farming"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			}
+
+		]
+	},
+		{
+		"columnNumber": 12,
+		"era": "Fourth Age",
+		"techCost": 750,
+		"buildingCost": 160,
+		"wonderCost": 750,
+		"techs": [
+			{
+				"name": "Magicology",
+				"row": 3,
+				"prerequisites": ["Professional Arts","Astrology"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Adventuring",
+				"row": 4,
+				"prerequisites": ["Fermentation","Astrology"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Physics",
+				"row": 5,
+				"prerequisites": ["Astrology"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Military Construction",
+				"row": 6,
+				"prerequisites": ["Shaft Mining","Iron Working"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Metal Forging",
+				"row": 7,
+				"prerequisites": ["Shaft Mining","Iron Working"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Armoured Cavalry",
+				"row": 8,
+				"prerequisites": ["Breeding","Iron Working"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			}
+
+		]
+	},
+	{
+		"columnNumber": 13,
+		"era": "Fourth Age",
+		"techCost": 800,
+		"buildingCost": 170,
+		"wonderCost": 800,
+		"techs": [
+			{
+				"name": "Comercialism",
+				"row": 3,
+				"prerequisites": ["Adventuring","Magicology"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Cartography",
+				"row": 4,
+				"prerequisites": ["Adventuring"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Civil Engineering",
+				"row": 5,
+				"prerequisites": ["Physics","Military Construction"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Kinetics",
+				"row": 6,
+				"prerequisites": ["Physics","Metal Forging"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Formal Diplomacy",
+				"row": 7,
+				"prerequisites": ["Adventuring","Military Construction"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+
+		]
+	},
+	{
+		"columnNumber": 14,
+		"era": "Fourth Age",
 		"techCost": 9500,
 		"buildingCost": 750,
 		"wonderCost": 1250,
@@ -367,7 +609,7 @@
 			{
 				"name": "Future Tech",
 				"row": 5,
-				"prerequisites": ["Naval Engineering","Civil Construction","Theocracy","Tactical Study","Bronze Working","Calendar"],
+				"prerequisites": ["Comercialism","Cartography","Civil Engineering","Kinetics","Formal Diplomacy"],
 				"uniques": ["Can be continually researched"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
                 "civilopediaText": [{"text": "Who knows what the future holds?"}]
