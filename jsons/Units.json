@@ -16,11 +16,10 @@
 	{
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
-		"movement": 4,
+		"movement": 3,
 		"cost": 25,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "May create improvements on water resources",
-            "Uncapturable", "Automation is a primary action"]
+		"uniques": ["May create improvements on water resources","Can build [Water] improvements on tiles","Automation is a primary action"]
 	},
 	{
 		"name": "Scout 1A",
@@ -167,8 +166,8 @@
 		"cost": 60,
 		"requiredTech": "Copper Working",
 		"upgradesTo": "Levy Axeman 3A",
-		"obsoleteTech": "Civil Construction",
-		"uniques": ["[+25]% Strength <vs [Heavy Infantry] units>","Consumes [1] [Copper]"],
+		"obsoleteTech": "Construction",
+		"uniques": ["[+25]% Strength <vs [Heavy Infantry] units>"],
 		"promotions": ["Axe"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -179,7 +178,7 @@
 		"movement": 2,
 		"strength": 15,
 		"cost": 70,
-		"requiredTech": "Civil Construction",
+		"requiredTech": "Construction",
 		"uniques": ["[+25]% Strength <vs [Heavy Infantry] units>","Consumes [1] [Copper]"],
 		"promotions": ["Axe"],
 		"hurryCostModifier": 20,
@@ -273,7 +272,7 @@
 		"cost": 60,
 		"requiredTech": "Statecraft",
 		"upgradesTo": "Levy Spearman 3A",
-		"obsoleteTech": "Civil Construction",
+		"obsoleteTech": "Construction",
 		"uniques": ["[+50]% Strength <vs [Light Cavalry] units>","[+25]% Strength <vs [Heavy Cavalry] units>"],
 		"promotions": ["Spear","Shield"],
 		"hurryCostModifier": 20,
@@ -285,7 +284,7 @@
 		"movement": 2,
 		"strength": 15,
 		"cost": 70,
-		"requiredTech": "Civil Construction",
+		"requiredTech": "Construction",
 		"uniques": ["[+50]% Strength <vs [Light Cavalry] units>","[+25]% Strength <vs [Heavy Cavalry] units>"],
 		"promotions": ["Spear","Shield"],
 		"hurryCostModifier": 20,
