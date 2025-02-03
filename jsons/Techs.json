@@ -373,7 +373,7 @@
 			{
 				"name": "Magical Composition Theory",
 				"row": 2,
-				"prerequisites": ["Calendar","Theocracy"],
+				"prerequisites": ["Calendar","Theology"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -453,7 +453,7 @@
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
-				"name": "Metal casting",
+				"name": "Metal Casting",
 				"row": 8,
 				"prerequisites": ["Engineering","Logistics"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
