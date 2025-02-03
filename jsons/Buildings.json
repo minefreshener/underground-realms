@@ -15,8 +15,31 @@
 		"culture": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
-		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques": [],
 		"requiredTech": "Stoneworking"
+	},
+	{
+		"name": "Shrine",
+		"faith": 1,
+		"cost": 40,
+		"requiredTech": "Pottery",
+		"uniques": ["Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Granary",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Bananas] tiles [in this city]","[+1 Food] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "Temple",
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Worship",
+		"uniques": ["Only available <when religion is enabled>"]
 	},
 ]
