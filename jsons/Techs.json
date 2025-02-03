@@ -17,9 +17,9 @@
 	{
 		"columnNumber": 1,
 		"era": "First Age",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 50,
+		"buildingCost": 50,
+		"wonderCost": 50,
 		"techs": [
 			{
 				"name": "Storage",
@@ -54,9 +54,9 @@
   	{
 		"columnNumber": 2,
 		"era": "First Age",
-		"techCost": 35,
+		"techCost": 100,
 		"buildingCost": 60,
-		"wonderCost": 185,
+		"wonderCost": 100,
 		"techs": [
 			{
 				"name": "Pottery",
@@ -88,9 +88,9 @@
   {
 		"columnNumber": 3,
 		"era": "First Age",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 150,
+		"buildingCost": 70,
+		"wonderCost": 150,
 		"techs": [
 			{
 				"name": "Sailing",
@@ -122,9 +122,9 @@
     {
 		"columnNumber": 4,
 		"era": "First Age",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 200,
+		"buildingCost": 80,
+		"wonderCost": 200,
 		"techs": [
 			{
 				"name": "Exploration",
@@ -168,9 +168,9 @@
       {
 		"columnNumber": 5,
 		"era": "Second Age",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 300,
+		"buildingCost": 90,
+		"wonderCost": 300,
 		"techs": [
 			{
 				"name": "Drama And Poetry",
@@ -208,9 +208,9 @@
   {
 		"columnNumber": 6,
 		"era": "Second Age",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 350,
+		"buildingCost": 100,
+		"wonderCost": 350,
 		"techs": [
 			{
 				"name": "Shipbuilding",
@@ -267,9 +267,9 @@
   {
 		"columnNumber": 7,
 		"era": "Second Age",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 400,
+		"buildingCost": 110,
+		"wonderCost": 400,
 		"techs": [
       {
 				"name": "Record Keeping",
@@ -313,9 +313,9 @@
     {
 		"columnNumber": 8,
 		"era": "Third Age",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 500,
+		"buildingCost": 120,
+		"wonderCost": 500,
 		"techs": [
       {
 				"name": "Tactical Study",
