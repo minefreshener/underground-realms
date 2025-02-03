@@ -1,11 +1,11 @@
 [
 	{
 		"name": "Forestry Camp",
-		"terrainsCanBeBuiltOn": ["Forest","Jungle","Marsh"],
+		"terrainsCanBeBuiltOn": ["Forest","Jungle","Marsh","Oasis"],
 		"food": 1,
 		"turnsToBuild": 5,
 		"techRequired": "Foraging",
-		"uniques": ["Pillaging this improvement yields approximately [+10 Gold]","Oasis"],
+		"uniques": ["Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "s"
 	},
   {
@@ -14,7 +14,8 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
-		"uniques": ["Can also be built on tiles adjacent to fresh water","Pillaging this improvement yields approximately [+18 Gold]"],
+		"uniques": ["Can also be built on tiles adjacent to fresh water","Pillaging this improvement yields approximately [+18 Gold]",
+			"[+1 Farm] <after discovering [Crop Rotation]>"],
 		"shortcutKey": "F"
 	},
   {
@@ -32,7 +33,7 @@
 		"production": 1,
 		"turnsToBuild": 8,
 		"techRequired": "Mining",
-		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]","[+1 Production] <after discovering [Shaft Mining]>"],
 		"shortcutKey": "M"
 	},
   {
@@ -55,7 +56,8 @@
 		"turnsToBuild": 7,
 		"gold": 1,
 		"techRequired": "Profit Farming",
-		"uniques": ["Does not need removal of [Oasis]","Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["Does not need removal of [Oasis]","Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]",
+			"[+1 Production] <after discovering [Crop Rotation]>"],
 		"shortcutKey": "P"
 	},
   {
