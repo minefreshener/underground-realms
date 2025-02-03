@@ -329,10 +329,17 @@
 				"prerequisites": ["Record Keeping"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
+			{
+				"name": "Calendar",
+				"row": 5,
+				"prerequisites": ["Record Keeping"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
       {
 				"name": "Naval Engineering",
-				"row": 4,
+				"row": 5,
 				"prerequisites": ["Shipbuilding","Military Infrastructure"],
+	      			"uniques": ["Enables embarkation for land units"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
       {
@@ -360,7 +367,7 @@
 			{
 				"name": "Future Tech",
 				"row": 5,
-				"prerequisites": ["Naval Engineering","Civil Construction","Theocracy","Tactical Study","Bronze Working"],
+				"prerequisites": ["Naval Engineering","Civil Construction","Theocracy","Tactical Study","Bronze Working","Calendar"],
 				"uniques": ["Can be continually researched"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
                 "civilopediaText": [{"text": "Who knows what the future holds?"}]
