@@ -117,6 +117,37 @@
 		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
+	{
+		"name": "Rhinos",
+		"resourceType": "Strategic",
+		"revealedBy": "Trapping",
+		"terrainsCanBeFoundOn": ["Plains"], // Hill only if plains or grassland
+		"production": 2,
+		"improvement": "Pasture",
+		"improvementStats": {"gold": 1},
+	  	"uniques": ["Generated with weight [35] <in [Plains] Regions>",
+		"Doesn't generate naturally <in [{Plains} {Hill}] tiles>",
+		"Minor deposits generated with weight [20] <in [Jungle] tiles>",],
+		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	}
+	  {
+		"name": "Magic Crystals",
+		"resourceType": "Strategic",
+		"revealedBy": "Magic Theory",
+		"terrainsCanBeFoundOn": ["Desert","Snow","Jungle","Forest","Mountain","Ocean"], // Hill only if plains or grassland
+		"production": 1,
+		"improvedBy": ["Mine", "Offshore Platform"],
+		"improvementStats": {"culture": 2},
+	  	"uniques": ["Guaranteed with Strategic Balance resource option","Generated with weight [35] <in [Snow] Regions>",
+		"Major deposits generated with weight [20] <in [Jungle] tiles>",
+		"Minor deposits generated with weight [20] <in [Forest] tiles>",
+		"Minor deposits generated with weight [50] <in [Mountain] tiles>",
+		"Minor deposits generated with weight [15] <in [Ocean] tiles>",
+		"Minor deposits generated with weight [20] <in [Desert] tiles>"],
+		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	}
   	{
 		"name": "Iron",
 		"resourceType": "Strategic",
