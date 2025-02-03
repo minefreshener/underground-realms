@@ -1,1 +1,52 @@
-
+[
+      {
+        "name": "Wisdom",
+        "era": "First Age",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 20,
+            "Diplomatic": 20,
+            "Domination": 0,
+            "Scientific": 5
+        },
+        "uniques": ["[+1 Culture] [in all cites]","[+2 Science] [in capital]"],
+        "policies": [
+            {
+                "name": "Ancestral Veneration",
+                "uniques": ["[+1 Culture] from every [Shrine]","[+1 Culture] from every [Temple]"],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Meritocracy",
+                "uniques": ["Provides the cheapest [Production] building in your first [4] cities for free"],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Cultural Learning",
+                "uniques": ["[+1 Culture] from all [Science] buildings"],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Subsistance Farming",
+                "uniques": ["[+5]% growth [in all cities]","[+1 Food] [in all cities]","[+1 Culture] from every [Granary]"],
+                "requires": ["Meritocracy"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Council Of Elders",
+                "uniques": ["[+1 Culture, +1 Science] per [2] population [in capital]"],
+                "requires": ["Meritocracy"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Wisdom Complete",
+                "uniques": ["Provides a [Temple] in your first [10] cities for free","[+2 Science] [in all cites]",]
+            }
+        ]
+    }
+]
