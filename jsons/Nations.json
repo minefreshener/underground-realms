@@ -37,5 +37,11 @@
 		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
 		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
 "Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
+	},
+	{
+	"name": "Barbarians",
+	"outerColor": [0,0,0],
+        "innerColor": [185,12,12],
+	"uniques": ["Can only heal by pillaging","[Water] units gain the [Unable to pillage tiles] promotion"]
 	}
 ]
