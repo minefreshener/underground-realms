@@ -9,7 +9,7 @@
             "Domination": 0,
             "Scientific": 5
         },
-        "uniques": ["[+1 Culture] [in all cites]","[+2 Science] [in capital]"],
+        "uniques": ["[+1 Culture] [in all cities]","[+2 Science] [in capital]"],
         "policies": [
             {
                 "name": "Ancestral Veneration",
@@ -31,7 +31,7 @@
             },
             {
                 "name": "Subsistance Farming",
-                "uniques": ["[+5]% growth [in all cities]","[+1 Food] [in all cities]","[+1 Culture] from every [Granary]"],
+                "uniques": ["[-10]% growth [in all cities]","[+1 Food] [in all cities]","[+1 Culture] from every [Granary]"],
                 "requires": ["Meritocracy"],
                 "row": 2,
                 "column": 2
@@ -45,7 +45,132 @@
             },
             {
                 "name": "Wisdom Complete",
-                "uniques": ["Provides a [Temple] in your first [10] cities for free","[+2 Science] [in all cites]",]
+                "uniques": ["Provides a [Temple] in your first [5] cities for free","[+1 Science] [in all cites]",]
+            }
+        ]
+    },
+      {
+        "name": "Balance",
+        "era": "First Age",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 20,
+            "Diplomatic": 0,
+            "Domination": 0,
+            "Scientific": 0
+        },
+        "uniques": ["[+1 Food] [in all cities]","Provides the cheapest [Food] building in your first [4] cities for free"],
+        "policies": [
+            {
+                "name": "Natural Reverence",
+                "uniques": ["[+1 Faith] from every [Oasis]","[+1 Faith] from every [Marsh]"],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Social Harmony",
+                "uniques": ["[+1 Happiness, -1 Faith] from every [Temple]","[+1 Happiness] from every [Gatherng Square]"],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Differential Rationing",
+                "uniques": ["[-50]% Food consumption by specialists [in all cities]"],
+                "requires": ["Socal Harmony","Natural Reverence"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Culture Of Empathy",
+                "uniques": ["[+15]% Strength <for [Wounded] units>","[+1 Happiness] from every [Leader's Lodge]","[+1 Culture] from every [Gatherng Square]"],
+                "requires": ["Socal Harmony"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Natural Harmony",
+                "uniques": ["[+1 Food, -1 Producton] from every [Lumber Mill]","[+1 Culture] from every [Forestry Camp]"],
+                "requires": ["Natural Reverence"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Civil Society",
+                "uniques": ["[+1 Happiness] per [10] population [in all cities]","[+10]% growth [in all cities]"],
+                "requires": ["Culture Of Empathy","Natural Harmony"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Balance Complete",
+                "uniques": ["[+100]% Yield from every [Forestry Camp]","Provides a [Gatherng Square] in your first [5] cities for free"]
+            }
+        ]
+    },
+      {
+        "name": "Might",
+        "era": "First Age",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 10,
+            "Diplomatic": 5,
+            "Domination": 20,
+            "Scientific": 0
+        },
+        "uniques": ["[+50]% XP gained from combat <for [Military] units>","[+2 Production, +2 Gold] from every [Leader's Lodge]"],
+        "policies": [
+            {
+                "name": "Supremacy",
+                "uniques": ["[+33]% Strength <vs [Barbarian] units>","Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]"],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Expansion",
+                "uniques": ["[+50]% Production when constructing [Settler] units [in capital]","Free [Settler] appears"],
+                "requires": ["Supremacy"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Vigilance",
+                "uniques": ["Notified of new Barbarian encampments","[+1 Happiness] from every [Watchtower]"],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Secure Borders",
+                "uniques": ["Provides a [Pallisade] in your first [6] cities for free","Provides a [Planked Walls] in your first [6] cities for free",
+                      "Provides a [Walls] in your first [4] cities for free","[+1 Happiness] from every [Walls]"],
+                "requires": ["Vigilance"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Defense In Depth",
+                "uniques": ["[+1 Production] from every [Archer Tower]","[+1 Production] from every [Ramparts]","[+1 Production] from every [Wizard Tower]",
+                      "[+1 Happiness, +3 Production] [in all cities with a garrison]"],
+                "requires": ["Secure Borders"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Military Elite",
+                "uniques": ["New [Elite] units start with [15] Experience [in all cities]","[-15]% Production when constructing [Elite] units [in all cities]",
+                      "Free [Great General] appears"],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Proffessional Army",
+                "uniques": ["[-33]% Gold cost of upgrading <for [Military] units>","[+1 Happiness] from every [Barracks]","[+1 Happiness] from every [Armory]"],
+                "requires": ["Military Elite"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Might Complete",
+                "uniques": ["Provides a [Barracks] in your first [5] cities for free","Earn [25]% of killed [Military] unit's [Strength] as [Culture]"]
             }
         ]
     }
