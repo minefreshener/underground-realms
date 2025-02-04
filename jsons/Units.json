@@ -92,7 +92,7 @@
 	},
 	{
 		"name": "Great General",
-		"unitType": "Officer",
+		"unitType": "Civilian",
 		"uniques": [
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[+15]% Strength bonus for [Military] units within [2] tiles",
