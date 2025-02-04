@@ -58,7 +58,7 @@
 	{
 		"name": "Amphitheater",
 		"culture": 3,
-		"specialistSlots": {"Artist": 1},
+		"specialistSlots": {"Performer": 1},
 		"requiredBuilding": "Monument",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -77,6 +77,7 @@
 		"name": "Ritual Site",
 		"faith": 1,
 		"culture": 1,
+		"specialistSlots": {"Shaman": 1},
 		"requiredBuilding": "Shrine",
 		"maintenance": 1,
 		"hurryCostModifier": 25,
@@ -96,6 +97,7 @@
 		"name": "Grand Temple",
 		"culture": 1,
 		"faith": 8,
+		"specialistSlots": {"Shaman": 2},
 		"uniques": ["Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
 			"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>","Can only be built <in [Holy] cities>"],
 		"requiredTech": "Theocracy",
@@ -169,7 +171,6 @@
 	{
 		"name": "Brick Works",
 		"production": 2,
-		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]"],
@@ -239,6 +240,7 @@
 		"cityStrength": 5,
 		"science": 3,
 		"culture": 1,
+		"specialistSlots": {"Mage": 1},
 		"hurryCostModifier": 25,
 		"requiredTech": "Theology",
 		"uniques": ["Destroyed when the city is captured"]
@@ -260,6 +262,16 @@
 		"uniques": ["[+10]% Production when constructing [Missile Infantry] units [in this city]",
 			"[+10]% Production when constructing [Missile cavalry] units [in this city]"],
 		"requiredTech": "Archery"
+	},
+	{
+		"name": "Tinkerer's Workshop",
+		"production": 3,
+		"science": 1,
+		"specialistSlots": {"Engineer": 1},
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+20]% Production when constructing [Charioteer] units [in this city]"],
+		"requiredTech": "Engineering"
 	},
 	{
 		"name": "Shipyard",
@@ -290,6 +302,7 @@
 		"name": "Colosseum",
 		"happiness": 2,
 		"culture": 2,
+		"specialistSlots": {"Performer": 1},
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["New [Elite] units start with [30] Experience [in this city]","[-30]% Production when constructing [Elite] units [in this city]"],
@@ -372,6 +385,7 @@
 		"name": "Shamanic Lodge",
 		"science": 2,
 		"culture": 1,
+		"specialistSlots": {"Shaman": 1},
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Spellworking",
@@ -416,6 +430,7 @@
 	{
 		"name": "Market",
 		"gold": 3,
+		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"requiredTech": "Regulated Trade",
 		"uniques": ["[+1 Gold] per [2] population [in this city]","[+1 Gold] per [4] population [in this city] <after discovering [Tax Collection]>",
