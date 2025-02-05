@@ -134,8 +134,9 @@
 		"culture": 2,
 		"faith": 3,
 		"happiness": 1,
+		"percentStatBonus": {"faith": 10},
 		"specialistSlots": {"Priest": 1},
-		"uniques": ["Unbuildable","Only available <when religion is enabled>"]
+		"uniques": ["Unbuildable","Only available <when religion is enabled>","[-10]% growth [in this city]"]
 	},
 	{
 		"name": "Sacred Grove",
