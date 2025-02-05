@@ -31,7 +31,7 @@
             },
             {
                 "name": "Subsistance Farming",
-                "uniques": ["[-10]% growth [in all cities]","[+1 Food] [in all cities]","[+1 Culture] from every [Granary]"],
+                "uniques": ["[-10]% growth [in all cities]","[+2 Food] [in all cities]","[+1 Culture] from every [Granary]"],
                 "requires": ["Meritocracy"],
                 "row": 2,
                 "column": 2
@@ -69,7 +69,7 @@
             },
             {
                 "name": "Social Harmony",
-                "uniques": ["[+1 Happiness, -1 Faith] from every [Temple]","[+1 Happiness] from every [Gatherng Square]"],
+                "uniques": ["[+1 Happiness, -1 Faith] from every [Temple]","[+1 Happiness] from every [Gathering Square]"],
                 "row": 1,
                 "column": 4
             },
@@ -82,7 +82,7 @@
             },
             {
                 "name": "Culture Of Empathy",
-                "uniques": ["[+15]% Strength <for [Wounded] units>","[+1 Happiness] from every [Leader's Lodge]","[+1 Culture] from every [Gatherng Square]"],
+                "uniques": ["[+15]% Strength <for [Wounded] units>","[+1 Happiness] from every [Leader's Lodge]","[+1 Culture] from every [Gathering Square]"],
                 "requires": ["Social Harmony"],
                 "row": 2,
                 "column": 4
