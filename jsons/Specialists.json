@@ -9,6 +9,11 @@
 		"gold":3,
 		"color": [255,215,0]
 	},
+	{
+		"name":"Engineer",
+		"production":3,
+		"color": [139,69,19]
+	},
   {
 		"name":"Artist",
 		"culture":3,
