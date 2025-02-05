@@ -331,7 +331,7 @@
 		"requiredTech": "Agriculture",
 		"upgradesTo": "Elite Axeman 2A",
 		"obsoleteTech": "Military Organization",
-		"uniques": ["Elite","[+25]% Strength <vs [Heavy Infantry] units>"],
+		"uniques": ["Elite","[+25]% Strength <vs [Heavy Infantry] units>","Limited to [3] per Civilization"],
 		"promotions": ["Axe"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -345,7 +345,7 @@
 		"requiredTech": "Military Organization",
 		"upgradesTo": "Elite Axeman 3A",
 		"obsoleteTech": "Standing Army",
-		"uniques": ["Elite","[+25]% Strength <vs [Heavy Infantry] units>","Consumes [1] [Copper]"],
+		"uniques": ["Elite","[+25]% Strength <vs [Heavy Infantry] units>","Consumes [1] [Copper]","Limited to [3] per Civilization"],
 		"promotions": ["Axe","Shield"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -359,7 +359,7 @@
 		"requiredTech": "Standing Army",
 		"upgradesTo": "Elite Axeman 4A",
 		"obsoleteTech": "Metal Forging",
-		"uniques": ["Elite","[+25]% Strength <vs [Heavy Infantry] units>","Consumes [1] [Bronze]"],
+		"uniques": ["Elite","[+25]% Strength <vs [Heavy Infantry] units>","Consumes [1] [Bronze]","Limited to [4] per Civilization"],
 		"promotions": ["Axe","Shield"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -371,7 +371,7 @@
 		"strength": 25,
 		"cost": 160,
 		"requiredTech": "Metal Forging",
-		"uniques": ["Elite","[+25]% Strength <vs [Heavy Infantry] units>","Consumes [1] [Iron]"],
+		"uniques": ["Elite","[+25]% Strength <vs [Heavy Infantry] units>","Consumes [1] [Iron]","Limited to [4] per Civilization"],
 		"promotions": ["Axe","Shield","Heavy Armor"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -385,7 +385,7 @@
 		"requiredTech": "Copper Working",
 		"upgradesTo": "Elite Swordsman 3A",
 		"obsoleteTech": "Standing Army",
-		"uniques": ["Elite","[+25]% Strength <vs [Spear Infantry] units>","Consumes [1] [Copper]"],
+		"uniques": ["Elite","[+25]% Strength <vs [Spear Infantry] units>","Consumes [1] [Copper]","Limited to [3] per Civilization"],
 		"promotions": ["Sword","Shield"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -399,7 +399,7 @@
 		"requiredTech": "Standing Army",
 		"upgradesTo": "Elite Swordsman 4A",
 		"obsoleteTech": "Metal Forging",
-		"uniques": ["Elite","[+25]% Strength <vs [Spear Infantry] units>","Consumes [1] [Bronze]"],
+		"uniques": ["Elite","[+25]% Strength <vs [Spear Infantry] units>","Consumes [1] [Bronze]","Limited to [4] per Civilization"],
 		"promotions": ["Sword","Shield"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -411,7 +411,7 @@
 		"strength": 25,
 		"cost": 140,
 		"requiredTech": "Metal Forging",
-		"uniques": ["Elite","[+25]% Strength <vs [Spear Infantry] units>","Consumes [1] [Iron]"],
+		"uniques": ["Elite","[+25]% Strength <vs [Spear Infantry] units>","Consumes [1] [Iron]","Limited to [4] per Civilization"],
 		"promotions": ["Sword","Shield","Heavy Armor"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -480,7 +480,7 @@
 		"upgradesTo": "Elite Spearman 3A",
 		"obsoleteTech": "Standing Army",
 		"uniques": ["Elite","[+50]% Strength <vs [Charioteer] units>","[+50]% Strength <vs [Light Cavalry] units>","[+25]% Strength <vs [Heavy Cavalry] units>",
-			"Consumes [1] [Copper]"],
+			"Consumes [1] [Copper]","Limited to [3] per Civilization"],
 		"promotions": ["Spear","Shield"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -495,7 +495,7 @@
 		"upgradesTo": "Elite Spearman 4A",
 		"obsoleteTech": "Armoured Cavalry",
 		"uniques": ["Elite","[+50]% Strength <vs [Charioteer] units>","[+50]% Strength <vs [Light Cavalry] units>","[+25]% Strength <vs [Heavy Cavalry] units>",
-			"Consumes [1] [Bronze]"],
+			"Consumes [1] [Bronze]","Limited to [4] per Civilization"],
 		"promotions": ["Spear","Shield"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -508,7 +508,7 @@
 		"cost": 160,
 		"requiredTech": "Armoured Cavalry",
 		"uniques": ["Elite","[+50]% Strength <vs [Charioteer] units>","[+50]% Strength <vs [Light Cavalry] units>","[+25]% Strength <vs [Heavy Cavalry] units>",
-			"Consumes [1] [Iron]"],
+			"Consumes [1] [Iron]","Limited to [4] per Civilization"],
 		"promotions": ["Spear","Shield","Heavy Armor"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -527,7 +527,7 @@
 		"obsoleteTech": "Engineering",
 		"uniques": ["Elite","Can move after attacking","No defensive terrain bonus","Rough terrain penalty","Consumes [1] [Horses]",
 			"[+25]% Strength <vs [Light Infantry] units>","[-25]% Strength <vs [Light Cavalry] units> <when defending>",
-			"[-50]% Strength <vs [Heavy Cavalry] units> <when defending>"],
+			"[-50]% Strength <vs [Heavy Cavalry] units> <when defending>","Limited to [3] per Civilization"],
 		"promotions": ["Chariot","Javelin"],
 		"attackSound": "throw"
 	},
@@ -544,7 +544,7 @@
 		"obsoleteTech": "Breeding",
 		"uniques": ["Elite","Can move after attacking","No defensive terrain bonus","Rough terrain penalty","Consumes [1] [Horses]",
 			"[+25]% Strength <vs [Light Infantry] units>","[-25]% Strength <vs [Light Cavalry] units> <when defending>",
-			"[-50]% Strength <vs [Heavy Cavalry] units> <when defending>"],
+			"[-50]% Strength <vs [Heavy Cavalry] units> <when defending>","Limited to [4] per Civilization"],
 		"promotions": ["Chariot","Bow"],
 		"attackSound": "arrow"
 	},
@@ -557,7 +557,7 @@
 		"requiredTech": "Breeding",
 		"uniques": ["Elite","Can move after attacking","No defensive terrain bonus","Rough terrain penalty","Consumes [1] [Horses]",
 			"[+25]% Strength <vs [Light Infantry] units>","[-25]% Strength <vs [Light Cavalry] units> <when defending>",
-			"[-50]% Strength <vs [Heavy Cavalry] units> <when defending>"],
+			"[-50]% Strength <vs [Heavy Cavalry] units> <when defending>","Limited to [4] per Civilization"],
 		"promotions": ["Chariot","Sword"],
 		"attackSound": "horse"
 	},
@@ -627,7 +627,7 @@
 		"cost": 140,
 		"requiredTech": "Armoured Cavalry",
 		"uniques": ["Elite","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]",
-			"Consumes [1] [Iron]","[+33]% Strength <vs [Missile Infantry] units>"],
+			"Consumes [1] [Iron]","[+33]% Strength <vs [Missile Infantry] units>","Limited to [5] per Civilization"],
 		"promotions": ["Horse","Sword","Heavy Armor"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
@@ -687,7 +687,7 @@
 		"upgradesTo": "Elite Phalangist 3A",
 		"obsoleteTech": "Metal Casting",
 		"uniques": ["Elite","[+100]% Strength <vs [Light Cavalry] units>","[+100]% Strength <vs [Charioteer] units>","[+50]% Strength <vs [Heavy Cavalry] units>",
-			"[+25]% Strength <vs [Light Infantry] units>","Consumes [1] [Copper]"],
+			"[+25]% Strength <vs [Light Infantry] units>","Consumes [1] [Copper]","Limited to [5] per Civilization"],
 		"promotions": ["Pike","Shield"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -702,7 +702,7 @@
 		"upgradesTo": "Elite Phalangist 4A",
 		"obsoleteTech": "Armoured Cavalry",
 		"uniques": ["Elite","[+100]% Strength <vs [Light Cavalry] units>","[+100]% Strength <vs [Charioteer] units>","[+50]% Strength <vs [Heavy Cavalry] units>",
-			"[+25]% Strength <vs [Light Infantry] units>","Consumes [1] [Bronze]"],
+			"[+25]% Strength <vs [Light Infantry] units>","Consumes [1] [Bronze]","Limited to [5] per Civilization"],
 		"promotions": ["Pike","Shield"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -715,7 +715,7 @@
 		"cost": 250,
 		"requiredTech": "Armoured Cavalry",
 		"uniques": ["Elite","[+100]% Strength <vs [Light Cavalry] units>","[+100]% Strength <vs [Charioteer] units>","[+50]% Strength <vs [Heavy Cavalry] units>",
-			"[+25]% Strength <vs [Light Infantry] units>","Consumes [1] [Iron]"],
+			"[+25]% Strength <vs [Light Infantry] units>","Consumes [1] [Iron]","Limited to [5] per Civilization"],
 		"promotions": ["Pike","Shield","Heavy Armor"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
