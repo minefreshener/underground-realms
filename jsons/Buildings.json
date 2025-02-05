@@ -563,7 +563,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["[+1 Science] per [2] population [in this city]","[+1 Science] per [4] population [in this city]",
-			"[+1 Science] per [6] population [in this city] <after discovering [calendar]>"],
+			"[+1 Science] per [6] population [in this city] <after discovering [Calendar]>"],
 		"requiredTech": "Record Keeping"
 	},
 	{
