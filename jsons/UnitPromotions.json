@@ -463,7 +463,39 @@
         "row": 5
     	},
 	{
+	"name": "Heavy Armor",
+        "column": 13,
+        "row": 1
+    	},
+	{
+	"name": "Armor Plating I",
+	"prerequisites": ["Heavy Armor"],
+	"uniques": ["[+15]% Strength <when defending>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 13,
+        "row": 2
+    	},
+	{
+	"name": "Armor Plating II",
+	"prerequisites": ["Armor Plating I"],
+	"uniques": ["[+15]% Strength <when defending>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 13,
+        "row": 3
+    	},
+	{
+	"name": "Armor Plating III",
+	"prerequisites": ["Armor Plating II"],
+	"uniques": ["[+15]% Strength <when defending>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 13,
+        "row": 4
+    	},
+	{
 	"name": "Ignore Terrain Cost",
 	"uniques": ["Ignores terrain cost"]
-	},
+	}
 ]
