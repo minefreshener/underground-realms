@@ -76,20 +76,20 @@
             {
                 "name": "Differential Rationing",
                 "uniques": ["[-50]% Food consumption by specialists [in all cities]"],
-                "requires": ["Socal Harmony","Natural Reverence"],
+                "requires": ["Social Harmony","Natural Reverence"],
                 "row": 2,
                 "column": 3
             },
             {
                 "name": "Culture Of Empathy",
                 "uniques": ["[+15]% Strength <for [Wounded] units>","[+1 Happiness] from every [Leader's Lodge]","[+1 Culture] from every [Gatherng Square]"],
-                "requires": ["Socal Harmony"],
+                "requires": ["Social Harmony"],
                 "row": 2,
                 "column": 4
             },
             {
                 "name": "Natural Harmony",
-                "uniques": ["[+1 Food, -1 Producton] from every [Lumber Mill]","[+1 Culture] from every [Forestry Camp]"],
+                "uniques": ["[-1 Production, +1 Food] from every [Lumber Mill]","[+1 Culture] from every [Forestry Camp]"],
                 "requires": ["Natural Reverence"],
                 "row": 2,
                 "column": 2
