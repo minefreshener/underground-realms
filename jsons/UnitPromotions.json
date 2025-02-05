@@ -497,5 +497,9 @@
 	{
 	"name": "Ignore Terrain Cost",
 	"uniques": ["Ignores terrain cost"]
+	},
+	{
+	"name": "Morale",
+	"uniques": ["[+10]% Strength"]
 	}
 ]
