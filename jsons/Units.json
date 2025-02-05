@@ -719,5 +719,77 @@
 		"promotions": ["Pike","Shield","Heavy Armor"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
-	}
+	},
+	{
+		"name": "War Elephant 4A",
+		"unitType": "Heavy Cavalry",
+		"movement": 3,
+		"strength": 30,
+		"range": 1,
+		"rangedStrength": 20,
+		"cost": 200,
+		"requiredTech": "Elephant Taming",
+		"promotions": [],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"Consumes [1] [Elephants]"],
+		"attackSound": "elephant"
+	},
+	{
+		"name": "War Canoe 1A",
+		"unitType": "Warship",
+		"movement": 2,
+		"strength": 5,
+		"cost": 40,
+		"uniques": ["Cannot enter ocean tiles"],
+		"requiredTech": "Sailing",
+		"upgradesTo": "War Canoe 2A",
+		"obsoleteTech": "Shipbuilding",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "War Canoe 2A",
+		"unitType": "Warship",
+		"movement": 2,
+		"strength": 10,
+		"cost": 50,
+		"uniques": ["Cannot enter ocean tiles"],
+		"requiredTech": "Shipbuilding",
+		"upgradesTo": "Bireme 3A",
+		"obsoleteTech": "Naval Engineering",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Bireme 2A",
+		"unitType": "Warship",
+		"movement": 3,
+		"strength": 15,
+		"cost": 100,
+		"uniques": ["Cannot enter ocean tiles"],
+		"requiredTech": "Shipbuilding",
+		"upgradesTo": "Bireme 3A",
+		"obsoleteTech": "Naval Engineering",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Bireme 3A",
+		"unitType": "Warship",
+		"movement": 3,
+		"strength": 20,
+		"cost": 120,
+		"uniques": ["Cannot enter ocean tiles"],
+		"requiredTech": "Naval Engineering",
+		"upgradesTo": "Bireme 4A",
+		"obsoleteTech": "Astrology",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Bireme 4A",
+		"unitType": "Warship",
+		"movement": 3,
+		"strength": 25,
+		"cost": 140,
+		"uniques": ["Cannot enter ocean tiles","Consumes [1] [Bronze]"],
+		"requiredTech": "Astrology",
+		"attackSound": "nonmetalhit"
+	},
 ]
