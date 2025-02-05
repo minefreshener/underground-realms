@@ -118,6 +118,43 @@
 		"requiredTech": "Theocracy",
 		"isNationalWonder": true
 	},
+	//////////////// religion buildings
+	{
+		"name": "Warrior Temple",
+		"cost": 0,
+		"culture": 2,
+		"faith": 2,
+		"happiness": 2,
+		"specialistSlots": {"Priest": 1},
+		"uniques": ["Unbuildable","Only available <when religion is enabled>","New [Military] units start with [15] Experience [in this city]"]
+	},
+	{
+		"name": "Sacred Grove",
+		"cost": 0,
+		"culture": 1,
+		"faith": 1,
+		"happiness": 3,
+		"specialistSlots": {"Priest": 1},
+		"uniques": ["Unbuildable","Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Monastery",
+		"cost": 0,
+		"culture": 3,
+		"faith": 2,
+		"production": 3,
+		"uniques": ["Unbuildable","Only available <when religion is enabled>","[+1 Culture] from [Holy Site] tiles [in this city]",
+			"[+1 Faith] from [Incense] tiles [in this city]"]
+	},
+	{
+		"name": "Ziggurat",
+		"cost": 0,
+		"culture": 2,
+		"faith": 2,
+		"happiness": 1,
+		"specialistSlots": {"Priest": 2},
+		"uniques": ["Unbuildable","Only available <when religion is enabled>"]
+	},
 	////////////// food buildings
 	{
 		"name": "Hunting Camp",
