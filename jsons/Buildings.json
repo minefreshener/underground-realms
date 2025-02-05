@@ -553,7 +553,7 @@
 		"science": 2,
 		"culture": 1,
 		"specialistSlots": {"Shaman": 1},
-		"maintenance": 1,
+		"maintenance": 1
 		"hurryCostModifier": 25,
 		"requiredTech": "Spellworking",
 		"uniques": []
@@ -562,8 +562,7 @@
 		"name": "Library",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["[+1 Science] per [2] population [in this city]","[+1 Science] per [4] population [in this city]",
-			"[+1 Science] per [6] population [in this city] <after discovering [Calendar]>"],
+		"uniques": ["[+1 Science] per [4] population [in this city]","[+1 Science] per [6] population [in this city] <after discovering [Calendar]>"],
 		"requiredTech": "Record Keeping"
 	},
 	{
@@ -621,7 +620,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"requiredTech": "Regulated Trade",
-		"uniques": ["[+1 Gold] per [2] population [in this city]","[+1 Gold] per [4] population [in this city] <after discovering [Comercialism]>"]
+		"uniques": ["[+1 Gold] per [4] population [in this city]","[+1 Gold] per [6] population [in this city] <after discovering [Comercialism]>"]
 	},
 	{
 		"name": "Farmer's Market",
