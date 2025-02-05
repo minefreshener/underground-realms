@@ -115,9 +115,9 @@
         "row": 4
     	},
 	{
-	"name": "Field Mastery",
+	"name": "Amphibious",
 	"prerequisites": ["Shock III"],
-	"uniques": ["Double movement in [Open terrain]"],
+	"uniques": ["Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 3,
@@ -130,7 +130,7 @@
     	},
 	{
 	"name": "Accuracy I",
-	"prerequisites": ["Javelin","Bow"],
+	"prerequisites": ["Javelin","Bow","Ballista","Cannon"],
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
@@ -171,7 +171,7 @@
     	},
 	{
 	"name": "Barrage I",
-	"prerequisites": ["Bow"],
+	"prerequisites": ["Bow","Cannon","Catapult"],
 	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
@@ -493,6 +493,166 @@
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 13,
         "row": 4
+    	},
+	{
+	"name": "Ballista",
+        "column": 14,
+        "row": 1
+    	},
+	{
+	"name": "Targeting I",
+	"prerequisites": ["Ballista","Cannon"],
+	"uniques": ["[+15]% Strength <vs [Water] units>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 14,
+        "row": 2
+    	},
+	{
+	"name": "Targeting II",
+	"prerequisites": ["Targeting I"],
+	"uniques": ["[+15]% Strength <vs [Water] units>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 14,
+        "row": 3
+    	},
+	{
+	"name": "Targeting III",
+	"prerequisites": ["Targeting II"],
+	"uniques": ["[+15]% Strength <vs [Water] units>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 14,
+        "row": 4
+    	},
+	{
+	"name": "Catapult",
+        "column": 15,
+        "row": 1
+    	},
+	{
+	"name": "Cannon",
+        "column": 16,
+        "row": 1
+    	},
+	{
+	"name": "Bombardment I",
+	"prerequisites": ["Cannon"],
+	"uniques": ["[+15]% Strength <vs [Land] units>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 16,
+        "row": 2
+    	},
+	{
+	"name": "Bombardment II",
+	"prerequisites": ["Bombardment I"],
+	"uniques": ["[+15]% Strength <vs [Land] units>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 16,
+        "row": 3
+    	},
+	{
+	"name": "Bombardment III",
+	"prerequisites": ["Bombardment II"],
+	"uniques": ["[+15]% Strength <vs [Land] units>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 16,
+        "row": 4
+    	},
+	{
+	"name": "Indirect Fire",
+	"prerequisites": ["Barrage III","Accuracy III","Targeting III","Bombardment III"],
+	"uniques": ["Ranged attacks may be performed over obstacles"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 16,
+        "row": 5
+    	},
+	{
+	"name": "Fighting Crew",
+        "column": 17,
+        "row": 1
+    	},
+	{
+	"name": "Boarding Party I",
+	"prerequisites": ["Fighting Crew"],
+	"uniques": ["[+15]% Strength <vs [Water] units>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 17,
+        "row": 2
+    	},
+	{
+	"name": "Boarding Party II",
+	"prerequisites": ["Boarding Party I"],
+	"uniques": ["[+15]% Strength <vs [Water] units>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 17,
+        "row": 3
+    	},
+	{
+	"name": "Boarding Party III",
+	"prerequisites": ["Boarding Party II"],
+	"uniques": ["[+15]% Strength <vs [Water] units>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 17,
+        "row": 4
+    	},
+	{
+	"name": "Supply",
+	"prerequisites": ["Boarding Party III","Coastal Raider III","Targeting III","Bombardment III"],
+	"uniques": ["May heal outside of friendly territory", "[+20] HP when healing <in [Foreign Land] tiles>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 17,
+        "row": 5
+    	},
+	{
+	"name": "Landing Craft",
+        "column": 18,
+        "row": 1
+    	},
+	{
+	"name": "Coastal Raider I",
+	"prerequisites": ["Landing Craft"],
+	"uniques": ["[+10]% Strength <vs [Land] units>","[+10]% Strength <vs cities>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 18,
+        "row": 2
+    	},
+	{
+	"name": "Coastal Raider II",
+	"prerequisites": ["Coastal Raider I"],
+	"uniques": ["[+10]% Strength <vs [Land] units>","[+10]% Strength <vs cities>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 18,
+        "row": 3
+    	},
+	{
+	"name": "Coastal Raider III",
+	"prerequisites": ["Coastal Raider II"],
+	"uniques": ["[+10]% Strength <vs [Land] units>","[+10]% Strength <vs cities>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 18,
+        "row": 4
+    	},
+	{
+	"name": "Piracy",
+	"prerequisites": ["Coastal Raider III"],
+	"uniques": ["Earn [33]% of the damage done to [Warship] units as [Gold]","Earn [33]% of the damage done to [City] units as [Gold]"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 18,
+        "row": 5
     	},
 	{
 	"name": "Ignore Terrain Cost",
