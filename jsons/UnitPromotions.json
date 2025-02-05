@@ -89,7 +89,7 @@
     	},
 	{
 	"name": "Shock I",
-	"prerequisites": ["Sword","Axe","Chariot"],
+	"prerequisites": ["Sword","Axe","Chariot","Elephant"],
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
@@ -355,7 +355,7 @@
     	},
 	{
 	"name": "Survivalism I",
-	"prerequisites": ["Staff"],
+	"prerequisites": ["Staff","Elephant"],
 	"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
@@ -653,6 +653,39 @@
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 18,
         "row": 5
+    	},
+	{
+	"name": "Elephant",
+        "column": 19,
+        "row": 1
+    	},
+	{
+	"name": "Formation Crusher I",
+	"prerequisites": ["Elephant"],
+	"uniques": ["[+15]% Strength <vs [Phalanx I] units>","[+15]% Strength <vs [Shield Wall I] units>","[+15]% Strength <vs [Schiltrom I] units>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 19,
+        "row": 2
+    	},
+	{
+	"name": "Formation Crusher II",
+	"prerequisites": ["Formation Crusher I"],
+	"uniques": ["[+15]% Strength <vs [Phalanx I] units>","[+15]% Strength <vs [Shield Wall I] units>","[+15]% Strength <vs [Schiltrom I] units>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 19,
+        "row": 3
+    	},
+	{
+	"name": "Formation Crusher III",
+	"prerequisites": ["Formation Crusher II"],
+	"uniques": ["[+15]% Strength <vs [Phalanx I] units>","[+15]% Strength <vs [Shield Wall I] units>","[+15]% Strength <vs [Schiltrom I] units>",
+		"[+15]% Strength <vs [Phalanx II] units>","[+15]% Strength <vs [Shield Wall II] units>","[+15]% Strength <vs [Schiltrom II] units>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 19,
+        "row": 4
     	},
 	{
 	"name": "Ignore Terrain Cost",
