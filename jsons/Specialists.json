@@ -2,50 +2,63 @@
   {
 		"name":"Scientist",
 		"science":3,
+	  	"greatPersonPoints": {"Great Scientist":3},
 		"color": [0,0,255]
 	},
   {
 		"name":"Merchant",
 		"gold":3,
+	  	"greatPersonPoints": {"Great Merchant":3},
 		"color": [255,215,0]
 	},
 	{
 		"name":"Engineer",
 		"production":3,
+		"greatPersonPoints": {"Great Engineer":3},
 		"color": [139,69,19]
 	},
   {
 		"name":"Artist",
 		"culture":3,
+	  	"greatPersonPoints": {"Great Artist":3},
 		"color": [160,32,240]
 	},
   {
 		"name":"Farmer",
 		"food":3,
+	  	"greatPersonPoints": {"Great Scientist":1},
+	  	"greatPersonPoints": {"Great Engineer":1},
 		"color": [139,69,19]
 	},
   {
 		"name":"Priest",
 		"faith":3,
+	  	"greatPersonPoints": {"Great Prophet":3},
 		"color": [139,69,19]
 	},
   {
 		"name":"Shaman",
 		"faith":2,
-    "culture":1,
+    		"culture":1,
+	  	"greatPersonPoints": {"Great Prophet":1},
+	  	"greatPersonPoints": {"Great Artist":3},
 		"color": [139,69,19]
 	},
   {
 		"name":"Performer",
 		"happiness":1,
-    "culture":2
+    		"culture":2
+	  	"greatPersonPoints": {"Great Artist":3},
 		"color": [139,69,19]
 	},
   {
 		"name":"Mage",
 		"faith":1,
-    "culture":1,
-    "science":1,
+    		"culture":1,
+    		"science":1,
+	  	"greatPersonPoints": {"Great Scientist":1},
+	  	"greatPersonPoints": {"Great Artist":1},
+	  	"greatPersonPoints": {"Great Engineer":1},
 		"color": [139,69,19]
 	}
 ]
