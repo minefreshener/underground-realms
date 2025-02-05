@@ -137,7 +137,7 @@
 		"revealedBy": "Magic Theory",
 		"terrainsCanBeFoundOn": ["Desert","Snow","Jungle","Forest","Mountain","Ocean"], // Hill only if plains or grassland
 		"production": 1,
-		"improvedBy": ["Mine", "Offshore Platform"],
+		"improvedBy": ["Mine","Fishing Boats"],
 		"improvementStats": {"culture": 2},
 	  	"uniques": ["Guaranteed with Strategic Balance resource option","Generated with weight [35] <in [Snow] Regions>",
 		"Major deposits generated with weight [20] <in [Jungle] tiles>",
