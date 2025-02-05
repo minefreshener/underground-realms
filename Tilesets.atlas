@@ -52,6 +52,13 @@ TileSets/HexaRealm/Units/Scout 3A
   orig: 64, 63
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Scout 4A
+  rotate: false
+  xy: 256, 467
+  size: 64, 63
+  orig: 64, 63
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Levy Javelinman 1A
   rotate: false
   xy: 220, 817
@@ -67,6 +74,13 @@ TileSets/HexaRealm/Units/Levy Javelinman 2A
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Levy Javelinman 3A
+  rotate: false
+  xy: 436, 1093
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Javelinman 4A
   rotate: false
   xy: 436, 1093
   size: 64, 56
@@ -94,6 +108,13 @@ TileSets/HexaRealm/Units/Levy Archer 3A
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Levy Archer 4A
+  rotate: false
+  xy: 1390, 1712
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Levy Axeman 1A
   rotate: false
   xy: 1441, 1392
@@ -109,6 +130,13 @@ TileSets/HexaRealm/Units/Levy Axeman 2A
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Levy Axeman 3A
+  rotate: false
+  xy: 1441, 1392
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Axeman 4A
   rotate: false
   xy: 1441, 1392
   size: 64, 56
@@ -136,6 +164,13 @@ TileSets/HexaRealm/Units/Elite Axeman 3A
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Elite Axeman 4A
+  rotate: false
+  xy: 1873, 1066
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Elite Swordsman 2A
   rotate: false
   xy: 793, 1616
@@ -144,6 +179,13 @@ TileSets/HexaRealm/Units/Elite Swordsman 2A
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Elite Swordsman 3A
+  rotate: false
+  xy: 1873, 1066
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Swordsman 4A
   rotate: false
   xy: 1873, 1066
   size: 64, 56
@@ -171,6 +213,13 @@ TileSets/HexaRealm/Units/Levy Spearman 3A
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Levy Spearman 4A
+  rotate: false
+  xy: 436, 517
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Elite Spearman 2A
   rotate: false
   xy: 1441, 1328
@@ -179,6 +228,13 @@ TileSets/HexaRealm/Units/Elite Spearman 2A
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Elite Spearman 3A
+  rotate: false
+  xy: 789, 1222
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Spearman 4A
   rotate: false
   xy: 789, 1222
   size: 64, 56
@@ -199,28 +255,84 @@ TileSets/HexaRealm/Units/War Chariot 3A
   orig: 64, 60
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Regular Cavalry 2A
+TileSets/HexaRealm/Units/War Chariot 4A
   rotate: false
-  xy: 1318, 1689
-  size: 64, 67
-  orig: 64, 67
+  xy: 580, 954
+  size: 64, 60
+  orig: 64, 60
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Javelin Cavalry 2A
+TileSets/HexaRealm/Units/Militia Cavalry 4A
   rotate: false
   xy: 256, 467
   size: 64, 63
   orig: 64, 63
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Horse Archer 3A
+TileSets/HexaRealm/Units/Regular Cavalry 2A
+  rotate: false
+  xy: 256, 467
+  size: 64, 63
+  orig: 64, 63
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Regular Cavalry 3A
+  rotate: false
+  xy: 1318, 1689
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Regular Cavalry 4A
+  rotate: false
+  xy: 1318, 1689
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Cavalry 4A
+  rotate: false
+  xy: 1822, 1914
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Regular Horse Archer 3A
   rotate: false
   xy: 501, 1360
   size: 64, 63
   orig: 64, 63
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Regular Horse Archer 4A
+  rotate: false
+  xy: 501, 1360
+  size: 64, 63
+  orig: 64, 63
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Militia Phalangist 4A
+  rotate: false
+  xy: 436, 517
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Elite Phalangist 2A
+  rotate: false
+  xy: 429, 1383
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Phalangist 3A
+  rotate: false
+  xy: 429, 1383
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Phalangist 4A
   rotate: false
   xy: 429, 1383
   size: 64, 56
