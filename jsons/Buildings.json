@@ -129,9 +129,18 @@
 		"uniques": ["Unbuildable","Only available <when religion is enabled>","New [Military] units start with [15] Experience [in this city]"]
 	},
 	{
+		"name": "Sacrficial Altar",
+		"cost": 0,
+		"culture": 2,
+		"faith": 3,
+		"happiness": 1,
+		"specialistSlots": {"Priest": 1},
+		"uniques": ["Unbuildable","Only available <when religion is enabled>"]
+	},
+	{
 		"name": "Sacred Grove",
 		"cost": 0,
-		"culture": 1,
+		"culture": 2,
 		"faith": 1,
 		"happiness": 3,
 		"specialistSlots": {"Priest": 1},
