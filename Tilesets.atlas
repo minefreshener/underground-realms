@@ -110,6 +110,13 @@ TileSets/HexaRealm/Units/Levy Archer 3A
   index: -1
 TileSets/HexaRealm/Units/Levy Archer 4A
   rotate: false
+  xy: 220, 1009
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Archer 4A
+  rotate: false
   xy: 1390, 1712
   size: 64, 56
   orig: 64, 56
@@ -374,30 +381,65 @@ TileSets/HexaRealm/Units/War Elephant 4A
   orig: 64, 62
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Siege Tower
+TileSets/HexaRealm/Units/Battering Ram 2A
+  rotate: false
+  xy: 76, 58
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Battering Ram 3A
+  rotate: false
+  xy: 76, 58
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Battering Ram 4A
+  rotate: false
+  xy: 76, 58
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Siege Tower 3A
   rotate: false
   xy: 364, 661
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Siege Tower 4A
+  rotate: false
+  xy: 364, 661
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Ballista 3A
+  rotate: false
+  xy: 220, 689
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Ballista 4A
+  rotate: false
+  xy: 220, 689
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Catapult 4A
+  rotate: false
+  xy: 1894, 1922
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Trebuchet
   rotate: false
   xy: 508, 535
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Composite Bowman
-  rotate: false
-  xy: 1390, 1712
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Catapult
-  rotate: false
-  xy: 1894, 1922
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -419,20 +461,6 @@ TileSets/HexaRealm/Units/Berserker
 TileSets/HexaRealm/Units/Bowman
   rotate: false
   xy: 1030, 1922
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Ballista
-  rotate: false
-  xy: 220, 689
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Battering Ram
-  rotate: false
-  xy: 76, 58
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
