@@ -756,7 +756,7 @@
 			{
 				"name": "Holy Orders",
 				"row": 3,
-				"prerequisites": ["Guilds","Advanced Armor"],
+				"prerequisites": ["Guilds","Advanced Armor","Wind Power"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -780,7 +780,7 @@
 			{
 				"name": "Alchemy",
 				"row": 9,
-				"prerequisites": ["Enchanting"],
+				"prerequisites": ["Enchanting","Wind Power"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -802,13 +802,13 @@
 			{
 				"name": "Theatre",
 				"row": 3,
-				"prerequisites": ["Holy Orders","Civil Service","Wind Power"],
+				"prerequisites": ["Holy Orders","Civil Service"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
 				"name": "Blast Furnace",
 				"row": 4,
-				"prerequisites": ["Alchemy","Advanced Armor","Wind Power"],
+				"prerequisites": ["Alchemy","Advanced Armor"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -826,7 +826,7 @@
 			{
 				"name": "Gunpowder",
 				"row": 9,
-				"prerequisites": ["Alchemy","Wind Power"],
+				"prerequisites": ["Alchemy","Heavy Fortifications"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 
