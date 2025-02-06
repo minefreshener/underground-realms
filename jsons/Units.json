@@ -756,7 +756,7 @@
 		"requiredTech": "Engineering",
 		"upgradesTo": "Battering Ram 4A",
 		"obsoleteTech": "Military Construction",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","[-1] Sight","Can only attack [City] units"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","[-1] Sight","Can only attack [City] units","Rough terrain penalty"],
 		"promotions": ["Pavise"],
 		"attackSound": "nonmetalhit"
 	},
@@ -767,7 +767,7 @@
 		"strength": 20,
 		"cost": 140,
 		"requiredTech": "Military Construction",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","[-1] Sight","Can only attack [City] units"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","[-1] Sight","Can only attack [City] units","Rough terrain penalty"],
 		"promotions": ["Pavise","Heavy Armor"],
 		"attackSound": "nonmetalhit"
 	},
@@ -782,8 +782,9 @@
 		"requiredTech": "Siege Engineering",
 		"upgradesTo": "Siege Tower 4A",
 		"obsoleteTech": "Military Construction",
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>","[-1] Sight","Can only attack [City] units","Consumes [1] [Bronze]"],
-		"promotions": ["Mobile Tower","Bow"],
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>","[-1] Sight","Can only attack [City] units","Consumes [1] [Bronze]","Rough terrain penalty",
+			"No defensive terrain bonus"],
+		"promotions": ["Mobile Tower"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -795,8 +796,9 @@
 		"rangedStrength": 15,
 		"cost": 160,
 		"requiredTech": "Military Construction",
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>","[-1] Sight","Can only attack [City] units","Consumes [1] [Bronze]"],
-		"promotions": ["Mobile Tower","Heavy Armor","Bow"],
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>","[-1] Sight","Can only attack [City] units","Consumes [1] [Bronze]","Rough terrain penalty",
+			"No defensive terrain bonus"],
+		"promotions": ["Mobile Tower","Heavy Armor"],
 		"attackSound": "nonmetalhit"
 	},
 	{
