@@ -269,6 +269,19 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Elite Archer 4A",
+		"unitType": "Missile Infantry",
+		"movement": 2,
+		"strength": 25,
+		"range": 2,
+		"rangedStrength": 25,
+		"cost": 100,
+		"requiredTech": "Metal Forging",
+		"uniques": ["Elite","Consumes [1] [Bronze]"],
+		"promotions": ["Bow","Shield"],
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Levy Axeman 1A",
 		"unitType": "Light Infantry",
 		"movement": 2,
@@ -331,7 +344,7 @@
 		"requiredTech": "Agriculture",
 		"upgradesTo": "Elite Axeman 2A",
 		"obsoleteTech": "Military Organization",
-		"uniques": ["Elite","[+25]% Strength <vs [Heavy Infantry] units>","Limited to [3] per Civilization"],
+		"uniques": ["Elite","[+25]% Strength <vs [Heavy Infantry] units>","Limited to [5] per Civilization"],
 		"promotions": ["Axe"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -345,7 +358,7 @@
 		"requiredTech": "Military Organization",
 		"upgradesTo": "Elite Axeman 3A",
 		"obsoleteTech": "Standing Army",
-		"uniques": ["Elite","[+25]% Strength <vs [Heavy Infantry] units>","Consumes [1] [Copper]","Limited to [3] per Civilization"],
+		"uniques": ["Elite","[+25]% Strength <vs [Heavy Infantry] units>","Consumes [1] [Copper]"],
 		"promotions": ["Axe","Shield"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -359,7 +372,7 @@
 		"requiredTech": "Standing Army",
 		"upgradesTo": "Elite Axeman 4A",
 		"obsoleteTech": "Metal Forging",
-		"uniques": ["Elite","[+25]% Strength <vs [Heavy Infantry] units>","Consumes [1] [Bronze]","Limited to [4] per Civilization"],
+		"uniques": ["Elite","[+25]% Strength <vs [Heavy Infantry] units>","Consumes [1] [Bronze]"],
 		"promotions": ["Axe","Shield"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -371,7 +384,7 @@
 		"strength": 25,
 		"cost": 160,
 		"requiredTech": "Metal Forging",
-		"uniques": ["Elite","[+25]% Strength <vs [Heavy Infantry] units>","Consumes [1] [Iron]","Limited to [4] per Civilization"],
+		"uniques": ["Elite","[+25]% Strength <vs [Heavy Infantry] units>","Consumes [1] [Iron]"],
 		"promotions": ["Axe","Shield","Heavy Armor"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
