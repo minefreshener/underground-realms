@@ -688,7 +688,7 @@
 			{
 				"name": "Feudalism",
 				"row": 10,
-				"prerequisites": ["Land Ownership","Defined Borders","Armoured cavalry"],
+				"prerequisites": ["Land Ownership","Defined Borders","Armoured Cavalry"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			}
 
