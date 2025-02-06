@@ -676,7 +676,7 @@
 			{
 				"name": "Urbanization",
 				"row": 7,
-				"prerequisites": ["Land Clearence","defined Borders","Paved Roads"],
+				"prerequisites": ["Land Clearence","Defined Borders","Paved Roads"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -688,7 +688,7 @@
 			{
 				"name": "Feudalism",
 				"row": 10,
-				"prerequisites": ["Land Ownership","defined Borders","Armored cavalry"],
+				"prerequisites": ["Land Ownership","Defined Borders","Armoured cavalry"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			}
 
