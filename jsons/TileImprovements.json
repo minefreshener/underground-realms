@@ -104,8 +104,8 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 5,
 		"uniques": ["Great Improvement", "Will not be replaced by automated units","Removes removable features when built",
-			"Pillaging this improvement yields approximately [+50 Gold]","[+1 Gold] <after discovering [Record Keepng]>",
-			"[+1 Production] <after discovering [Engineering]>","[+1 Production] <after discovering [Kinectics]>"]
+			"Pillaging this improvement yields approximately [+50 Gold]","[+1 Gold] <after discovering [Record Keeping]>",
+			"[+1 Production] <after discovering [Engineering]>","[+1 Production] <after discovering [Kinetics]>"]
 	},
 	{
 		"name": "Customs house",
