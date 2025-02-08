@@ -48,7 +48,7 @@
     	},
 	{
 	"name": "Drill I",
-	"prerequisites": ["Sword","Axe","Spear"],
+	"prerequisites": ["Sword","Spear","Crossbow"],
 	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
@@ -89,7 +89,7 @@
     	},
 	{
 	"name": "Shock I",
-	"prerequisites": ["Sword","Axe","Chariot","Elephant"],
+	"prerequisites": ["Sword","Axe","Chariot","Elephant","Lance"],
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
@@ -130,7 +130,7 @@
     	},
 	{
 	"name": "Accuracy I",
-	"prerequisites": ["Javelin","Bow","Ballista","Cannon","Smoothbore Gun"],
+	"prerequisites": ["Javelin","Bow","Ballista","Cannon","Smoothbore Gun","Crossbow"],
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
@@ -727,6 +727,16 @@
 	{
 	"name": "Smoothbore Gun",
         "column": 22,
+        "row": 1
+    	},
+	{
+	"name": "Lance",
+        "column": 23,
+        "row": 1
+    	},
+	{
+	"name": "Crossbow",
+        "column": 23,
         "row": 1
     	},
 	{
