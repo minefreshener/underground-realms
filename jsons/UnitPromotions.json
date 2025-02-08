@@ -130,7 +130,7 @@
     	},
 	{
 	"name": "Accuracy I",
-	"prerequisites": ["Javelin","Bow","Ballista","Cannon"],
+	"prerequisites": ["Javelin","Bow","Ballista","Cannon","Smoothbore Gun"],
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
@@ -722,6 +722,11 @@
 	{
 	"name": "Mobile Tower",
         "column": 21,
+        "row": 1
+    	},
+	{
+	"name": "Smoothbore Gun",
+        "column": 22,
         "row": 1
     	},
 	{
