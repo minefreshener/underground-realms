@@ -17,7 +17,7 @@
 	{
 	"name": "Assassination I",
 	"prerequisites": ["Dagger"],
-	"uniques": ["[+15]% to Flank Attack bonuses"],
+	"uniques": ["[+15]% to Flank Attack bonuses","Pistol"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 1,
@@ -48,7 +48,7 @@
     	},
 	{
 	"name": "Drill I",
-	"prerequisites": ["Sword","Spear","Crossbow"],
+	"prerequisites": ["Sword","Spear","Crossbow","Rifle-Musket","Rifle"],
 	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
@@ -130,7 +130,7 @@
     	},
 	{
 	"name": "Accuracy I",
-	"prerequisites": ["Javelin","Bow","Ballista","Cannon","Smoothbore Gun","Crossbow"],
+	"prerequisites": ["Javelin","Bow","Ballista","Cannon","Smoothbore Gun","Crossbow","Rifle-Musket","Rifle"],
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
@@ -171,7 +171,7 @@
     	},
 	{
 	"name": "Barrage I",
-	"prerequisites": ["Bow","Cannon","Catapult","Mobile Tower"],
+	"prerequisites": ["Bow","Cannon","Catapult","Mobile Tower","Pistol","Rifle"],
 	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
@@ -198,7 +198,7 @@
     	},
 	{
 	"name": "Volley",
-	"prerequisites": ["Barrage III"],
+	"prerequisites": ["Barrage III","Firing ranks III"],
 	"uniques": ["[1] additional attacks per turn"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
@@ -566,7 +566,8 @@
 	{
 	"name": "Indirect Fire",
 	"prerequisites": ["Barrage III","Accuracy III","Targeting III","Bombardment III"],
-	"uniques": ["Ranged attacks may be performed over obstacles"],
+	"uniques": ["Ranged attacks may be performed over obstacles","Only available <for units without [Crossbow]>","Only available <for units without [Pistol]>",
+		"Only available <for units without [Smoothbore Gun]>","Only available <for units without [Rifle-Musket]>","Only available <for units without [Rifle]>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
         "column": 16,
@@ -730,13 +731,55 @@
         "row": 1
     	},
 	{
+	"name": "Firing Ranks I",
+	"prerequisites": ["Smoothbore Gun","Rifle-Musket"],
+	"uniques": ["[+10]% Strength <vs [Ranged] units> <when defending>","[+15]% Strength <vs [Phalanx I] units>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 22,
+        "row": 2
+    	},
+	{
+	"name": "Firing ranks II",
+	"prerequisites": ["Firing Ranks I"],
+	"uniques": ["[+10]% Strength <vs [Ranged] units> <when defending>","[+15]% Strength <vs [Phalanx I] units>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 22,
+        "row": 3
+    	},
+	{
+	"name": "Firing Ranks III",
+	"prerequisites": ["Firing Ranks II"],
+	"uniques": ["[+10]% Strength <vs [Ranged] units> <when defending>","[+15]% Strength <vs [Phalanx I] units>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
+        "column": 22,
+        "row": 4
+    	},
+	{
 	"name": "Lance",
         "column": 23,
         "row": 1
     	},
 	{
 	"name": "Crossbow",
-        "column": 23,
+        "column": 24,
+        "row": 1
+    	},
+	{
+	"name": "Pistol",
+        "column": 25,
+        "row": 1
+    	},
+	{
+	"name": "Rifle-Musket",
+        "column": 26,
+        "row": 1
+    	},
+	{
+	"name": "Rifle",
+        "column": 27,
         "row": 1
     	},
 	{
