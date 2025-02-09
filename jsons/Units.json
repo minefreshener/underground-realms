@@ -1095,7 +1095,7 @@
 		"obsoleteTech": "The Lance",
 		"uniques": ["Feudal","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]",
 			"[+25]% Strength <vs [Missile Infantry] units>"],
-		"promotions": ["Horse","Sword"],
+		"promotions": ["Horse","Horse Spear"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -1121,7 +1121,7 @@
 		"requiredTech": "Armoured Cavalry",
 		"uniques": ["Elite","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]",
 			"Consumes [1] [Iron]","[+33]% Strength <vs [Missile Infantry] units>","Limited to [5] per Civilization"],
-		"promotions": ["Horse","Sword","Heavy Armor"],
+		"promotions": ["Horse","Horse Spear","Heavy Armor"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
