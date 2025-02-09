@@ -618,7 +618,7 @@
 		"upgradesTo": "Elite Axeman 4A",
 		"obsoleteTech": "Metal Forging",
 		"uniques": ["Elite","[+25]% Strength <vs [Heavy Infantry] units>","Consumes [1] [Bronze]"],
-		"promotions": ["Axe","Shield"],
+		"promotions": ["Axe","Shield","Heavy Armor"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
