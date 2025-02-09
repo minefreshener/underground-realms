@@ -48,7 +48,7 @@
     	},
 	{
 	"name": "Drill I",
-	"prerequisites": ["Sword","Spear","Crossbow","Rifle-Musket","Rifle"],
+	"prerequisites": ["Sword","Spear","Crossbow","Rifle-Musket","Rifle","Horse Spear"],
 	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
@@ -89,7 +89,7 @@
     	},
 	{
 	"name": "Shock I",
-	"prerequisites": ["Sword","Axe","Chariot","Elephant","Lance"],
+	"prerequisites": ["Sword","Axe","Chariot","Elephant","Lance","Horse Spear"],
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
@@ -780,6 +780,11 @@
 	{
 	"name": "Rifle",
         "column": 27,
+        "row": 1
+    	},
+	{
+	"name": "Horse Spear",
+        "column": 28,
         "row": 1
     	},
 	{
