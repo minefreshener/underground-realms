@@ -1080,7 +1080,7 @@
 		"requiredTech": "Military Education",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]",
 			"[+25]% Strength <vs [Missile Infantry] units>"],
-		"promotions": ["Horse","Lance"],
+		"promotions": ["Horse","Sword"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
