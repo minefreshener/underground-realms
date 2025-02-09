@@ -40,23 +40,246 @@ TileSets/HexaRealm/Units/Scout 1A
   index: -1
 TileSets/HexaRealm/Units/Scout 2A
   rotate: false
-  xy: 256, 467
-  size: 64, 63
-  orig: 64, 63
+  xy: 364, 1189
+  size: 64, 56
+  orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Levy Crossbowman 5A
+  rotate: false
+  xy: 1894, 1722
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Crossbowman 6A
+  rotate: false
+  xy: 1894, 1722
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Axeman 1A
+  rotate: false
+  xy: 652, 958
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Axeman 2A
+  rotate: false
+  xy: 652, 958
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Swordsman 4A
+  rotate: false
+  xy: 508, 1119
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Feudal Longswordsman 5A
+  rotate: false
+  xy: 1153, 1384
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Feudal Longswordsman 6A
+  rotate: false
+  xy: 1153, 1384
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Bireme 2A
+  rotate: false
+  xy: 544, 471
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Bireme 3A
+  rotate: false
+  xy: 544, 471
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Bireme 4A
+  rotate: false
+  xy: 544, 471
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Bireme 5A
+  rotate: false
+  xy: 544, 471
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Caravel 6A
+  rotate: false
+  xy: 1153, 1256
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Battering Ram 2A
+  rotate: false
+  xy: 76, 58
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Battering Ram 3A
+  rotate: false
+  xy: 76, 58
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Battering Ram 4A
+  rotate: false
+  xy: 76, 58
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Battering Ram 5A
+  rotate: false
+  xy: 76, 58
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Siege Tower 3A
+  rotate: false
+  xy: 364, 661
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Siege Tower 4A
+  rotate: false
+  xy: 364, 661
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Siege Tower 5A
+  rotate: false
+  xy: 364, 661
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Siege Tower 6A
+  rotate: false
+  xy: 364, 661
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Ballista 3A
+  rotate: false
+  xy: 220, 689
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Ballista 4A
+  rotate: false
+  xy: 220, 689
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Ballista 5A
+  rotate: false
+  xy: 220, 689
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Ballista 6A
+  rotate: false
+  xy: 220, 689
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Catapult 4A
+  rotate: false
+  xy: 1894, 1922
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Catapult 5A
+  rotate: false
+  xy: 1894, 1922
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Trebuchet 5A
+  rotate: false
+  xy: 508, 535
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Trebuchet 6A
+  rotate: false
+  xy: 508, 535
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Bombard 6A
+  rotate: false
+  xy: 1462, 1922
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+
+Tilesets4.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
 TileSets/HexaRealm/Units/Scout 3A
   rotate: false
-  xy: 256, 467
-  size: 64, 63
-  orig: 64, 63
+  xy: 364, 273
+  size: 64, 65
+  orig: 64, 65
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Scout 4A
   rotate: false
-  xy: 256, 467
-  size: 64, 63
-  orig: 64, 63
+  xy: 364, 273
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Scout 5A
+  rotate: false
+  xy: 364, 273
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Scout 6A
+  rotate: false
+  xy: 364, 273
+  size: 64, 65
+  orig: 64, 65
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Levy Javelinman 1A
@@ -83,6 +306,34 @@ TileSets/HexaRealm/Units/Levy Javelinman 3A
 TileSets/HexaRealm/Units/Levy Javelinman 4A
   rotate: false
   xy: 436, 1093
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Javelinman 5A
+  rotate: false
+  xy: 436, 1029
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Javelinman 6A
+  rotate: false
+  xy: 436, 1029
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Javelinman 5A
+  rotate: false
+  xy: 1153, 1384
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Javelinman 6A
+  rotate: false
+  xy: 1153, 1384
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -115,23 +366,58 @@ TileSets/HexaRealm/Units/Levy Archer 4A
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Elite Archer 4A
+TileSets/HexaRealm/Units/Levy Archer 5A
   rotate: false
   xy: 1390, 1712
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Levy Axeman 1A
+TileSets/HexaRealm/Units/Levy Archer 6A
   rotate: false
-  xy: 1441, 1392
+  xy: 1390, 1712
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Levy Axeman 2A
+TileSets/HexaRealm/Units/Elite Archer 4A
   rotate: false
-  xy: 1441, 1392
+  xy: 1153, 1448
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Archer 5A
+  rotate: false
+  xy: 1153, 1448
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Archer 6A
+  rotate: false
+  xy: 1153, 1448
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Pavise Crossbowman 5A
+  rotate: false
+  xy: 1894, 1722
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Hand Gunner 6A
+  rotate: false
+  xy: 937, 1327
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Arquebuser 6A
+  rotate: false
+  xy: 508, 991
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -145,77 +431,98 @@ TileSets/HexaRealm/Units/Levy Axeman 3A
   index: -1
 TileSets/HexaRealm/Units/Levy Axeman 4A
   rotate: false
-  xy: 1441, 1392
+  xy: 1873, 1066
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Axeman 5A
+  rotate: false
+  xy: 1873, 1066
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Axeman 6A
+  rotate: false
+  xy: 1873, 1066
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Elite Axeman 1A
   rotate: false
-  xy: 1873, 1066
+  xy: 793, 1616
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Elite Axeman 2A
   rotate: false
-  xy: 1873, 1066
+  xy: 793, 1616
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Elite Axeman 3A
   rotate: false
-  xy: 1873, 1066
+  xy: 886, 1876
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Elite Axeman 4A
   rotate: false
-  xy: 1873, 1066
+  xy: 886, 1876
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Axeman 5A
+  rotate: false
+  xy: 937, 1391
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Axeman 6A
+  rotate: false
+  xy: 937, 1391
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Elite Swordsman 2A
   rotate: false
-  xy: 793, 1616
+  xy: 861, 1221
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Elite Swordsman 3A
   rotate: false
-  xy: 1873, 1066
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Elite Swordsman 4A
-  rotate: false
-  xy: 1873, 1066
+  xy: 508, 1119
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Levy Spearman 1A
   rotate: false
-  xy: 436, 517
+  xy: 1441, 1328
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Levy Spearman 2A
   rotate: false
-  xy: 436, 517
+  xy: 789, 1222
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Levy Spearman 3A
   rotate: false
-  xy: 436, 517
+  xy: 789, 1222
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -227,248 +534,17 @@ TileSets/HexaRealm/Units/Levy Spearman 4A
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Elite Spearman 2A
+TileSets/HexaRealm/Units/Levy Spearman 5A
   rotate: false
-  xy: 1441, 1328
+  xy: 1606, 1922
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Elite Spearman 3A
+TileSets/HexaRealm/Units/Levy Spearman 6A
   rotate: false
-  xy: 789, 1222
+  xy: 1606, 1922
   size: 64, 56
   orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Elite Spearman 4A
-  rotate: false
-  xy: 789, 1222
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/War Chariot 2A
-  rotate: false
-  xy: 1462, 1858
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/War Chariot 3A
-  rotate: false
-  xy: 580, 954
-  size: 64, 60
-  orig: 64, 60
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/War Chariot 4A
-  rotate: false
-  xy: 580, 954
-  size: 64, 60
-  orig: 64, 60
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Militia Cavalry 4A
-  rotate: false
-  xy: 256, 467
-  size: 64, 63
-  orig: 64, 63
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Regular Cavalry 2A
-  rotate: false
-  xy: 256, 467
-  size: 64, 63
-  orig: 64, 63
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Regular Cavalry 3A
-  rotate: false
-  xy: 1318, 1689
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Regular Cavalry 4A
-  rotate: false
-  xy: 1318, 1689
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Elite Cavalry 4A
-  rotate: false
-  xy: 1822, 1914
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Regular Horse Archer 3A
-  rotate: false
-  xy: 501, 1360
-  size: 64, 63
-  orig: 64, 63
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Regular Horse Archer 4A
-  rotate: false
-  xy: 501, 1360
-  size: 64, 63
-  orig: 64, 63
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Militia Phalangist 4A
-  rotate: false
-  xy: 436, 517
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Elite Phalangist 2A
-  rotate: false
-  xy: 429, 1383
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Elite Phalangist 3A
-  rotate: false
-  xy: 429, 1383
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Elite Phalangist 4A
-  rotate: false
-  xy: 429, 1383
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/War Canoe 1A
-  rotate: false
-  xy: 844, 741
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Bireme 2A
-  rotate: false
-  xy: 544, 471
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Bireme 3A
-  rotate: false
-  xy: 544, 471
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Bireme 4A
-  rotate: false
-  xy: 544, 471
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/War Elephant 4A
-  rotate: false
-  xy: 580, 884
-  size: 64, 62
-  orig: 64, 62
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Battering Ram 2A
-  rotate: false
-  xy: 76, 58
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Battering Ram 3A
-  rotate: false
-  xy: 76, 58
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Battering Ram 4A
-  rotate: false
-  xy: 76, 58
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Siege Tower 3A
-  rotate: false
-  xy: 364, 661
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Siege Tower 4A
-  rotate: false
-  xy: 364, 661
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Ballista 3A
-  rotate: false
-  xy: 220, 689
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Ballista 4A
-  rotate: false
-  xy: 220, 689
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Catapult 4A
-  rotate: false
-  xy: 1894, 1922
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Trebuchet
-  rotate: false
-  xy: 508, 535
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Cannon
-  rotate: false
-  xy: 1462, 1922
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Berserker
-  rotate: false
-  xy: 886, 1876
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Bowman
-  rotate: false
-  xy: 1030, 1922
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/African Forest Elephant
-  rotate: false
-  xy: 220, 1265
-  size: 64, 65
-  orig: 64, 65
   offset: 0, 0
   index: -1
