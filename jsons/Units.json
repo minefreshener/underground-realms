@@ -658,7 +658,7 @@
 		"cost": 200,
 		"requiredTech": "Gunpowder",
 		"uniques": ["Elite","Feudal","[+25]% Strength <vs [Heavy Infantry] units>","Consumes [1] [Iron]"],
-		"promotions": ["Axe","Heavy Armor"],
+		"promotions": ["Axe","Shield","Heavy Armor"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -1067,7 +1067,7 @@
 		"obsoleteTech": "Military Education",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]",
 			"[+25]% Strength <vs [Missile Infantry] units>"],
-		"promotions": ["Horse","Sword"],
+		"promotions": ["Horse","Horse Spear"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
