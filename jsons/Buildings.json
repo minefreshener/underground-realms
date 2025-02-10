@@ -10,7 +10,7 @@
 		"culture": 1,
 		"cityStrength": 5,
 		"cost": 1,
-		"uniques": ["Indicates the capital city"]
+		"uniques": ["Indicates the capital city","[+3 Culture] <after discovering [Formal Diplomacy]>"]
 	},
 	{
 		"name": "Gathering Square",
@@ -41,7 +41,14 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Civil Engineering",
-		"uniques": ["[+1 Production, +1 Culture] per [4] population [in this city]"]
+		"uniques": ["[+1 Production, +1 Culture] per [6] population [in this city]"]
+	},
+	{
+		"name": "Diplomatic Confluence",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Formal Diplomacy",
+		"uniques": ["[+1 Science, +1 Culture] per [8] population [in this city] <when not at war>"]
 	},
 	///////////// Culture Buildings
 	{
@@ -238,6 +245,26 @@
 		"uniques": []
 	},
 	{
+		"name": "Crude Steam Boiler",
+		"requiredBuilding": "Farmstead",
+		"percentStatBonus": {"food": 5},
+		"hurryCostModifier": 25,
+		"requiredTech": "Steam power",
+		"uniques": ["Must be next to [water]"]
+	},
+	{
+		"name": "Agricultural Estate",
+		"requiredBuilding": "Farmstead",
+		"percentStatBonus": {"food": 5},
+		"culture": 2,
+		"food": 2,
+		"maintenance": 1,
+		"specialistSlots": {"Farmer": 3},
+		"hurryCostModifier": 25,
+		"requiredTech": "Farming Estates",
+		"uniques": []
+	},
+	{
 		"name": "Water Mill",
 		"maintenance": 2,
 		"food": 3,
@@ -342,6 +369,15 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+10]% Production when constructing [Military] units [in this city]"],
 		"requiredTech": "Metal Forging"
+	},
+	{
+		"name": "Steel Mill",
+		"requiredNearbyImprovedResources": ["Iron","Coal"],
+		"maintenance": 3,
+		"production": 5,
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Military] units [in this city]"],
+		"requiredTech": "Steel"
 	},
 	////////////////// Defensive Buildings
 	{
@@ -479,6 +515,15 @@
 		"hurryCostModifier": 25,
 		"uniques": ["New [Elite] units start with [30] Experience [in this city]","[-30]% Production when constructing [Elite] units [in this city]"],
 		"requiredTech": "Entertainment"
+	},
+	{
+		"name": "Landowner's Council",
+		"happiness": 2,
+		"culture": 3,
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["New [Feudal] units start with [15] Experience [in this city]","[+15]% Production when constructing [Feudal] units [in this city]"],
+		"requiredTech": "Land Ownership"
 	},
 	{
 		"name": "Elephant Training Ground",
