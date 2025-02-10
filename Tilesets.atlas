@@ -723,6 +723,83 @@ TileSets/HexaRealm/Units/Regular cavalry 4A
   orig: 64, 68
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Pistolier 6A
+  rotate: false
+  xy: 958, 1890
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Militia Phalangist 4A
+  rotate: false
+  xy: 1081, 1360
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Militia Phalangist 5A
+  rotate: false
+  xy: 1081, 1360
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Phalangist 2A
+  rotate: false
+  xy: 1009, 1321
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Phalangist 3A
+  rotate: false
+  xy: 429, 1383
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Phalangist 4A
+  rotate: false
+  xy: 429, 1383
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Phalangist 5A
+  rotate: false
+  xy: 577, 1447
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Phalangist 6A
+  rotate: false
+  xy: 577, 1447
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Pikeman 6A
+  rotate: false
+  xy: 1030, 1922
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Regular Pikeman 6A
+  rotate: false
+  xy: 721, 1534
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Regular Halberdier 6A
+  rotate: false
+  xy: 1585, 1320
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/War Elephant 4A
   rotate: false
   xy: 580, 884
@@ -730,10 +807,31 @@ TileSets/HexaRealm/Units/War Elephant 4A
   orig: 64, 62
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Militia Cavalry 4A
+TileSets/HexaRealm/Units/War Elephant 5A
   rotate: false
-  xy: 501, 1360
-  size: 64, 63
-  orig: 64, 63
+  xy: 580, 884
+  size: 64, 62
+  orig: 64, 62
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/War Elephant 6A
+  rotate: false
+  xy: 220, 1265
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/War Canoe 1A
+  rotate: false
+  xy: 292, 730
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/War Canoe 2A
+  rotate: false
+  xy: 292, 730
+  size: 64, 56
+  orig: 64, 56
   offset: 0, 0
   index: -1
