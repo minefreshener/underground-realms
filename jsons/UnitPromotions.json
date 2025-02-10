@@ -89,7 +89,7 @@
     	},
 	{
 	"name": "Shock I",
-	"prerequisites": ["Sword","Axe","Chariot","Elephant","Lance","Horse Spear"],
+	"prerequisites": ["Sword","Axe","Chariot","Elephant","Lance","Horse Spear","Halberd"],
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
@@ -244,7 +244,7 @@
     	},
 	{
 	"name": "Phalanx I",
-	"prerequisites": ["Pike"],
+	"prerequisites": ["Pike","Halberd"],
 	"uniques": ["[+15]% Strength <when defending>","[+33]% Strength <vs [Light Cavalry] units> <when defending>",
 		"[+33]% Strength <vs [Heavy Cavalry] units> <when defending>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
@@ -662,7 +662,7 @@
     	},
 	{
 	"name": "Formation Crusher I",
-	"prerequisites": ["Elephant"],
+	"prerequisites": ["Elephant","Halberd"],
 	"uniques": ["[+15]% Strength <vs [Phalanx I] units>","[+15]% Strength <vs [Shield Wall I] units>","[+15]% Strength <vs [Schiltrom I] units>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine"],
@@ -784,6 +784,11 @@
     	},
 	{
 	"name": "Horse Spear",
+        "column": 28,
+        "row": 1
+    	},
+	{
+	"name": "Halberd",
         "column": 28,
         "row": 1
     	},
