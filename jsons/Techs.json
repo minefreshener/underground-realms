@@ -595,7 +595,6 @@
 				"name": "Formal Diplomacy",
 				"row": 7,
 				"prerequisites": ["Adventuring","Military Construction"],
-				"uniques": ["Enables Open Borders agreements"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 
