@@ -1338,6 +1338,19 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Regular Halberdier 6A",
+		"unitType": "Heavy Infantry",
+		"movement": 2,
+		"strength": 33,
+		"cost": 200,
+		"requiredTech": "Blast Furnace",
+		"uniques": ["[+75]% Strength <vs [Light Cavalry] units>","[+75]% Strength <vs [Charioteer] units>","[+33]% Strength <vs [Heavy Cavalry] units>",
+			"[+33]% Strength <vs [Heavy Infantry] units>"],
+		"promotions": ["Halberd","heavy Armor"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "War Elephant 4A",
 		"unitType": "Heavy Cavalry",
 		"movement": 3,
@@ -1698,7 +1711,7 @@
 		"requiredTech": "Steam Power",
 		"upgradesTo": "Caravel 6A",
 		"obsoleteTech": "Compass",
-		"uniques": ["Cannot enter ocean tiles","Consumes [1] [Iron]"],
+		"uniques": ["Cannot enter ocean tiles","Consumes [1] [Bronze]"],
 		"promotions": ["Fighting Crew","Ballista","Heavy Armor"],
 		"attackSound": "nonmetalhit"
 	},
@@ -1709,10 +1722,10 @@
 		"strength": 35,
 		"range": 1,
 		"rangedStrength": 30,
-		"cost": 200,
+		"cost": 250,
 		"requiredTech": "Compass",
 		"uniques": [],
-		"promotions": ["Fighting Crew","Cannon","Heavy Armor"],
+		"promotions": ["Fighting Crew","Cannon"],
 		"attackSound": "cannon"
 	},
 ]
