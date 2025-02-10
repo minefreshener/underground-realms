@@ -81,7 +81,7 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Mountain"],
 		"turnsToBuild": 4,
 		"techRequired": "Military Construction",
-		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%"],
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%","[+1 Culture] <after discovering [Defined Borders]>"],
 		"shortcutKey": "O"
 	},
 	{
