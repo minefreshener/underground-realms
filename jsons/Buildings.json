@@ -655,9 +655,11 @@
 	},
 	{
 		"name": "Military Academy",
-		"maintenance": 1,
+		"maintenance": 2,
+		"greatPersonPoints": {"Great General": 2},
 		"hurryCostModifier": 25,
-		"uniques": ["All newly-trained [Officer] units [in this city] receive the [Pistol] promotion","New [Officer] units start with [30] Experience [in this city]"],
+		"uniques": ["All newly-trained [Officer] units [in this city] receive the [Pistol] promotion","New [Officer] units start with [30] Experience [in this city]",
+		"[+15]% Production when constructing [Officer] units [in this city]"],
 		"requiredTech": "Military Education"
 	},
 	{
