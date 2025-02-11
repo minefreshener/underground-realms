@@ -971,7 +971,7 @@
 		"uniques": ["Elite","Can move after attacking","No defensive terrain bonus","Rough terrain penalty","Consumes [1] [Horses]",
 			"[-15]% Strength <vs [Light Cavalry] units> <when defending>","[-33]% Strength <vs [Heavy Cavalry] units> <when defending>",
 			"[+33]% Strength <vs [Heavy Infantry] units> <when attacking>","[+33]% Strength <vs [Heavy Cavalry] units> <when attacking>"],
-		"promotions": ["Chariot","Pavise","Smoothbore"],
+		"promotions": ["Chariot","Pavise","Smoothbore Gun"],
 		"attackSound": "shot"
 	},
 	{
@@ -983,7 +983,7 @@
 		"rangedStrength": 20,
 		"cost": 110,
 		"requiredTech": "Breeding",
-		"upgradesTo": "Militia Cavalry 5a",
+		"upgradesTo": "Militia Cavalry 5A",
 		"obsoleteTech": "Land Ownership",
 		"uniques": ["Militia","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]",
 			"[+25]% Strength <vs [Heavy Infantry] units> <when attacking>"],
@@ -1000,7 +1000,7 @@
 		"rangedStrength": 25,
 		"cost": 130,
 		"requiredTech": "Land Ownership",
-		"upgradesTo": "Militia Cavalry 6a",
+		"upgradesTo": "Militia Cavalry 6A",
 		"obsoleteTech": "Civil Service",
 		"uniques": ["Militia","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]",
 			"[+25]% Strength <vs [Heavy Infantry] units> <when attacking>"],
@@ -1345,7 +1345,7 @@
 		"requiredTech": "Blast Furnace",
 		"uniques": ["[+100]% Strength <vs [Light Cavalry] units>","[+100]% Strength <vs [Charioteer] units>","[+50]% Strength <vs [Heavy Cavalry] units>",
 			"[+25]% Strength <vs [Light Infantry] units>"],
-		"promotions": ["Pike","heavy Armor"],
+		"promotions": ["Pike","Heavy Armor"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -1358,7 +1358,7 @@
 		"requiredTech": "Blast Furnace",
 		"uniques": ["[+75]% Strength <vs [Light Cavalry] units>","[+75]% Strength <vs [Charioteer] units>","[+33]% Strength <vs [Heavy Cavalry] units>",
 			"[+33]% Strength <vs [Heavy Infantry] units>"],
-		"promotions": ["Halberd","heavy Armor"],
+		"promotions": ["Halberd","Heavy Armor"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
