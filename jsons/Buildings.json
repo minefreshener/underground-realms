@@ -273,7 +273,7 @@
 		"requiredBuilding": "Farmstead",
 		"percentStatBonus": {"food": 5},
 		"hurryCostModifier": 25,
-		"requiredTech": "Steam power",
+		"requiredTech": "Steam Power",
 		"uniques": ["Must be next to [water]"]
 	},
 	{
@@ -285,7 +285,7 @@
 		"maintenance": 1,
 		"specialistSlots": {"Farmer": 3},
 		"hurryCostModifier": 25,
-		"requiredTech": "Farming Estates",
+		"requiredTech": "Farm Estates",
 		"uniques": ["[-1 Culture] <after discovering [Urbanization]>"]
 	},
 	{
