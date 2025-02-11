@@ -10,7 +10,8 @@
 		"culture": 1,
 		"cityStrength": 5,
 		"cost": 1,
-		"uniques": ["Indicates the capital city","[+3 Culture] <after discovering [Formal Diplomacy]>"]
+		"uniques": ["Indicates the capital city","[+3 Culture] <after discovering [Formal Diplomacy]>","[+3 Production] <after discovering [Civil Service]>",
+			"[+3 Science] <after discovering [Education]>","[+3 Gold] <after discovering [Banking]>"]
 	},
 	{
 		"name": "Gathering Square",
@@ -18,7 +19,7 @@
 		"culture": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Settlementation",
-		"uniques": []
+		"uniques": ["[+1 Culture] <after discovering [Urbanization]>"]
 	},
 	{
 		"name": "Watchtower",
@@ -26,29 +27,39 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Settlementation",
-		"uniques": ["[+1 Production] from [Pillaged] tiles [in this city]","Destroyed when the city is captured"]
+		"uniques": ["[+1 Production] from [Pillaged] tiles [in this city]","Destroyed when the city is captured",
+			"[+1 Science, +1 Production] <after discovering [Compass]>"]
 	},
 	{
 		"name": "Courthouse",
 		"maintenance": 4,
 		"hurryCostModifier": 50,
 		"uniques": ["Remove extra unhappiness from annexed cities",
-			"Can only be built <in [Annexed] cities>"],
+			"Can only be built <in [Annexed] cities>","[+1 Production] <after discovering [Civil Service]>"],
 		"requiredTech": "Mathematics"
 	},
 	{
 		"name": "Town Hall",
-		"maintenance": 1,
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Civil Engineering",
-		"uniques": ["[+1 Production, +1 Culture] per [6] population [in this city]"]
+		"uniques": ["[+1 Production, +1 Culture] per [6] population [in this city]","[+1 Culture] <after discovering [Urbanization]>",
+			"[+1 Production] <after discovering [Civil Service]>","[+1 Science] <after discovering [Education]>"]
+	},
+	{
+		"name": "Public Works Administration",
+		"maintenance": 2,
+		"culture": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Professional Workforce",
+		"uniques": ["[+1 Production] per [6] population [in this city]","[+2 Culture] <after discovering [Civil Service]>"]
 	},
 	{
 		"name": "Diplomatic Confluence",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Formal Diplomacy",
-		"uniques": ["[+1 Science, +1 Culture] per [8] population [in this city] <when not at war>"]
+		"uniques": ["[+1 Science, +1 Culture] per [8] population [in this city] <when not at war>","[+1 Culture] <after discovering [Civil Service]>"]
 	},
 	///////////// Culture Buildings
 	{
@@ -86,6 +97,19 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Culture] from [Landmark] tiles [in this city]"],
 		"requiredTech": "Professional Arts"
+	},
+	{
+		"name": "Printing House",
+		"culture": 3,
+		"percentStatBonus": {"culture": 5},
+		"production": 3,
+		"percentStatBonus": {"production": 5},
+		"happiness": 2,
+		"percentStatBonus": {"faith": 5},
+		"maintenance": 4,
+		"hurryCostModifier": 25,
+		"uniques": [],
+		"requiredTech": "Printing Press"
 	},
 	////////////////// faith buildings
 	{
@@ -161,7 +185,7 @@
 		"faith": 2,
 		"production": 3,
 		"uniques": ["Unbuildable","Only available <when religion is enabled>","[+1 Culture] from [Holy Site] tiles [in this city]",
-			"[+1 Faith] from [Incense] tiles [in this city]"]
+			"[+1 Faith] from [Incense] tiles [in this city]","[+1 Faith] <after discovering [Education]>"]
 	},
 	{
 		"name": "Ziggurat",
@@ -232,7 +256,7 @@
 		"requiredBuilding": "Aqueduct",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["[25]% Food is carried over after population increases [in this city]"],
+		"uniques": ["[25]% Food is carried over after population increases [in this city]","[+1 Culture] <after discovering [Urbanization]>"],
 		"requiredTech": "Civil Engineering"
 	},
 	{
@@ -242,7 +266,7 @@
 		"specialistSlots": {"Farmer": 1},
 		"hurryCostModifier": 25,
 		"requiredTech": "Profit Farming",
-		"uniques": []
+		"uniques": ["[-1 Culture] <after discovering [Urbanization]>"]
 	},
 	{
 		"name": "Crude Steam Boiler",
@@ -262,7 +286,7 @@
 		"specialistSlots": {"Farmer": 3},
 		"hurryCostModifier": 25,
 		"requiredTech": "Farming Estates",
-		"uniques": []
+		"uniques": ["[-1 Culture] <after discovering [Urbanization]>"]
 	},
 	{
 		"name": "Water Mill",
@@ -272,6 +296,15 @@
 		"hurryCostModifier": 25,
 		"uniques": ["Must be on [River]"],
 		"requiredTech": "Kinetics"
+	},
+	{
+		"name": "Windmill",
+		"food": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]"],
+		"requiredTech": "Wind Power"
 	},
 	{
 		"name": "Garden",
@@ -312,7 +345,7 @@
 		"production": 2,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["[+5]% Production when constructing [All] buildings [in this city]"],
+		"uniques": ["[+5]% Production when constructing [All] buildings [in this city]","[+1 Production] <after discovering [Civil Service]>"],
 		"requiredTech": "Masonry"
 	},
 	{
@@ -330,7 +363,7 @@
 		"requiredBuilding": "Smeltery",
 		"production": 2,
 		"hurryCostModifier": 0,
-		"uniques": [],
+		"uniques": ["[+1 Production] <after discovering [Alchemy]>"],
 		"requiredTech": "Metal Casting"
 	},
 	{
@@ -339,7 +372,7 @@
 		"maintenance": 1,
 		"production": 3,
 		"hurryCostModifier": 25,
-		"uniques": ["Consumes [1] [Copper]","Consumes [1] [Tin]","Provides [2] [Bronze]"],
+		"uniques": ["Consumes [1] [Copper]","Consumes [1] [Tin]","Provides [2] [Bronze]","[+1 Production] <after discovering [Alchemy]>"],
 		"requiredTech": "Bronze Working"
 	},
 	{
@@ -349,7 +382,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["[+20]% Production when constructing [Charioteer] units [in this city]"],
+		"uniques": ["[+20]% Production when constructing [Charioteer] units [in this city]","[+1 Production] <after discovering [Artificing]>"],
 		"requiredTech": "Engineering"
 	},
 	{
@@ -358,7 +391,7 @@
 		"maintenance": 1,
 		"production": 4,
 		"hurryCostModifier": 25,
-		"uniques": ["[+5]% Production when constructing [Military] units [in this city]"],
+		"uniques": ["[+5]% Production when constructing [Military] units [in this city]","[+1 Production] <after discovering [Civil Service]>"],
 		"requiredTech": "Iron Working"
 	},
 	{
@@ -376,8 +409,28 @@
 		"maintenance": 3,
 		"production": 5,
 		"hurryCostModifier": 25,
-		"uniques": ["[+15]% Production when constructing [Military] units [in this city]"],
+		"uniques": ["Consumes [1] [Iron]","Consumes [1] [Coal]","Provides [1] [Steel]","[+1 Production] <after discovering [Civil Service]>",
+			"[+1 Production] <after discovering [Alchemy]>"],
 		"requiredTech": "Steel"
+	},
+	{
+		"name": "Blast Furnace",
+		"requiredNearbyImprovedResources": ["Iron","Coal"],
+		"maintenance": 3,
+		"production": 5,
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Military] units [in this city]","[+1 Production] from [Iron] tiles [in this city]",
+			"[+1 Production] from [Coal] tiles [in this city]"],
+		"requiredTech": "Blast Furnace"
+	},
+	{
+		"name": "Ironworks",
+		"production": 8,
+		"culture": 3,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Tinkerer's Workshop] is constructed in all [non-[Puppeted]] cities>","Cost increases by [30] per owned city",
+			"[+5]% Production when constructing [All] buildings [in all cities]"],
+		"requiredTech": "Machinery"
 	},
 	////////////////// Defensive Buildings
 	{
@@ -427,6 +480,14 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
+		"name": "Castle",
+		"cityStrength": 10,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Heavy Fortifications",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
 		"name": "Wizard Tower",
 		"requiredNearbyImprovedResources": ["Magic Crystals"],
 		"cityStrength": 5,
@@ -438,10 +499,21 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
+		"name": "Enchanted Fortifications",
+		"requiredNearbyImprovedResources": ["Magic Crystals"],
+		"cityHealth": 20,
+		"science": 3,
+		"culture": 3,
+		"specialistSlots": {"Mage": 2},
+		"hurryCostModifier": 100,
+		"requiredTech": "Enchanting",
+		"uniques": ["[+25]% City Strength from defensive buildings","Destroyed when the city is captured"]
+	},
+	{
 		"name": "Great Fortress",
 		"isNationalWonder": true,
 		"cityStrength": 5,
-		"cityHealth": 50,
+		"cityHealth": 60,
 		"culture": 3,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -466,6 +538,15 @@
 		"uniques": ["[+10]% Production when constructing [Missile Infantry] units [in this city]",
 			"[+10]% Production when constructing [Missile cavalry] units [in this city]"],
 		"requiredTech": "Archery"
+	},
+	{
+		"name": "Gunsmith",
+		"requiredBuilding": "Forge",
+		"production": 3,
+		"maintenance": 2
+		"hurryCostModifier": 25,
+		"uniques": ["[+10]% Production when constructing [Gunpowder] units [in this city]"],
+		"requiredTech": "Gunpowder"
 	},
 	{
 		"name": "Port",
@@ -522,31 +603,78 @@
 		"culture": 3,
 		"maintenance": 3,
 		"hurryCostModifier": 25,
-		"uniques": ["New [Feudal] units start with [15] Experience [in this city]","[+15]% Production when constructing [Feudal] units [in this city]"],
+		"uniques": ["New [Feudal] units start with [15] Experience [in this city]","[+15]% Production when constructing [Feudal] units [in this city]",
+			"[-1 Culture] <after discovering [Urbanization]>"],
 		"requiredTech": "Land Ownership"
 	},
 	{
-		"name": "Elephant Training Ground",
-		"production": 2,
+		"name": "Feudal Estate",
+		"happiness": 2,
+		"culture": 5,
+		"maintenance": 5,
+		"hurryCostModifier": 25,
+		"uniques": ["New [Feudal] units start with [30] Experience [in this city]","[+30]% Production when constructing [Feudal] units [in this city]",
+			"[-2 Culture] <after discovering [Urbanization]>"],
+		"requiredTech": "Feudalism"
+	},
+	{
+		"name": "Tourney Field",
+		"happiness": 1,
+		"maintenance": 2,
+		"requiredNearbyImprovedResources": ["Horses"],
+		"hurryCostModifier": 25,
+		"uniques": ["New [Feudal] units start with [15] Experience [in this city]","New [Heavy Cavalry] units start with [10] Experience [in this city]"],
+		"requiredTech": "The Lance"
+	},
+	{
+		"name": "Racing Track",
+		"happiness": 2,
+		"maintenance": 2,
+		"requiredNearbyImprovedResources": ["Horses"],
+		"hurryCostModifier": 25,
+		"uniques": ["New [Light Cavalry] units start with [5] Experience [in this city]","New [Missile Cavalry] units start with [10] Experience [in this city]"],
+		"requiredTech": "The Lance"
+	},
+	{
+		"name": "Armourer",
 		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Iron"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+5]% Production when constructing [Heavy Infantry] units [in this city]","[+5]% Production when constructing [Heavy Cavalry] units [in this city]",
+			"[+1 Production] from [Iron] tiles [in this city]","All newly-trained [relevant] units [in this city] receive the [Armor Plating I] promotion"],
+		"requiredTech": "Advanced Armor"
+	},
+	{
+		"name": "Elephant Training Ground",
+		"requiredNearbyImprovedResources": ["Elephants"],
+		"production": 2,
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["New [Elephant] units start with [15] Experience [in this city]","[-15]% Production when constructing [Elephant] units [in this city]"],
 		"requiredTech": "Elephant Taming"
 	},
 	{
+		"name": "Military Academy",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["All newly-trained [Officer] units [in this city] receive the [Pistol] promotion","New [Officer] units start with [30] Experience [in this city]"],
+		"requiredTech": "Military Education"
+	},
+	{
 		"name": "Mustering Hall",
 		"food": -1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+10]% Production when constructing [Militia] units [in this city]","Destroyed when the city is captured"],
+		"uniques": ["[+10]% Production when constructing [Militia] units [in this city]","Destroyed when the city is captured",
+			"[+1 Culture] <after discovering [Reservism]>","[+1 Production] <after discovering [Civil Service]>"],
 		"requiredTech": "Military Organization"
 	},
 	{
 		"name": "Tower Of Teshunomke",
-		"culture": 5,
-		"happiness": 4,
+		"culture": 4,
+		"production": 5,
 		"isWonder": true,
 		"uniques": ["[+50]% Production when constructing [Scout] units [in this city]",
-			"All newly-trained [Military] units [in this city] receive the [Scouting I] promotion"],
+			"All newly-trained [Military] units [in this city] receive the [Scouting I] promotion","[+3 Culture] <after discovering [Reservism]>"],
 		"requiredTech": "Cartography"
 	},
 	{
@@ -574,7 +702,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["[+10]% Production when constructing [Military] units [in this city]","New [Military] units start with [5] Experience [in this city]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured","[+1 Culture] <after discovering [Reservism]>"],
 		"requiredTech": "Military Infrastructure"
 	},
 	{
@@ -582,7 +710,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["[+10]% Production when constructing [Siege] units [in this city]","[+10]% Production when constructing [Light Artillery] units [in this city]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured","[+2 Production] <after discovering [Heavy Siege Equipment]>"],
 		"requiredTech": "Siege Engineering"
 	},
 	{
@@ -597,7 +725,7 @@
 		"name": "Training Grounds",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["New [Military] units start with [15] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["New [Military] units start with [15] Experience [in this city]","Destroyed when the city is captured","[+1 Culture] <after discovering [Reservism]>"],
 		"requiredTech": "Tactical Study"
 	},
 	{
@@ -613,7 +741,7 @@
 		"production": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+10]% Production when constructing [Military] units [in this city]"],
+		"uniques": ["[+10]% Production when constructing [Military] units [in this city]","[+1 Food] <after discovering [Civil Service]>"],
 		"requiredTech": "Logistics"
 	},
 	{
@@ -621,7 +749,8 @@
 		"culture": 3,
 		"isNationalWonder": true,
 		"uniques": ["Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
-			"All newly-trained [Military] units [in this city] receive the [Morale] promotion","Cost increases by [30] per owned city"],
+			"All newly-trained [Military] units [in this city] receive the [Morale] promotion","Cost increases by [30] per owned city",
+			"[+2 Culture] <after discovering [Reservism]>"],
 		"requiredTech": "Standing Army"
 	},
 	{
@@ -647,13 +776,14 @@
 		"maintenance": 1
 		"hurryCostModifier": 25,
 		"requiredTech": "Spellworking",
-		"uniques": []
+		"uniques": ["[-1 Culture] <after discovering [Urbanization]>","[+1 Science] <after discovering [Education]>"]
 	},
 	{
 		"name": "Library",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["[+1 Science] per [4] population [in this city]","[+1 Science] per [6] population [in this city] <after discovering [Calendar]>"],
+		"uniques": ["[+1 Science] per [4] population [in this city]","[+1 Science] per [6] population [in this city] <after discovering [Calendar]>",
+			"[+1 Culture] <after discovering [Urbanization]>","[+1 Science] <after discovering [Education]>"],
 		"requiredTech": "Record Keeping"
 	},
 	{
@@ -664,7 +794,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Magical Composition Theory",
-		"uniques": ["[+1 Production] from [Magic Crystals] tiles [in this city]"]
+		"uniques": ["[+1 Production] from [Magic Crystals] tiles [in this city]","[+1 Production] <after discovering [Alchemy]>"]
 	},
 	{
 		"name": "Magic Academy",
@@ -675,7 +805,18 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Magicology",
-		"uniques": ["[+1 Science] from [Magic Crystals] tiles [in this city]"]
+		"uniques": ["[+1 Science] from [Magic Crystals] tiles [in this city]","[+1 Science] <after discovering [Education]>"]
+	},
+	{
+		"name": "Artificer's Workshop",
+		"requiredBuilding": "Library",
+		"requiredNearbyImprovedResources": ["Magic Crystals"],
+		"gold": 4,
+		"culture": 1,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Artificing",
+		"uniques": ["[+1 Gold] from [Magic Crystals] tiles [in this city]"]
 	},
 	{
 		"name": "Spellsmith",
@@ -686,7 +827,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Professional Wizardry",
 		"uniques": ["Consumes [1] [Magic Crystals]","New [Magic] units start with [15] Experience [in this city]",
-			"[+1 Culture] from [Academy] tiles [in this city]"]
+			"[+1 Culture] from [Academy] tiles [in this city]","[+1 Production] <after discovering [Alchemy]>"]
 	},
 	/////////////// gold buildings
 	{
@@ -695,7 +836,7 @@
 		"production": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade",
-		"uniques": []
+		"uniques": ["[-1 Culture] <after discovering [Urbanization]>"]
 	},
 	{
 		"name": "Mint",
@@ -711,7 +852,8 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"requiredTech": "Regulated Trade",
-		"uniques": ["[+1 Gold] per [4] population [in this city]","[+1 Gold] per [6] population [in this city] <after discovering [Comercialism]>"]
+		"uniques": ["[+1 Gold] per [6] population [in this city]","[+1 Gold] per [10] population [in this city] <after discovering [Comercialism]>",
+			"[+1 Culture] <after discovering [Urbanization]>"]
 	},
 	{
 		"name": "Farmer's Market",
@@ -723,10 +865,20 @@
 	},
 	{
 		"name": "Tax Office",
-		"gold": 1,
+		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Tax Collection",
-		"uniques": ["[+1 Gold] per [6] population [in this city]","[+1 Gold] from [Great Improvement] tiles [in this city]"]
+		"uniques": ["[+1 Gold] per [8] population [in this city]","[+1 Gold] from [Great Improvement] tiles [in this city]",
+			"[+1 Gold] <after discovering [Civil Service]>"]
+	},
+	{
+		"name": "Bank",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 10},
+		"requiredBuilding": "Market",
+		"requiredTech": "Banking"
 	},
 	{
 		"name": "River Port",
@@ -737,6 +889,14 @@
 		"uniques": ["Must be on [River]"],
 		"requiredTech": "Trade"
 	},
+	{
+		"name": "National Treasury",
+		"gold": 8,
+		"culture": 3,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Tax Office] is constructed in all [non-[Puppeted]] cities>","Cost increases by [30] per owned city"],
+		"requiredTech": "Banking"
+	},
 	////////// happiness buildings
 	{
 		"name": "Circus",
@@ -746,6 +906,15 @@
 		"uniques": ["[+1 Happiness] [in this city] <with [Elephants]>","[+1 Happiness] [in this city] <with [Horses]>",
 			"[+1 Happiness] [in this city] <with [Magic Crystals]>"],
 		"requiredTech": "Entertainment"
+	},
+	{
+		"name": "Theatre",
+		"happiness": 2,
+		"culture": 2,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Happiness, +1 Culture] [in this city] <with [Magic Crystals]>"],
+		"requiredTech": "Theatre"
 	},
 	{
 		"name": "Brewery",
@@ -775,5 +944,62 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Adventuring",
 		"uniques": []
+	},
+	//////////////////////// guilds
+	{
+		"name": "Merchant's Guild",
+		"maintenance": 2,
+		"specialistSlots": {"Merchant": 5},
+		"hurryCostModifier": 25,
+		"requiredTech": "Guilds",
+		"uniques": ["[+1 Gold] per [6] population [in this city]","[+1 Gold] from [Customs House] tiles [in this city]","[+1 Gold] <after discovering [Civil Service]>",
+			"[+2 Culture] <after discovering [Urbanization]>","Only available <after discovering [Guilds]>"]
+	},
+	{
+		"name": "Military Order",
+		"maintenance": 4,
+		"specialistSlots": {"Priest": 1},
+		"hurryCostModifier": 25,
+		"requiredTech": "Holy Orders",
+		"uniques": ["[+1 Faith] per [8] population [in this city]","All newly-trained [Feudal] units [in this city] receive the [Survivalism I] promotion",
+			"New [Feudal] units start with [20] Experience [in this city]","[+1 Production] from [Holy Site] tiles [in this city]",
+			"[-2 Culture] <after discovering [Urbanization]>","Only available <after discovering [Guilds]>"]
+	},
+	{
+		"name": "Theological Order",
+		"maintenance": 2,
+		"specialistSlots": {"Priest": 5},
+		"hurryCostModifier": 25,
+		"requiredTech": "Holy Orders",
+		"uniques": ["[+1 Faith] per [6] population [in this city]","[+1 Faith] from [Holy Site] tiles [in this city]","Only available <after discovering [Guilds]>"]
+	},
+	{
+		"name": "Alchemist's Guild",
+		"maintenance": 4,
+		"specialistSlots": {"Scientist": 2},
+		"hurryCostModifier": 25,
+		"requiredTech": "Alchemy",
+		"uniques": ["[+1 Science] per [8] population [in this city]","All newly-trained [Magic] units [in this city] receive the [Armor Plating I] promotion",
+			"New [Magic] units start with [20] Experience [in this city]","New [Gunpowder] units start with [20] Experience [in this city]",
+			"[+1 Production] from [Academy] tiles [in this city]","Only available <after discovering [Guilds]>"]
+	},
+	{
+		"name": "University",
+		"maintenance": 3,
+		"specialistSlots": {"Scientist": 5},
+		"hurryCostModifier": 25,
+		"requiredTech": "Education",
+		"uniques": ["[+1 Science] per [6] population [in this city]","New [Magic] units start with [10] Experience [in this city]",
+			"[+1 Science] from [Academy] tiles [in this city]","Only available <after discovering [Guilds]>"]
+	},
+	{
+		"name": "Inventor's Guild",
+		"maintenance": 4,
+		"specialistSlots": {"Engineer": 2},
+		"hurryCostModifier": 25,
+		"requiredTech": "Advanced Engineering",
+		"uniques": ["[+1 Production] per [8] population [in this city]","New [Light Artillery] units start with [20] Experience [in this city]",
+			"New [Heavy Artillery] units start with [20] Experience [in this city]","[+1 Production] from [Academy] tiles [in this city]",
+			"[+1 Production] from [Manufactory] tiles [in this city]","Only available <after discovering [Guilds]>"]
 	},
 ]
