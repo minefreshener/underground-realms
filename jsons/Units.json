@@ -1,6 +1,7 @@
 [
     {
         "name": "Settler",
+	"requiredTech": "Settlementation",
         "unitType": "Civilian",
         "movement": 2,
         "uniques": ["Founds a new city <by consuming this unit>","Requires at least [2] population"]
@@ -11,7 +12,8 @@
 		"movement": 2,
 		"requiredTech": "Labor Organization",
 		"uniques": ["Can build [Land] improvements on tiles","Automation is a primary action",
-			"Can instantly construct a [Fishing Boats] improvement <by consuming this unit>"],
+			"Can instantly construct a [Fishing Boats] improvement <by consuming this unit>",
+			"Can pass through impassable tiles <after discovering [Mountaineering]>"],
 		"cost": 50
 	},
 	{
@@ -93,14 +95,24 @@
 	},
 	{
 		"name": "Great General",
+		"unitType": "Heavy Cavalry",
+		"movement": 3,
+		"strength": 10,
+		"uniques": ["Officer","Elite","Can move after attacking","[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>","Can be earned through combat","Great Person - [War]","Unbuildable",
+			"[-33]% Strength <vs cities> <when attacking>","[+50]% Strength <during the [Second Age]>","[+100]% Strength <during the [Third Age]>",
+			"[+150]% Strength <during the [Fourth Age]>","[+200]% Strength <during the [Fifth Age]>","[+250]% Strength <during the [Sixth Age]>"],
+		"promotions": ["Horse","Sword","Heavy Armor"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "General",
 		"unitType": "Civilian",
-		"uniques": [
-            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "[+15]% Strength bonus for [Military] units within [2] tiles",
-            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Can be earned through combat",
-			"Great Person - [War]", "Unbuildable"],
-		"movement": 2
+		"movement": 3,
+		"requiredTech": "Military Education",
+		"uniques": ["Officer","[+15]% Strength bonus for [Military] units within [1] tiles","Can build [Road] improvements on tiles",
+			"Can build [Railroad] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Repair] improvements on tiles"],
+		"cost": 300
 	},
 	{
 		"name": "Scout 1A",
