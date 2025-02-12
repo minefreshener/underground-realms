@@ -130,7 +130,7 @@
     {
         "name": "Warrior Temples",
         "type": "Follower",
-        "uniques": ["May buy [Warrior Temples] buildings with [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Warrior Temple] buildings with [Faith] [in cities following this religion]"]
     },
     {
         "name": "Monasteries",
