@@ -702,7 +702,7 @@ TileSets/HexaRealm/Units/Militia Cavalry 6A
   orig: 64, 63
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Regular cavalry 2A
+TileSets/HexaRealm/Units/Regular Cavalry 2A
   rotate: false
   xy: 1462, 1702
   size: 64, 67
