@@ -160,7 +160,7 @@
 		"uniques": ["Unbuildable","Only available <when religion is enabled>","New [Military] units start with [15] Experience [in this city]"]
 	},
 	{
-		"name": "Sacrficial Altar",
+		"name": "Sacrificial Altar",
 		"cost": 0,
 		"culture": 2,
 		"faith": 3,
