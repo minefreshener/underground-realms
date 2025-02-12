@@ -733,70 +733,70 @@ TileSets/HexaRealm/Units/Pistolier 6A
 TileSets/HexaRealm/Units/Militia Phalangist 4A
   rotate: false
   xy: 1081, 1360
-  size: 64, 60
+  size: 70, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Militia Phalangist 5A
   rotate: false
   xy: 1081, 1360
-  size: 64, 60
+  size: 70, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Elite Phalangist 2A
   rotate: false
   xy: 1009, 1321
-  size: 64, 56
+  size: 70, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Elite Phalangist 3A
   rotate: false
   xy: 429, 1383
-  size: 64, 56
+  size: 70, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Elite Phalangist 4A
   rotate: false
   xy: 429, 1383
-  size: 64, 56
+  size: 70, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Elite Phalangist 5A
   rotate: false
   xy: 577, 1447
-  size: 64, 56
+  size: 70, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Elite Phalangist 6A
   rotate: false
   xy: 577, 1447
-  size: 64, 56
+  size: 70, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Levy Pikeman 6A
   rotate: false
   xy: 1030, 1922
-  size: 64, 56
+  size: 70, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Regular Pikeman 6A
   rotate: false
   xy: 721, 1534
-  size: 64, 56
+  size: 70, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Regular Halberdier 6A
   rotate: false
   xy: 1585, 1320
-  size: 64, 56
+  size: 70, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
