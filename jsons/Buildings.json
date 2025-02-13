@@ -252,6 +252,15 @@
 		"requiredTech": "Engineering"
 	},
 	{
+		"name": "Irigation Network",
+		"replaces": "Aqueduct",
+		"uniqueTo": "Grenelgad",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Production] from [Marsh] tiles [in this city]"],
+		"requiredTech": "Engineering"
+	},
+	{
 		"name": "Public Sewers",
 		"requiredBuilding": "Aqueduct",
 		"maintenance": 1,
