@@ -238,6 +238,10 @@
 		"name": "Bronze",
 		"resourceType": "Strategic"
 	},
+	{
+		"name": "Steel",
+		"resourceType": "Strategic"
+	},
   {
 		"name": "Furs",
 		"resourceType": "Luxury",
