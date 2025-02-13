@@ -355,6 +355,24 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Mikreshkir 3A",
+		"unitType": "Light Infantry",
+		"replaces": "Levy Archer 3A",
+		"uniqueTo": "The Suilumanin",
+		"movement": 2,
+		"strength": 16,
+		"range": 2,
+		"rangedStrength": 14,
+		"cost": 90,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Mikreshkir 4A",
+		"uniques": ["Militia"],
+		"promotions": ["Bow","Spear","Shield","[+33]% Strength <vs [Light Cavalry] units> <when defending>",
+			"[+15]% Strength <vs [Heavy Cavalry] units> <when defending>"],
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Levy Archer 4A",
 		"unitType": "Missile Infantry",
 		"movement": 2,
@@ -367,6 +385,24 @@
 		"upgradesTo": "Levy Archer 5A",
 		"uniques": ["Militia"],
 		"promotions": ["Bow"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Mikreshkir 4A",
+		"unitType": "Light Infantry",
+		"replaces": "Levy Archer 4A",
+		"uniqueTo": "The Suilumanin",
+		"movement": 2,
+		"strength": 21,
+		"range": 2,
+		"rangedStrength": 19,
+		"cost": 100,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Farm Estates",
+		"upgradesTo": "Mikreshkir 5A",
+		"uniques": ["Militia","[+33]% Strength <vs [Light Cavalry] units> <when defending>",
+			"[+15]% Strength <vs [Heavy Cavalry] units> <when defending>"],
+		"promotions": ["Bow","Spear","Shield"],
 		"attackSound": "arrow"
 	},
 	{
@@ -425,6 +461,24 @@
 		"obsoleteTech": "Blast Furnace",
 		"uniques": ["Elite","Consumes [1] [Bronze]"],
 		"promotions": ["Bow","Shield","Heavy Armor"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Mikreshkir 5A",
+		"unitType": "Heavy Infantry",
+		"replaces": "Elite Archer 5A",
+		"uniqueTo": "The Suilumanin",
+		"movement": 2,
+		"strength": 33,
+		"range": 2,
+		"rangedStrength": 27,
+		"cost": 160,
+		"requiredTech": "Farm Estates",
+		"upgradesTo": "Elite Archer 6A",
+		"obsoleteTech": "Blast Furnace",
+		"uniques": ["Elite","Consumes [1] [Bronze]","[+50]% Strength <vs [Light Cavalry] units> <when defending>",
+			"[+25]% Strength <vs [Heavy Cavalry] units> <when defending>"],
+		"promotions": ["Bow","Spear","Heavy Armor"],
 		"attackSound": "arrow"
 	},
 	{
