@@ -1,4 +1,5 @@
-  {
+[
+    {
     "name": "Kalak VI",
     "production": 3,
     "food": 6,
@@ -85,3 +86,33 @@
       "Order": 5
     }
   },
+  {
+    "name": "Chanovar",
+    "production": 9,
+    "food": 9,
+    "gold": 3,
+    "science": 3,
+    "culture": 7,
+    "happiness": 4,
+    "faith": 5,
+    "military": 5,
+    "aggressive": 3,
+    "declareWar": 3,
+    "commerce": 5,
+    "diplomacy": 7,
+    "loyal": 4,
+    "expansion": 3,
+    "priorities": {
+      "Tradition": 7,
+      "Liberty": 4,
+      "Honor": 5,
+      "Commerce": 6,
+      "Patronage": 3,
+      "Piety": 4,
+      "Rationalism": 3,
+      "Freedom": 5,
+      "Autocracy": 3,
+      "Order": 7
+    }
+  },
+]
