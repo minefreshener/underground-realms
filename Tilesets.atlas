@@ -716,7 +716,7 @@ TileSets/HexaRealm/Units/Regular Cavalry 3A
   orig: 64, 63
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Regular cavalry 4A
+TileSets/HexaRealm/Units/Regular Cavalry 4A
   rotate: false
   xy: 580, 616
   size: 64, 68
