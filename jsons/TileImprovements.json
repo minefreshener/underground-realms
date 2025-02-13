@@ -85,6 +85,16 @@
 		"shortcutKey": "O"
 	},
 	{
+		"name": "Polder",
+		"uniqueTo": "Grenelgad",
+		"food": 2,
+		"terrainsCanBeBuiltOn": ["Marsh","Flood plains"],
+		"turnsToBuild": 8,
+		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]"],
+		"techRequired": "Land Clearence",
+		"shortcutKey": "F"
+	},
+	{
 		"name": "Academy",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 5,
