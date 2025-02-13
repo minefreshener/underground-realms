@@ -1190,7 +1190,7 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Chanvar 5A",
+		"name": "Huzvar 5A",
 		"unitType": "Missile Cavalry",
 		"replaces": "Regular Horse Archer 5A",
 		"uniqueTo": "Grenelgad",
@@ -1239,7 +1239,7 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Chanvar 6A",
+		"name": "Huzvar 6A",
 		"unitType": "Light Cavalry",
 		"replaces": "Pistolier 6A",
 		"uniqueTo": "Grenelgad",
