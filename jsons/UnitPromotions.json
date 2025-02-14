@@ -806,6 +806,30 @@
 	"uniques": ["Ignores terrain cost"]
 	},
 	{
+	"name": "Quick Study",
+	"uniques": ["[+50]% XP gained from combat"]
+	},
+	{
+	"name": "Rejuvenation",
+	"uniques": ["All healing effects doubled"]
+	},
+	{
+        "name": "Devout",
+        "uniques": ["Can Spread Religion <[1] additional time(s)>"]
+    	},
+	{
+	"name": "Dodge",
+	"uniques": ["Withdraws before melee combat <with [80]% chance>"]
+	},
+	{
+	"name": "[Hussar] ability",
+	"uniques": ["[+50]% to Flank Attack bonuses"]
+	},
+	{
+	"name": "Unable to pillage tiles",
+	"uniques": ["Unable to pillage tiles"]
+	}
+	{
 	"name": "Morale",
 	"uniques": ["[+10]% Strength"]
 	}
