@@ -140,6 +140,14 @@
 			"Will not be replaced by automated units","[+1 Food] <after discovering [Logistics]>","[+1 Production] <after discovering [Military Construction]>",
 			"[+1 Culture] <after discovering [Defined Borders]>"]
 	},
+	{
+	"name": "Remove Forest",
+	"turnsToBuild": 5,
+	"techRequired": "Land Clearence",
+	"uniques": ["Can be built outside your borders","Excluded from map editor"],
+	"shortcutKey": "X",
+        "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
+	},
  	{
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Land"],
