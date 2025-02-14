@@ -828,7 +828,7 @@
 	{
 	"name": "Unable to pillage tiles",
 	"uniques": ["Unable to pillage tiles"]
-	}
+	},
 	{
 	"name": "Morale",
 	"uniques": ["[+10]% Strength"]
