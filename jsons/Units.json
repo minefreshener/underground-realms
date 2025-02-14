@@ -367,9 +367,9 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Mikreshkir 4A",
-		"uniques": ["Militia"],
-		"promotions": ["Bow","Spear","Shield","[+33]% Strength <vs [Light Cavalry] units> <when defending>",
+		"uniques": ["Militia","[+33]% Strength <vs [Light Cavalry] units> <when defending>",
 			"[+15]% Strength <vs [Heavy Cavalry] units> <when defending>"],
+		"promotions": ["Bow","Spear","Shield"],
 		"attackSound": "arrow"
 	},
 	{
