@@ -126,6 +126,7 @@
 	{
 		"name": "Mountain",
 		"type": "Land",
+		"movementCost": 4,
 		"impassable": true,
 		"defenceBonus": 0.5,
 		"RGB": [102, 102, 102],
@@ -228,7 +229,7 @@
 		"defenceBonus": -0.15,
 		"occursOn": ["Grassland"],
 		"uniques": ["Rare feature",
-					"[-2] to Fertility for Map Generation",
+					"[-1] to Fertility for Map Generation",
 					"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."],
 		"civilopediaText": [{"text":"Only Polders can be built here", "link":"Improvement/Polder"}]
 	},
@@ -290,7 +291,7 @@
 	{
 		"name": "Atoll",
 		"type": "TerrainFeature",
-		"movementCost": 1,
+		"movementCost": 2,
 		"food": 1,
 		"production": 1,
 		"defenceBonus": 0.1,
