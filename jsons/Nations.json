@@ -16,7 +16,7 @@
 		"innerColor": [38,98,255],
 		"uniqueName": "Bones Of Wisdom",
 		"uniques": ["Free [Great Engineer] appears <upon discovering [Settlemetation] technology>","[Great Engineer] is earned [25]% faster",
-			"[+1] Movement <for [Spear Infantry] units>"],
+			"[+1] Movement <for [Spear Infantry] units>","[+1 Culture] from [Boneyard] tiles [in all cities]"],
 		"cities": ["Mikreshko","Salvabo","Honchenu","Makaliw","Hamjrako","Lemesiwi","Bezengis","Hilef","Tewiten","Liwanu","Valaoukew"]
 	},
 	{
