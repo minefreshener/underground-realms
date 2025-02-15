@@ -331,12 +331,29 @@
 		"uniques": []
 	},
 	{
+		"name": "Boneworks",
+		"production": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Stoneworking",
+		"uniques": ["Must have an owned [Boneyard] within [3] tiles"]
+	},
+	{
 		"name": "Kiln",
-		"production": 1,
+		"production": 2,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["[+5]% Production when constructing [All] buildings [in this city]"],
 		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Bone Excavation Site",
+		"replaces": "Kiln",
+		"uniqueTo": "The Suilumanin",
+		"production": 2,
+		"culture": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Stoneworking",
+		"uniques": ["Must have an owned [Boneyard] within [2] tiles","[+5]% Production when constructing [All] buildings [in this city]"]
 	},
 	{
 		"name": "Stone Works",
