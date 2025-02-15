@@ -268,13 +268,13 @@
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Hill] tiles>"]
 	},
-  {
+  	{
 		"name": "Dyes",
 		"resourceType": "Luxury",
-    "revealedBy": "Exploration",
+    		"revealedBy": "Exploration",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"gold": 2,
-		"improvement": "Plantation",
+		"improvedBy": ["Plantation","Polder"],
 		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [30] <in [Forest] Regions>",
