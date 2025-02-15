@@ -10,7 +10,7 @@
 	},
   {
 		"name": "Farm",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Oasis"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood Plains","Oasis"],
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
@@ -98,7 +98,7 @@
 		"name": "Polder",
 		"uniqueTo": "Grenelgad",
 		"food": 2,
-		"terrainsCanBeBuiltOn": ["Marsh","Flood plains"],
+		"terrainsCanBeBuiltOn": ["Marsh","Flood Plains"],
 		"turnsToBuild": 8,
 		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]"],
 		"techRequired": "Land Clearence",
@@ -236,7 +236,7 @@
 	{
 		"name": "Barbarian encampment",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable", "Unbuildable", "Excluded from map editor"],
+		"uniques": ["Unpillagable", "Unbuildable"],
         "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
 	}
 ]
