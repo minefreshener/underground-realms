@@ -4,7 +4,7 @@
 		"leaderName": "Suiluman",
 		"preferredVictoryType": "Domination",
 	    	"adjective": ["Suilumanin"],
-		"startBias": ["Hill"],
+		"startBias": ["Plains","Boneyard"],
 		"startIntroPart1": "Sample text.",
 		"startIntroPart2": "Sample text.",
 		"declaringWar": "You stand in the way of my people. Let us solve this like warriors!",
