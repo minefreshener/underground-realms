@@ -31,6 +31,20 @@ TileSets/HexaRealm/Tiles/Forestry Camp
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Polder
+  rotate: false
+  xy: 1293, 1048
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Polder+Dyes
+  rotate: false
+  xy: 1365, 1026
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Scout 1A
   rotate: false
   xy: 364, 1189
@@ -317,6 +331,48 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+TileSets/HexaRealm/Tiles/Magic Crystals
+  rotate: false
+  xy: 1149, 1192
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Magic Crystals+Offshore Platform
+  rotate: false
+  xy: 1077, 1223
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Iji
+  rotate: false
+  xy: 580, 87
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Boneyard
+  rotate: false
+  xy: 148, 118
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Hamlet
+  rotate: false
+  xy: 4, 256
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Hamlet-Sefurjel
+  rotate: false
+  xy: 4, 328
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Scout 3A
   rotate: false
   xy: 364, 273
