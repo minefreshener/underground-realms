@@ -19,7 +19,7 @@
 		"improvement": "Pasture",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [13] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-					"Generated on every [10] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>",
+		"Generated on every [10] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>",
     "Generated on every [18] tiles <in [{Featureless} {Grassland}] tiles>",]
 	},
 	{
@@ -52,7 +52,7 @@
 		"name": "Wheat",
     "revealedBy": "Agriculture",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"], // Desert only if fresh water
+		"terrainsCanBeFoundOn": ["Plains","Flood Plains","Desert"], // Desert only if fresh water
 		"food": 1,
 		"improvement": "Farm",
 		"uniques": ["Generated on every [27] tiles <in [{Featureless} {Plains}] tiles>",
@@ -210,7 +210,8 @@
 					"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 					"Minor deposits generated with weight [30] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
 					"Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
-					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>","Minor deposits generated with weight [20] <in [Mountain] tiles>",],
+					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+			"Minor deposits generated with weight [20] <in [Mountain] tiles>",],
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 8},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
 	},
@@ -230,7 +231,8 @@
 					"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 					"Minor deposits generated with weight [30] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
 					"Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
-					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>","Minor deposits generated with weight [50] <in [Mountain] tiles>",],
+					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+			"Minor deposits generated with weight [50] <in [Mountain] tiles>",],
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 8},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
 	},
@@ -259,7 +261,7 @@
 		"name": "Cotton",
 		"resourceType": "Luxury",
     "revealedBy": "Wild Harvesting",
-		"terrainsCanBeFoundOn": ["Grassland","Flood plains"],
+		"terrainsCanBeFoundOn": ["Grassland","Flood Plains"],
 		"production": 2,
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [15] <in [Desert] Regions>",
@@ -333,7 +335,7 @@
 		"name": "Incense",
 		"resourceType": "Luxury",
     "revealedBy": "Exploration",
-		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
+		"terrainsCanBeFoundOn": ["Plains","Desert","Flood Plains"],
 		"faith": 2,
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [35] <in [Desert] Regions>",
@@ -385,7 +387,7 @@
 		"name": "Sugar",
 		"resourceType": "Luxury",
     "revealedBy": "Agriculture",
-		"terrainsCanBeFoundOn": ["Flood plains","Grassland","Marsh"],
+		"terrainsCanBeFoundOn": ["Flood Plains","Grassland","Marsh"],
 		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
 		"food": 2,
 		"improvement": "Plantation",
@@ -444,7 +446,7 @@
 		"name": "Citrus",
 		"resourceType": "Luxury",
     "revealedBy": "Wild Harvesting",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Flood plains"],
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Flood Plains"],
 		"food": 2,
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [35] <in [Jungle] Regions>",
