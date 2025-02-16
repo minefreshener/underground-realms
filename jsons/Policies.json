@@ -85,14 +85,14 @@
                 "uniques": ["[+15]% Strength <for [Wounded] units>","[+1 Happiness] from every [Leader's Lodge]","[+1 Culture] from every [Gathering Square]"],
                 "requires": ["Social Harmony"],
                 "row": 2,
-                "column": 4
+                "column": 5
             },
             {
                 "name": "Natural Harmony",
                 "uniques": ["[+1 Culture] from every [Forestry Camp]","[+1 Happiness] from every [Garden]"],
                 "requires": ["Natural Reverence"],
                 "row": 2,
-                "column": 2
+                "column": 1
             },
             {
                 "name": "Civil Society",
@@ -171,6 +171,116 @@
             {
                 "name": "Might Complete",
                 "uniques": ["Provides a [Barracks] in your first [5] cities for free","Earn [25]% of killed [Military] unit's [Strength] as [Culture]"]
+            }
+        ]
+    },
+      {
+        "name": "Monarchy",
+        "era": "Third Age",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 10,
+            "Diplomatic": 5,
+            "Domination": 10,
+            "Scientific": 5
+        },
+        "uniques": ["Government Ideology","Unlocks The Royal Court Building","[+10]% Production when constructing [Courthouse] buildings [in all cities]"],
+        "policies": [
+            {
+                "name": "Royal Family",
+                "uniques": ["[+1 Happiness] [in capital]","[+1 Gold, +1 Culture] per [8] population [in capital]"],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Empowered Nobility",
+                "uniques": ["[+1 Culture] from every [Agricultural Estate]","[+2 Culture] [in capital]","Free Great Person"],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Royal Coffers",
+                "uniques": ["Gifts of Gold to City-States generate [15]% more Influence","[+2 Gold] [in capital]"],
+                "requires": ["Royal Family"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Feudal Service",
+                "uniques": ["[+50]% XP gained from combat <for [Feudal] units>","[+1 Culture] from every [Feudal Estate]"],
+                "requires": ["Empowered Nobility"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Constitutional Monarchy",
+                "uniques": ["[2] units cost no maintenance","[-25]% Unhappiness from [Specialists] [in all cities]","[+10]% [Food] <while the empire is happy>"],
+                "requires": ["Royal Coffers","Feudal Service"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Tribute States",
+                "uniques": ["Resting point for Influence with City-States is increased by [10]",
+                      "Militaristic City-States grant units [2] times as fast when you are at war with a common nation"],
+                "requires": ["Feudal Service"],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Monarchy Complete",
+                "uniques": ["[+10]% [Gold] <while the empire is happy>"]
+            }
+        ]
+    },
+      {
+        "name": "Democracy",
+        "era": "Third Age",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 20,
+            "Diplomatic": 20,
+            "Domination": 10,
+            "Scientific": 5
+        },
+        "uniques": ["Government Ideology","Unlocks The Congress Building","[+10]% Production when constructing [Courthouse] buildings [in all cities]"],
+        "policies": [
+            {
+                "name": "Free Speech",
+                "uniques": ["[4] units cost no maintenance","[-5]% Unhappiness from [Population] [in all non-occupied cities]"],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Civil Liberties",
+                "uniques": ["[+15]% [Production] from every [Public Works Administration]","Can build [all] improvements at a [+25]% rate"],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Representation",
+                "uniques": ["[+10]% [Culture] <while the empire is happy>","Each city founded increases culture cost of policies [33]% less than normal"],
+                "requires": ["Free Speech"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Citizenship",
+                "uniques": ["[+25]% Great Person generation [in all cities]"],
+                "requires": ["Representation","Civil Liberties"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Political Parties",
+                "uniques": ["[+1 Culture] from every specialist [in all cities]","[+1 Happiness] [in all cities connected to capital]"],
+                "requires": ["Representation"],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Democracy Complete",
+                "uniques": ["[+10]% [Food] <while the empire is happy>"]
             }
         ]
     },
