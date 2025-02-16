@@ -204,7 +204,7 @@
                 "uniques": ["Gifts of Gold to City-States generate [15]% more Influence","[+2 Gold] [in capital]"],
                 "requires": ["Royal Family"],
                 "row": 2,
-                "column": 4
+                "column": 2
             },
             {
                 "name": "Feudal Service",
