@@ -82,7 +82,7 @@
             },
             {
                 "name": "Culture Of Empathy",
-                "uniques": ["[+15]% Strength <for [Wounded] units>","[+1 Happiness] from every [Leader's Lodge]","[+1 Culture] from every [Gathering Square]"],
+                "uniques": ["[+10]% Strength <for [Wounded] units>","[+1 Happiness] from every [Leader's Lodge]","[+1 Culture] from every [Gathering Square]"],
                 "requires": ["Social Harmony"],
                 "row": 2,
                 "column": 5
@@ -247,7 +247,7 @@
         "policies": [
             {
                 "name": "Free Speech",
-                "uniques": ["[4] units cost no maintenance","[-5]% Unhappiness from [Population] [in all non-occupied cities]"],
+                "uniques": ["[4] units cost no maintenance","[-5]% Unhappiness from [Population] [in all non-occupied cities]","[+1 Happiness] from every [Printing House]"],
                 "row": 1,
                 "column": 1
             },
