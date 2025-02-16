@@ -70,11 +70,10 @@
 	},
   {
 		"name": "Fishing Boats",
-		"terrainsCanBeBuiltOn": ["Marsh"],
 	  	"turnsToBuild": 5,
 		"food": 1,
 		"techRequired": "Sailing",
-		"uniques": ["Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["Pillaging this improvement yields approximately [+10 Gold]","Can only be built to improve a resource"],
 		"shortcutKey": "F"
 	},
 	{
