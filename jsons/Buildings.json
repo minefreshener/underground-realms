@@ -725,7 +725,7 @@
 		"production": 5,
 		"isWonder": true,
 		"uniques": ["[+50]% Production when constructing [Scout] units [in this city]",
-			"All newly-trained [Military] units [in this city] receive the [Scouting I] promotion","[+3 Culture] <after discovering [Reservism]>"],
+			"All newly-trained [relevant] units [in this city] receive the [Scouting I] promotion","[+3 Culture] <after discovering [Reservism]>"],
 		"requiredTech": "Cartography"
 	},
 	{
