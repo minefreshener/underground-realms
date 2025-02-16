@@ -184,7 +184,8 @@
             "Domination": 10,
             "Scientific": 5
         },
-        "uniques": ["Government Ideology","Unlocks The Royal Court Building","[+10]% Production when constructing [Courthouse] buildings [in all cities]"],
+        "uniques": ["Government Ideology","Unlocks The Royal Court Building","[+10]% Production when constructing [Courthouse] buildings [in all cities]",
+              "Only available <before adopting [Democracy]>"],
         "policies": [
             {
                 "name": "Royal Family",
@@ -243,7 +244,8 @@
             "Domination": 10,
             "Scientific": 5
         },
-        "uniques": ["Government Ideology","Unlocks The Congress Building","[+10]% Production when constructing [Courthouse] buildings [in all cities]"],
+        "uniques": ["Government Ideology","Unlocks The Congress Building","[+10]% Production when constructing [Courthouse] buildings [in all cities]",
+              "Only available <before adopting [Monarchy]>"],
         "policies": [
             {
                 "name": "Free Speech",
