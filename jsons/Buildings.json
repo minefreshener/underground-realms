@@ -543,7 +543,7 @@
 	},
 	{
 		"name": "Vargazla",
-		"replaces": "Monument",
+		"replaces": "Castle",
 		"uniqueTo": "Grenelgad",
 		"cityStrength": 5,
 		"cityHealth": 40,
