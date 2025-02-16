@@ -22,7 +22,7 @@
 		"movement": 3,
 		"cost": 30,
 		"requiredTech": "Sailing",
-		"uniques": ["May create improvements on water resources","Can build [Water] improvements on tiles","Automation is a primary action"]
+		"uniques": ["May create improvements on water resources","Automation is a primary action"]
 	},
 	{
 		"name": "Missionary",
