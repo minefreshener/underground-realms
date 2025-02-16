@@ -268,7 +268,7 @@
 		"columnNumber": 7,
 		"era": "Second Age",
 		"techCost": 400,
-		"buildingCost": 110,
+		"buildingCost": 150,
 		"wonderCost": 400,
 		"techs": [
       {
@@ -314,7 +314,7 @@
 		"columnNumber": 8,
 		"era": "Third Age",
 		"techCost": 500,
-		"buildingCost": 120,
+		"buildingCost": 200,
 		"wonderCost": 500,
 		"techs": [
       {
@@ -361,7 +361,7 @@
 		"columnNumber": 9,
 		"era": "Third Age",
 		"techCost": 550,
-		"buildingCost": 130,
+		"buildingCost": 220,
 		"wonderCost": 550,
 		"techs": [
       {
@@ -420,7 +420,7 @@
 		"columnNumber": 10,
 		"era": "Third Age",
 		"techCost": 600,
-		"buildingCost": 140,
+		"buildingCost": 240,
 		"wonderCost": 600,
 		"techs": [
 			{
@@ -466,7 +466,7 @@
 		"columnNumber": 11,
 		"era": "Fourth Age",
 		"techCost": 700,
-		"buildingCost": 150,
+		"buildingCost": 340,
 		"wonderCost": 700,
 		"techs": [
 			{
@@ -518,7 +518,7 @@
 		"columnNumber": 12,
 		"era": "Fourth Age",
 		"techCost": 750,
-		"buildingCost": 160,
+		"buildingCost": 360,
 		"wonderCost": 750,
 		"techs": [
 			{
@@ -564,7 +564,7 @@
 		"columnNumber": 13,
 		"era": "Fourth Age",
 		"techCost": 800,
-		"buildingCost": 170,
+		"buildingCost": 380,
 		"wonderCost": 800,
 		"techs": [
 			{
@@ -604,7 +604,7 @@
 		"columnNumber": 14,
 		"era": "Fifth Age",
 		"techCost": 1000,
-		"buildingCost": 200,
+		"buildingCost": 480,
 		"wonderCost": 1000,
 		"techs": [
 			{
@@ -651,7 +651,7 @@
 		"columnNumber": 15,
 		"era": "Fifth Age",
 		"techCost": 1200,
-		"buildingCost": 220,
+		"buildingCost": 500,
 		"wonderCost": 1200,
 		"techs": [
 			{
@@ -697,7 +697,7 @@
 		"columnNumber": 16,
 		"era": "Fifth Age",
 		"techCost": 1400,
-		"buildingCost": 240,
+		"buildingCost": 520,
 		"wonderCost": 1400,
 		"techs": [
 			{
@@ -749,7 +749,7 @@
 		"columnNumber": 17,
 		"era": "Sixth Age",
 		"techCost": 1800,
-		"buildingCost": 280,
+		"buildingCost": 600,
 		"wonderCost": 1800,
 		"techs": [
 			{
@@ -795,7 +795,7 @@
 		"columnNumber": 18,
 		"era": "Sixth Age",
 		"techCost": 2000,
-		"buildingCost": 300,
+		"buildingCost": 610,
 		"wonderCost": 2000,
 		"techs": [
 			{
@@ -835,7 +835,7 @@
 		"columnNumber": 19,
 		"era": "Sixth Age",
 		"techCost": 2500,
-		"buildingCost": 330,
+		"buildingCost": 620,
 		"wonderCost": 2500,
 		"techs": [
 			{
