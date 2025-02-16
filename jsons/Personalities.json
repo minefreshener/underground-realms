@@ -203,7 +203,7 @@
     }
   },
     {
-    "name": "Kesunfawe",
+    "name": "Kesunfawe I",
     "production": 5,
     "food": 7,
     "gold": 4,
@@ -257,6 +257,35 @@
       "Rationalism": 6,
       "Freedom": 6,
       "Autocracy": 2,
+      "Order": 4
+    }
+  },
+    {
+    "name": "Nwamu Abaka",
+    "production": 7,
+    "food": 5,
+    "gold": 5,
+    "science": 6,
+    "culture": 7,
+    "happiness": 6,
+    "faith": 4,
+    "military": 8,
+    "aggressive": 4,
+    "declareWar": 4,
+    "commerce": 5,
+    "diplomacy": 6,
+    "loyal": 7,
+    "expansion": 4,
+    "priorities": {
+      "Tradition": 9,
+      "Liberty": 4,
+      "Honor": 7,
+      "Commerce": 6,
+      "Patronage": 5,
+      "Piety": 4,
+      "Rationalism": 6,
+      "Freedom": 7,
+      "Autocracy": 5,
       "Order": 4
     }
   },
@@ -461,6 +490,35 @@
       "Freedom": 9,
       "Autocracy": 2,
       "Order": 2
+    }
+  },
+    {
+    "name": "Dald Al-Kapon",
+    "production": 6,
+    "food": 7,
+    "gold": 6,
+    "science": 3,
+    "culture": 3,
+    "happiness": 6,
+    "faith": 7,
+    "military": 7,
+    "aggressive": 5,
+    "declareWar": 5,
+    "commerce": 6,
+    "diplomacy": 6,
+    "loyal": 4,
+    "expansion": 5,
+    "priorities": {
+      "Tradition": 4,
+      "Liberty": 6,
+      "Honor": 9,
+      "Commerce": 6,
+      "Patronage": 5,
+      "Piety": 7,
+      "Rationalism": 6,
+      "Freedom": 7,
+      "Autocracy": 8,
+      "Order": 5
     }
   },
   {
