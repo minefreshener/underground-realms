@@ -61,6 +61,22 @@
 		"requiredTech": "Formal Diplomacy",
 		"uniques": ["[+1 Science, +1 Culture] per [8] population [in this city] <when not at war>","[+1 Culture] <after discovering [Civil Service]>"]
 	},
+	{
+		"name": "Royal Court",
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Engineering",
+		"uniques": ["[+1 Happiness, +1 Culture] per [8] population [in this city]","Only available <after adopting [Monarchy]>",
+			"Gain [20] [Culture] <upon declaring a defensive pact>","Gain [20] [Culture] <upon declaring friendship>","Can only be built <in [Capital] cities>",
+			"[Gold] cost of purchasing items in cities [-10]%","Destroyed when the city is captured"]
+	},
+	{
+		"name": "Congress",
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Engineering",
+		"uniques": ["[+1 Culture] per [4] population [in all cities]","Only available <after adopting [Democracy]>","Can only be built <in [Capital] cities>",
+			"Gain [30] [Culture] <upon declaring a defensive pact>","Gain [30] [Culture] <upon declaring friendship>",
+			"[+5]% Production when constructing [Culture] buildings [in all cities]","Destroyed when the city is captured"]
+	},
 	///////////// Culture Buildings
 	{
 		"name": "Cave Shelter",
