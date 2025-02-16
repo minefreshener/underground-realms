@@ -231,6 +231,64 @@
       "Order": 5
     }
   },
+    {
+    "name": "Samborl",
+    "production": 5,
+    "food": 7,
+    "gold": 3,
+    "science": 4,
+    "culture": 5,
+    "happiness": 4,
+    "faith": 7,
+    "military": 5,
+    "aggressive": 2,
+    "declareWar": 2,
+    "commerce": 5,
+    "diplomacy": 4,
+    "loyal": 5,
+    "expansion": 3,
+    "priorities": {
+      "Tradition": 7,
+      "Liberty": 3,
+      "Honor": 5,
+      "Commerce": 4,
+      "Patronage": 1,
+      "Piety": 9,
+      "Rationalism": 4,
+      "Freedom": 4,
+      "Autocracy": 3,
+      "Order": 6
+    }
+  },
+    {
+    "name": "Furuwir II",
+    "production": 7,
+    "food": 8,
+    "gold": 5,
+    "science": 6,
+    "culture": 5,
+    "happiness": 6,
+    "faith": 6,
+    "military": 7,
+    "aggressive": 4,
+    "declareWar": 4,
+    "commerce": 5,
+    "diplomacy": 6,
+    "loyal": 7,
+    "expansion": 4,
+    "priorities": {
+      "Tradition": 6,
+      "Liberty": 6,
+      "Honor": 4,
+      "Commerce": 4,
+      "Patronage": 7,
+      "Piety": 5,
+      "Rationalism": 5,
+      "Freedom": 7,
+      "Autocracy": 3,
+      "Order": 5
+    }
+  },
   {
     "name": "Chanovar",
     "production": 9,
@@ -258,6 +316,35 @@
       "Freedom": 5,
       "Autocracy": 3,
       "Order": 7
+    }
+  },
+    {
+    "name": "Amoga",
+    "production": 5,
+    "food": 5,
+    "gold": 5,
+    "science": 9,
+    "culture": 9,
+    "happiness": 9,
+    "faith": 9,
+    "military": 3,
+    "aggressive": 4,
+    "declareWar": 4,
+    "commerce": 3,
+    "diplomacy": 9,
+    "loyal": 9,
+    "expansion": 1,
+    "priorities": {
+      "Tradition": 9,
+      "Liberty": 9,
+      "Honor": 5,
+      "Commerce": 4,
+      "Patronage": 9,
+      "Piety": 9,
+      "Rationalism": 9,
+      "Freedom": 9,
+      "Autocracy": 1,
+      "Order": 4
     }
   },
 ]
