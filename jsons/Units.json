@@ -100,7 +100,8 @@
 		"uniques": ["Officer","Elite","Can move after attacking","[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>","Can be earned through combat","Great Person - [War]","Unbuildable",
 			"[-33]% Strength <vs cities> <when attacking>","[+50]% Strength <during the [Second Age]>","[+100]% Strength <during the [Third Age]>",
-			"[+150]% Strength <during the [Fourth Age]>","[+200]% Strength <during the [Fifth Age]>","[+250]% Strength <during the [Sixth Age]>"],
+			"[+150]% Strength <during the [Fourth Age]>","[+200]% Strength <during the [Fifth Age]>","[+250]% Strength <during the [Sixth Age]>",
+			"[+300]% Strength <during the [Seventh Age]>","[+350]% Strength <during the [Eighth Age]>","[+400]% Strength <during the [Ninth Age]>"],
 		"promotions": ["Horse","Sword","Heavy Armor"],
 		"attackSound": "nonmetalhit"
 	},
@@ -178,7 +179,7 @@
 		"obsoleteTech": "Civil Service",
 		"uniques": ["Scout","Can move after attacking","[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["Bow","Staff","Horse","Ignore Terrain Cost"],
-		"attackSound": "nonmetalhit"
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Scout 6A",
@@ -189,9 +190,55 @@
 		"rangedStrength": 20,
 		"cost": 100,
 		"requiredTech": "Civil Service",
+		"upgradesTo": "Scout 7A",
+		"obsoleteTech": "Navigation",
 		"uniques": ["Scout","Can move after attacking","[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["Bow","Staff","Horse","Ignore Terrain Cost"],
-		"attackSound": "nonmetalhit"
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Scout 7A",
+		"unitType": "Missile Cavalry",
+		"movement": 4,
+		"strength": 30,
+		"range": 1,
+		"rangedStrength": 25,
+		"cost": 120,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Scout 8A",
+		"obsoleteTech": "Advanced Cartography",
+		"uniques": ["Scout","Gunpowder","Can move after attacking","[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["Pistol","Staff","Horse","Ignore Terrain Cost"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Scout 8A",
+		"unitType": "Missile Cavalry",
+		"movement": 4,
+		"strength": 35,
+		"range": 2,
+		"rangedStrength": 30,
+		"cost": 120,
+		"requiredTech": "Advanced Cartography",
+		"upgradesTo": "Recon Blimp 9A",
+		"obsoleteTech": "Steam Engine",
+		"uniques": ["Scout","Gunpowder","Can move after attacking","[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["Rifle-Musket","Staff","Horse","Ignore Terrain Cost"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Recon Blimp 9A",
+		"unitType": "Helicopter",
+		"movement": 6,
+		"strength": 40,
+		"rangedStrength": 40,
+		"range": 1,
+		"cost": 225,
+		"requiredTech": "Steam Engine",
+		"uniques": ["Scout","Gunpowder","No defensive terrain bonus","Can move after attacking","All tiles cost 1 movement",
+			"Ignores Zone of Control","Unable to capture cities"],
+		"promotions": ["Rifle","Grenade","Dirigible","Ignore Terrain Cost"],
+		"attackSound": "shot"
 	},
 	{
 		"name": "Levy Javelinman 1A",
