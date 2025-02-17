@@ -1106,7 +1106,7 @@
 			{
 				"name": "Advanced Machinery",
 				"row": 5,
-				"prerequisites": ["Economics","Arcane Ballistics","Impericism"],
+				"prerequisites": ["Economics","Arcane Ballistics","Empericism"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -1150,7 +1150,7 @@
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
-				"name": "Publc Schooling",
+				"name": "Public Schooling",
 				"row": 6,
 				"prerequisites": ["Scientific Method","Advanced Government"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
@@ -1196,7 +1196,7 @@
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
-				"name": "Archeology",
+				"name": "Archaeology",
 				"row": 6,
 				"prerequisites": ["Public Schooling"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
@@ -1226,7 +1226,7 @@
 			{
 				"name": "Oil Fracking",
 				"row": 3,
-				"prerequisites": ["Steam Engine","Archeology","Biology"],
+				"prerequisites": ["Steam Engine","Archaeology","Biology"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
