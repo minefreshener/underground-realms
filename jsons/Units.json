@@ -228,7 +228,7 @@
 	},
 	{
 		"name": "Recon Blimp 9A",
-		"unitType": "Helicopter",
+		"unitType": "Hovering",
 		"movement": 6,
 		"strength": 40,
 		"rangedStrength": 40,
