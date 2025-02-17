@@ -323,7 +323,7 @@
     	},
 	{
 	"name": "Scouting I",
-	"prerequisites": ["Hunting Dog","Horse"],
+	"prerequisites": ["Hunting Dog","Horse","Dirigible"],
 	"uniques": ["[+1] Sight"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -364,7 +364,7 @@
     	},
 	{
 	"name": "Survivalism I",
-	"prerequisites": ["Staff","Elephant","Mobile Tower"],
+	"prerequisites": ["Staff","Elephant","Mobile Tower","Dirigible"],
 	"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>","[+15]% Strength <when defending>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -799,6 +799,11 @@
 	{
 	"name": "Halberd",
         "column": 29,
+        "row": 1
+    	},
+	{
+	"name": "Dirigible",
+        "column": 30,
         "row": 1
     	},
 	{
