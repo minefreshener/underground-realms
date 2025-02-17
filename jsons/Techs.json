@@ -1106,7 +1106,7 @@
 			{
 				"name": "Advanced Machinery",
 				"row": 5,
-				"prerequisites": ["Economics","Arcane Ballistics","Empericism"],
+				"prerequisites": ["Economics","Arcane Ballistics","Empiricism"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
