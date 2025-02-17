@@ -62,5 +62,10 @@
     {
         "name": "Submarine",
         "movementType": "Water"
-    }
+    },
+    {
+        "name": "Hovering",
+        "uniques": ["Can pass through impassable tiles","May travel on Water tiles without embarking"],
+        "movementType": "Land"
+    },
 ]
