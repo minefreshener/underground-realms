@@ -134,7 +134,8 @@
             "Has an elevation of [2] for visibility calculations",
             "Occurs in chains at high elevations",
             "Always Fertility [-2] for Map Generation",
-            "Considered [Undesirable] when determining start locations"]
+            "Considered [Undesirable] when determining start locations","[+1 Production] <after discovering [Mountaineering]>",
+			"[+1 Production] <after discovering [Dynamite]>"]
 	},
 	{
 		"name": "Snow",
@@ -217,7 +218,7 @@
 			"A Region can not contain more [Forest] tiles than [Jungle] tiles",
 			"Considered [Food] when determining start locations <in all except [Grassland] Regions>",
 			"Considered [Desirable] when determining start locations <in all except [Grassland] Regions>",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.","[+1 Science] <after discovering [Biology]>"
 		]
 	},
 	{
@@ -230,7 +231,8 @@
 		"occursOn": ["Grassland"],
 		"uniques": ["Rare feature",
 					"[-1] to Fertility for Map Generation",
-					"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."],
+					"Every [9] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"[+1 Science] <after discovering [Biology]>"],
 		"civilopediaText": [{"text":"Only Polders can be built here", "link":"Improvement/Polder"}]
 	},
 	{
@@ -284,7 +286,8 @@
 		"movementCost": 2,
 		"defenceBonus": 0.1,
 		"occursOn": ["Desert"],
-		"uniques": ["Considered [Undesirable] when determining start locations","[-3] to Fertility for Map Generation","Rare feature"]
+		"uniques": ["Considered [Undesirable] when determining start locations","[-3] to Fertility for Map Generation","Rare feature",
+			"[-2 Production, +1 Culture, +1 Science] <after discovering [Archaeology]>"]
 	},
 	{
 		"name": "Ice",
