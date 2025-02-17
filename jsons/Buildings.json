@@ -97,13 +97,22 @@
 	},
 	{
 		"name": "Amphitheater",
-		"culture": 3,
+		"culture": 2,
 		"specialistSlots": {"Performer": 1},
 		"requiredBuilding": "Monument",
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [],
 		"requiredTech": "Drama And Poetry"
+	},
+	{
+		"name": "Opera House",
+		"culture": 4,
+		"specialistSlots": {"Performer": 2},
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": [],
+		"requiredTech": "Acoustics"
 	},
 	{
 		"name": "Gallery",
@@ -113,6 +122,15 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Culture] from [Landmark] tiles [in this city]"],
 		"requiredTech": "Professional Arts"
+	},
+	{
+		"name": "Academy Of The Arts",
+		"culture": 4,
+		"specialistSlots": {"Artist": 3},
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Culture] from [Academy] tiles [in this city]","[+1 Culture] per [8] population [in this city]"],
+		"requiredTech": "Artistic Education"
 	},
 	{
 		"name": "Printing House",
@@ -126,6 +144,22 @@
 		"hurryCostModifier": 25,
 		"uniques": [],
 		"requiredTech": "Printing Press"
+	},
+	{
+		"name": "National Epic",
+		"culture": 5,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Gallery] is constructed in all [non-[Puppeted]] cities>","[+25]% Great Person generation [in this city]",
+			"Cost increases by [30] per owned city"],
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "Palace",
+		"culture": 3,
+		"gold": 3,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Castle] is constructed in all [non-[Puppeted]] cities>","Cost increases by [30] per owned city"],
+		"requiredTech": "Architecture"
 	},
 	////////////////// faith buildings
 	{
@@ -153,7 +187,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Worship",
-		"uniques": ["Only available <when religion is enabled>"]
+		"uniques": ["Only available <when religion is enabled>","[+1 Faith] <after discovering [Empiricism]>"]
 	},
 	{
 		"name": "Grand Temple",
@@ -243,7 +277,7 @@
 		"percentStatBonus": {"food": 5},
 		"hurryCostModifier": 25,
 		"requiredTech": "Calendar",
-		"uniques": []
+		"uniques": ["[+1 Science] <after discovering [Empiricism]>"]
 	},
 	{
 		"name": "Star Chart",
@@ -251,7 +285,7 @@
 		"percentStatBonus": {"science": 5},
 		"hurryCostModifier": 25,
 		"requiredTech": "Astrology",
-		"uniques": []
+		"uniques": ["[+1 Science] <after discovering [Empiricism]>"]
 	},
 	{
 		"name": "Lighthouse",
@@ -409,6 +443,14 @@
 		"requiredTech": "Metal Casting"
 	},
 	{
+		"name": "Alloy Basin",
+		"requiredBuilding": "Smeltery",
+		"production": 3,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Science] <after discovering [Magical Materials]>"],
+		"requiredTech": "Metallurgy"
+	},
+	{
 		"name": "Bronzesmith",
 		"requiredNearbyImprovedResources": ["Copper","Tin"],
 		"maintenance": 1,
@@ -463,7 +505,7 @@
 		"maintenance": 3,
 		"production": 5,
 		"hurryCostModifier": 25,
-		"uniques": ["Consumes [1] [Iron]","Consumes [1] [Coal]","Provides [1] [Steel]","[+1 Production] <after discovering [Civil Service]>",
+		"uniques": ["Consumes [1] [Iron]","Consumes [1] [Coal]","Provides [2] [Steel]","[+1 Production] <after discovering [Civil Service]>",
 			"[+1 Production] <after discovering [Alchemy]>"],
 		"requiredTech": "Steel"
 	},
@@ -486,6 +528,16 @@
 			"[+5]% Production when constructing [All] buildings [in all cities]"],
 		"requiredTech": "Machinery"
 	},
+	{
+		"name": "Arcane Furnace",
+		"requiredNearbyImprovedResources": ["Magic Crystals"],
+		"maintenance": 3,
+		"production": 4,
+		"science": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Magic] units [in this city]"],
+		"requiredTech": "Magical materials"
+	},
 	////////////////// Defensive Buildings
 	{
 		"name": "Pallisade",
@@ -504,7 +556,6 @@
 	},
 	{
 		"name": "Walls",
-		"requiredBuilding": "Planked Walls",
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
@@ -527,6 +578,7 @@
 	},
 	{
 		"name": "Ramparts",
+		"requiredBuilding": "Walls",
 		"cityStrength": 10,
 		"cityHealth": 10,
 		"hurryCostModifier": 25,
@@ -542,7 +594,7 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "Vargazla",
+		"name": "Vargazala",
 		"replaces": "Castle",
 		"uniqueTo": "Grenelgad",
 		"cityStrength": 5,
@@ -586,6 +638,29 @@
 		"uniques": ["[+1 Production] from [Fort] tiles [in this city]","Cost increases by [30] per owned city",
 			"Only available <if [Ramparts] is constructed in all [non-[Puppeted]] cities>"]
 	},
+	{
+		"name": "Earthworks",
+		"cityHealth": 100,
+		"hurryCostModifier": 25,
+		"requiredTech": "Star Forts",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Bastions",
+		"requiredBuilding": "Earthworks",
+		"cityStrength": 10,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredTech": "Star Forts",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Battery",
+		"cityStrength": 15,
+		"hurryCostModifier": 25,
+		"requiredTech": "Ballistics",
+		"uniques": ["Destroyed when the city is captured"]
+	},
 	//////////////// Military Buildings
 	{
 		"name": "Raiding Camp",
@@ -607,11 +682,28 @@
 	{
 		"name": "Gunsmith",
 		"requiredBuilding": "Forge",
-		"production": 3,
+		"production": 2,
 		"maintenance": 2
 		"hurryCostModifier": 25,
 		"uniques": ["[+10]% Production when constructing [Gunpowder] units [in this city]"],
 		"requiredTech": "Gunpowder"
+	},
+	{
+		"name": "Powder Mill",
+		"production": 3,
+		"maintenance": 2
+		"hurryCostModifier": 25,
+		"uniques": ["[+5]% Production when constructing [Gunpowder] units [in this city]"],
+		"requiredTech": "Flintlocks"
+	},
+	{
+		"name": "Rocket Maker",
+		"requiredBuilding": "Powder Mill",
+		"production": 2,
+		"maintenance": 2
+		"hurryCostModifier": 25,
+		"uniques": ["[+10]% Production when constructing [Rocket] units [in this city]"],
+		"requiredTech": "Rocketry"
 	},
 	{
 		"name": "Port",
@@ -632,16 +724,16 @@
 		"production": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Must be next to [Water]","[+10]% Production when constructing [Water] units [in this city]"],
+		"uniques": ["Must be next to [Coast]","[+10]% Production when constructing [Water] units [in this city]"],
 		"requiredTech": "Shipbuilding"
 	},
 	{
 		"name": "Docklands",
-		"production": 1,
+		"production": 2,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Must be next to [Water]","[+20]% Production when constructing [Water] units [in this city]"],
-		"requiredTech": "Naval Engineering"
+		"uniques": ["Must be next to [Coast]","[+20]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Advanced Shipbuilding"
 	},
 	{
 		"name": "Arena",
@@ -661,6 +753,14 @@
 		"hurryCostModifier": 25,
 		"uniques": ["New [Elite] units start with [30] Experience [in this city]","[-30]% Production when constructing [Elite] units [in this city]"],
 		"requiredTech": "Entertainment"
+	},
+	{
+		"name": "Advanced Training Facility",
+		"maintenance": 4,
+		"greatPersonPoints": {"Great General": 1},
+		"hurryCostModifier": 25,
+		"uniques": ["New [Elite] units start with [15] Experience [in this city]","[+15]% Production when constructing [Elite] units [in this city]"],
+		"requiredTech": "Military Specialization"
 	},
 	{
 		"name": "Landowner's Council",
@@ -724,8 +824,26 @@
 		"greatPersonPoints": {"Great General": 2},
 		"hurryCostModifier": 25,
 		"uniques": ["All newly-trained [Officer] units [in this city] receive the [Pistol] promotion","New [Officer] units start with [30] Experience [in this city]",
-		"[+15]% Production when constructing [Officer] units [in this city]"],
+		"[+15]% Production when constructing [Officer] units [in this city]","[+1 Science] <after discovering [Empiricism]>"],
 		"requiredTech": "Military Education"
+	},
+	{
+		"name": "Military Engineering Workshop",
+		"requiredBuilding": "Military Academy",
+		"production": 5,
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["[+10]% Production when constructing [Siege] units [in this city]","[+10]% Production when constructing [Light Artillery] units [in this city]",
+			"[+10]% Production when constructing [Heavy Artillery] units [in this city]","[+1 Science] <after discovering [Empiricism]>"],
+		"requiredTech": "Military Science"
+	},
+	{
+		"name": "Nautical School",
+		"maintenance": 2,
+		"greatPersonPoints": {"Great General": 1},
+		"hurryCostModifier": 25,
+		"uniques": ["New [Water] units start with [30] Experience [in this city]","[-30]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Navigation"
 	},
 	{
 		"name": "Mustering Hall",
@@ -771,6 +889,13 @@
 		"uniques": ["[+10]% Production when constructing [Military] units [in this city]","New [Military] units start with [5] Experience [in this city]",
 			"Destroyed when the city is captured","[+1 Culture] <after discovering [Reservism]>"],
 		"requiredTech": "Military Infrastructure"
+	},
+	{
+		"name": "Gun Range",
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": ["New [Gunpowder] units start with [15] Experience [in this city]","Destroyed when the city is captured"],
+		"requiredTech": "Ballistics"
 	},
 	{
 		"name": "Siege Works",
@@ -843,14 +968,14 @@
 		"maintenance": 1
 		"hurryCostModifier": 25,
 		"requiredTech": "Spellworking",
-		"uniques": ["[-1 Culture] <after discovering [Urbanization]>","[+1 Science] <after discovering [Education]>"]
+		"uniques": ["[-1 Culture] <after discovering [Urbanization]>","[+1 Science] <after discovering [Education]>","[+1 Science] <after discovering [Empiricism]>"]
 	},
 	{
 		"name": "Library",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["[+1 Science] per [4] population [in this city]","[+1 Science] per [6] population [in this city] <after discovering [Calendar]>",
-			"[+1 Culture] <after discovering [Urbanization]>","[+1 Science] <after discovering [Education]>"],
+			"[+1 Culture] <after discovering [Urbanization]>","[+1 Science] <after discovering [Education]>","[+1 Science] <after discovering [Empiricism]>"],
 		"requiredTech": "Record Keeping"
 	},
 	{
@@ -872,7 +997,8 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Magicology",
-		"uniques": ["[+1 Science] from [Magic Crystals] tiles [in this city]","[+1 Science] <after discovering [Education]>"]
+		"uniques": ["[+1 Science] from [Magic Crystals] tiles [in this city]","[+1 Science] <after discovering [Education]>",
+			"[+1 Culture] <after discovering [Empiricism]>"]
 	},
 	{
 		"name": "Artificer's Workshop",
@@ -895,6 +1021,33 @@
 		"requiredTech": "Professional Wizardry",
 		"uniques": ["Consumes [1] [Magic Crystals]","New [Magic] units start with [15] Experience [in this city]",
 			"[+1 Culture] from [Academy] tiles [in this city]","[+1 Production] <after discovering [Alchemy]>"]
+	},
+	{
+		"name": "Tin Crystal Synthesizer",
+		"requiredNearbyImprovedResources": ["Magic Crystals"],
+		"science": -1,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Crystal Synthesis",
+		"uniques": ["Consumes [1] [Tin]","Provides [1] [Magic Crystals]","[+1 Production] <after discovering [Medical Science]>"]
+	},
+	{
+		"name": "Iron Crystal Synthesizer",
+		"requiredNearbyImprovedResources": ["Magic Crystals"],
+		"science": -1,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Crystal Synthesis",
+		"uniques": ["Consumes [1] [Iron]","Provides [1] [Magic Crystals]","[+1 Production] <after discovering [Medical Science]>"]
+	},
+	{
+		"name": "Observatory",
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 50},
+		"requiredBuilding": "Library",
+		"uniques": ["Must be next to [Mountain]","[+1 Science] <after discovering [Empiricism]>"],
+		"requiredTech": "Astronomy"
 	},
 	/////////////// gold buildings
 	{
@@ -919,7 +1072,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"requiredTech": "Regulated Trade",
-		"uniques": ["[+1 Gold] per [6] population [in this city]","[+1 Gold] per [10] population [in this city] <after discovering [Comercialism]>",
+		"uniques": ["[+1 Gold] per [10] population [in this city]","[+1 Gold] per [10] population [in this city] <after discovering [Comercialism]>",
 			"[+1 Culture] <after discovering [Urbanization]>"]
 	},
 	{
@@ -928,7 +1081,7 @@
 		"food": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Profit Farming",
-		"uniques": ["[+1 Gold] per [8] population [in this city] <after discovering [Comercialism]>","[+1 Gold] from [Plantation] tiles [in this city]"]
+		"uniques": ["[+1 Gold] per [10] population [in this city] <after discovering [Comercialism]>","[+1 Gold] from [Plantation] tiles [in this city]"]
 	},
 	{
 		"name": "Tax Office",
@@ -1012,6 +1165,17 @@
 		"requiredTech": "Adventuring",
 		"uniques": []
 	},
+	/////////////////////////// luxury resource buildings
+	{
+		"name": "Whalebone Carver",
+		"requiredNearbyImprovedResources": ["Whales"],
+		"culture": 1,
+		"gold": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Whaling",
+		"uniques": ["[+1 Production] from [Whales] tiles [in this city]",
+			"[+1 Gold] <after discovering [Archaeology]>"]
+	},
 	//////////////////////// guilds
 	{
 		"name": "Merchant's Guild",
@@ -1021,6 +1185,15 @@
 		"requiredTech": "Guilds",
 		"uniques": ["[+1 Gold] per [6] population [in this city]","[+1 Gold] from [Customs House] tiles [in this city]","[+1 Gold] <after discovering [Civil Service]>",
 			"[+2 Culture] <after discovering [Urbanization]>","Only available <after discovering [Guilds]>"]
+	},
+	{
+		"name": "Trading Company",
+		"maintenance": 3,
+		"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 25,
+		"requiredTech": "Trade Companies",
+		"uniques": ["[+1 Gold] per [10] population [in this city]","[+2 Gold] from [Customs house] tiles [in this city]",
+			"[+1 Gold] from [Luxury Resource] tiles [in this city]","Only available <after discovering [Guilds]>"]
 	},
 	{
 		"name": "Military Order",
@@ -1048,7 +1221,7 @@
 		"requiredTech": "Alchemy",
 		"uniques": ["[+1 Science] per [8] population [in this city]","All newly-trained [Magic] units [in this city] receive the [Armor Plating I] promotion",
 			"New [Magic] units start with [20] Experience [in this city]","New [Gunpowder] units start with [20] Experience [in this city]",
-			"[+1 Production] from [Academy] tiles [in this city]","Only available <after discovering [Guilds]>"]
+			"[+1 Production] from [Academy] tiles [in this city]","Only available <after discovering [Guilds]>","[+2 Science] <after discovering [Empiricism]>"]
 	},
 	{
 		"name": "University",
@@ -1057,7 +1230,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Education",
 		"uniques": ["[+1 Science] per [6] population [in this city]","New [Magic] units start with [10] Experience [in this city]",
-			"[+1 Science] from [Academy] tiles [in this city]","Only available <after discovering [Guilds]>"]
+			"[+1 Science] from [Academy] tiles [in this city]","Only available <after discovering [Guilds]>","[+2 Science] <after discovering [Empiricism]>"]
 	},
 	{
 		"name": "Inventor's Guild",
@@ -1067,6 +1240,23 @@
 		"requiredTech": "Advanced Engineering",
 		"uniques": ["[+1 Production] per [8] population [in this city]","New [Light Artillery] units start with [20] Experience [in this city]",
 			"New [Heavy Artillery] units start with [20] Experience [in this city]","[+1 Production] from [Academy] tiles [in this city]",
-			"[+1 Production] from [Manufactory] tiles [in this city]","Only available <after discovering [Guilds]>"]
+			"[+1 Production] from [Manufactory] tiles [in this city]","Only available <after discovering [Guilds]>","[+2 Science] <after discovering [Empiricism]>"]
+	},
+	{
+		"name": "Mason's Guild",
+		"maintenance": 5,
+		"specialistSlots": {"Engineer": 5},
+		"hurryCostModifier": 25,
+		"requiredTech": "Architecture",
+		"uniques": ["[+1 Production] per [6] population [in this city]","[+1 Production] from [Landmark] tiles [in this city]",
+			"[+10]% Production when constructing [All] buildings [in this city]","Only available <after discovering [Guilds]>"]
+	},
+	{
+		"name": "Cartographer's Guild",
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Advanced Cartography",
+		"uniques": ["[+1 Science] per [10] population [in this city]","New [Scout] units start with [20] Experience [in this city]",
+			"Only available <after discovering [Guilds]>"]
 	},
 ]
