@@ -24,6 +24,10 @@
         "movementType": "Land"
     },
     {
+        "name": "Hybrid cavalry",
+        "movementType": "Land"
+    },
+    {
         "name": "Light Cavalry",
         "movementType": "Land"
     },
@@ -40,6 +44,10 @@
         "movementType": "Land"
     },
     {
+        "name": "Motorized Cavalry",
+        "movementType": "Land"
+    },
+    {
         "name": "Siege",
         "movementType": "Land"
     },
@@ -49,6 +57,10 @@
     },
     {
         "name": "Heavy Artillery",
+        "movementType": "Land"
+    },
+    {
+        "name": "Mech",
         "movementType": "Land"
     },
     {
@@ -66,6 +78,10 @@
     {
         "name": "Hovering",
         "uniques": ["Can pass through impassable tiles","May travel on Water tiles without embarking"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Airplane",
         "movementType": "Land"
     },
 ]
