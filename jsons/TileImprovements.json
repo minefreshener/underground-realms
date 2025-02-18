@@ -5,6 +5,7 @@
 		"food": 1,
 		"turnsToBuild": 5,
 		"techRequired": "Foraging",
+		"obsoleteTech": "Fertilizer",
 		"uniques": ["Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "s"
 	},
