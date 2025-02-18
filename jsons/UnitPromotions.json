@@ -139,7 +139,7 @@
     	},
 	{
 	"name": "Accuracy I",
-	"prerequisites": ["Javelin","Bow","Ballista","Cannon","Smoothbore Gun","Crossbow","Rifle-Musket","Rifle"],
+	"prerequisites": ["Javelin","Bow","Ballista","Cannon","Smoothbore Gun","Crossbow","Rifle-Musket","Rifle","Breach-Loaded Cannon"],
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -180,7 +180,7 @@
     	},
 	{
 	"name": "Barrage I",
-	"prerequisites": ["Bow","Cannon","Catapult","Mobile Tower","Pistol","Rifle","Rockets"],
+	"prerequisites": ["Bow","Cannon","Catapult","Mobile Tower","Pistol","Rifle","Rockets","Breach-Loaded Cannon"],
 	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -510,7 +510,7 @@
     	},
 	{
 	"name": "Targeting I",
-	"prerequisites": ["Ballista","Cannon"],
+	"prerequisites": ["Ballista","Cannon","Breach-Loaded Cannon"],
 	"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -547,7 +547,7 @@
     	},
 	{
 	"name": "Bombardment I",
-	"prerequisites": ["Cannon"],
+	"prerequisites": ["Cannon","Breach-Loaded Cannon"],
 	"uniques": ["[+10]% Strength <vs [Land] units> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -707,7 +707,7 @@
     	},
 	{
 	"name": "Cover I",
-	"prerequisites": ["Pavise","Mobile Tower"],
+	"prerequisites": ["Pavise","Mobile Tower","Gun Shield"],
 	"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -798,6 +798,15 @@
 	"name": "Horse Spear",
         "column": 28,
         "row": 1
+    	},
+	{
+	"name": "Horse Drawn",
+	"prerequisites": ["Cannon","Machine Gun","Breach-Loaded Cannon"],
+	"uniques": ["[+2] Movement"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery"],
+        "column": 28,
+        "row": 2
     	},
 	{
 	"name": "Halberd",
@@ -980,6 +989,48 @@
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 35,
         "row": 4
+    	},
+	{
+	"name": "Breach-Loaded Cannon",
+        "column": 36,
+        "row": 1
+    	},
+	{
+	"name": "Poison Gas",
+        "column": 37,
+        "row": 1
+    	},
+	{
+	"name": "Potency I",
+	"prerequisites": ["Poison Gas"],
+	"uniques": ["[+10]% Strength <when attacking> <with [50]% chance>","[+10]% Strength <when attacking> <with [25]% chance>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 37,
+        "row": 2
+    	},
+	{
+	"name": "Potency II",
+	"prerequisites": ["Potency I"],
+	"uniques": ["[+10]% Strength <when attacking> <with [50]% chance>","[+10]% Strength <when attacking> <with [25]% chance>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 37,
+        "row": 3
+    	},
+	{
+	"name": "Potency III",
+	"prerequisites": ["Potency II"],
+	"uniques": ["[+10]% Strength <when attacking> <with [50]% chance>","[+10]% Strength <when attacking> <with [25]% chance>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 37,
+        "row": 4
+    	},
+	{
+	"name": "Gun Shield",
+        "column": 38,
+        "row": 1
     	},
 	{
 	"name": "Ignore Terrain Cost",
