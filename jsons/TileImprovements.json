@@ -15,7 +15,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
 		"uniques": ["Can also be built on tiles adjacent to fresh water","Pillaging this improvement yields approximately [+18 Gold]",
-			"[+1 Food] <after discovering [Crop Rotation]>"],
+			"[+1 Food] <after discovering [Crop Rotation]>","[+1 Food] <after discovering [Fertilizer]>"],
 		"shortcutKey": "F"
 	},
   {
@@ -24,7 +24,7 @@
 		"production": 1,
 		"turnsToBuild": 5,
 		"techRequired": "Settlementation",
-		"uniques": ["Does not need removal of [Marsh]","Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["Pillaging this improvement yields approximately [+10 Gold]","[+1 Production] <after discovering [Fertilizer]>"],
 		"shortcutKey": "L"
 	},
   {
@@ -48,7 +48,8 @@
 		"name": "Pasture",
 		"turnsToBuild": 7,
 		"techRequired": "Taming",
-		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]",
+			"[+1 Food] <after discovering [Fertilizer]>"],
 		"shortcutKey": "P"
 	},
   {
@@ -57,7 +58,7 @@
 		"gold": 1,
 		"techRequired": "Profit Farming",
 		"uniques": ["Does not need removal of [Oasis]","Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]",
-			"[+1 Gold] <after discovering [Economics]>"],
+			"[+1 Gold] <after discovering [Economics]>","[+1 Production] <after discovering [Fertilizer]>"],
 		"shortcutKey": "P"
 	},
 	{
@@ -69,6 +70,13 @@
 		"uniques": ["[+1 Gold] <after discovering [Economics]>","Pillaging this improvement yields approximately [+20 Gold]",
 			"[+1 Gold] for each adjacent [Luxury resource]"],
 		"shortcutKey": "T"
+	},
+	{
+		"name": "Oil well",
+		"turnsToBuild": 9,
+		"techRequired": "Oil Fracking",
+		"uniques": ["Can only be built to improve a resource","Cannot be built on [Water] tiles","Pillaging this improvement yields approximately [+30 Gold]"],
+		"shortcutKey": "W"
 	},
   {
 		"name": "Quarry",
@@ -187,6 +195,13 @@
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
 	},
+	{
+		"name": "Remove Marsh",
+		"turnsToBuild": 10,
+		"techRequired": "Steam Engine",
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "X"
+	},
  	{
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -196,10 +211,20 @@
 		"shortcutKey": "R",
         "civilopediaText": [
             {"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
-            {"text":"Reduces movement cost to ⅓ with Machinery", "link":"Technology/Machinery"},
-            {"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}
+            {"text":"Requires Logistics to bridge rivers", "link":"Technology/Logistics"}
         ]
 	}, 
+	{
+		"name": "Railroad",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 5,
+		"techRequired": "Steam Engine",
+		"uniques": ["Can be built outside your borders", "Costs [2] [Gold] per turn"],
+		"shortcutKey": "R",
+        "civilopediaText": [
+            {"text":"Reduces movement cost to ⅒ if the other tile also has a Railroad"},
+        ]
+	},
   {
 		"name": "Remove Road",
 		"turnsToBuild": 2,
