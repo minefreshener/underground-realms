@@ -178,28 +178,28 @@ TileSets/HexaRealm/Units/Regular Horse Archer 6A
   orig: 64, 63
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Bireme 2A
+TileSets/HexaRealm/Units/War Galley 2A
   rotate: false
   xy: 544, 471
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Bireme 3A
+TileSets/HexaRealm/Units/War Galley 3A
   rotate: false
   xy: 544, 471
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Bireme 4A
+TileSets/HexaRealm/Units/War Galley 4A
   rotate: false
   xy: 544, 471
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Bireme 5A
+TileSets/HexaRealm/Units/War Galley 5A
   rotate: false
   xy: 544, 471
   size: 64, 56
@@ -209,6 +209,41 @@ TileSets/HexaRealm/Units/Bireme 5A
 TileSets/HexaRealm/Units/Caravel 6A
   rotate: false
   xy: 1153, 1256
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Caravel 7A
+  rotate: false
+  xy: 1153, 1256
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Privateer 7A
+  rotate: false
+  xy: 1581, 1000
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Privateer 8A
+  rotate: false
+  xy: 1581, 1000
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Ironclad 9A
+  rotate: false
+  xy: 721, 1406
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Hwach'a 6A
+  rotate: false
+  xy: 649, 1534
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
