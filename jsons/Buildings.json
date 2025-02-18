@@ -607,7 +607,7 @@
 		"science": 3,
 		"hurryCostModifier": 25,
 		"uniques": ["[+15]% Production when constructing [Magic] units [in this city]"],
-		"requiredTech": "Magical materials"
+		"requiredTech": "Magical Materials"
 	},
 	{
 		"name": "Factory",
