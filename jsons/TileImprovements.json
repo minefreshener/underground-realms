@@ -63,7 +63,7 @@
 	},
 	{
 		"name": "Trading post",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood Plains"],
 		"gold": 1,
 		"turnsToBuild": 5,
 		"techRequired": "Comercialism",
