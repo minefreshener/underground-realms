@@ -802,7 +802,7 @@
 	{
 	"name": "Horse Drawn",
 	"prerequisites": ["Cannon","Machine Gun","Breach-Loaded Cannon"],
-	"uniques": ["[+2] Movement"],
+	"uniques": ["[+2] Movement","Consumes [1] [Horses]"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery"],
         "column": 28,
