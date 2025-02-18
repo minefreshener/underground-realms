@@ -84,7 +84,7 @@
     	},
 	{
 	"name": "March",
-	"prerequisites": ["Woodsman","Amphibious","Extended Range","Volley","Mobility","Blitz","Suspension Upgrade","Inirect Fire","Supply","Piracy"],
+	"prerequisites": ["Woodsman","Amphibious","Extended Range","Volley","Mobility","Blitz","Suspension Upgrade","Indirect Fire","Supply","Piracy","Extended Magazine"],
 	"uniques": ["Unit will heal every turn, even if it performs an action"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -511,7 +511,7 @@
 	{
 	"name": "Targeting I",
 	"prerequisites": ["Ballista","Cannon"],
-	"uniques": ["[+15]% Strength <vs [Water] units>"],
+	"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 14,
@@ -520,7 +520,7 @@
 	{
 	"name": "Targeting II",
 	"prerequisites": ["Targeting I"],
-	"uniques": ["[+15]% Strength <vs [Water] units>"],
+	"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 14,
@@ -529,7 +529,7 @@
 	{
 	"name": "Targeting III",
 	"prerequisites": ["Targeting II"],
-	"uniques": ["[+15]% Strength <vs [Water] units>"],
+	"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 14,
@@ -548,7 +548,7 @@
 	{
 	"name": "Bombardment I",
 	"prerequisites": ["Cannon"],
-	"uniques": ["[+15]% Strength <vs [Land] units>"],
+	"uniques": ["[+10]% Strength <vs [Land] units> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 16,
@@ -557,7 +557,7 @@
 	{
 	"name": "Bombardment II",
 	"prerequisites": ["Bombardment I"],
-	"uniques": ["[+15]% Strength <vs [Land] units>"],
+	"uniques": ["[+10]% Strength <vs [Land] units> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 16,
@@ -566,7 +566,7 @@
 	{
 	"name": "Bombardment III",
 	"prerequisites": ["Bombardment II"],
-	"uniques": ["[+15]% Strength <vs [Land] units>"],
+	"uniques": ["[+10]% Strength <vs [Land] units> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 16,
@@ -631,7 +631,7 @@
 	{
 	"name": "Coastal Raider I",
 	"prerequisites": ["Landing Craft"],
-	"uniques": ["[+10]% Strength <vs [Land] units>","[+10]% Strength <vs cities>"],
+	"uniques": ["[+10]% Strength <vs [Land] units> <when attacking>","[+10]% Strength <vs cities>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 18,
@@ -640,7 +640,7 @@
 	{
 	"name": "Coastal Raider II",
 	"prerequisites": ["Coastal Raider I"],
-	"uniques": ["[+10]% Strength <vs [Land] units>","[+10]% Strength <vs cities>"],
+	"uniques": ["[+10]% Strength <vs [Land] units> <when attacking>","[+10]% Strength <vs cities>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 18,
@@ -649,7 +649,7 @@
 	{
 	"name": "Coastal Raider III",
 	"prerequisites": ["Coastal Raider II"],
-	"uniques": ["[+10]% Strength <vs [Land] units>","[+10]% Strength <vs cities>"],
+	"uniques": ["[+10]% Strength <vs [Land] units> <when attacking>","[+10]% Strength <vs cities>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 18,
@@ -672,7 +672,8 @@
 	{
 	"name": "Formation Crusher I",
 	"prerequisites": ["Elephant","Halberd"],
-	"uniques": ["[+15]% Strength <vs [Phalanx I] units>","[+15]% Strength <vs [Shield Wall I] units>","[+15]% Strength <vs [Schiltrom I] units>"],
+	"uniques": ["[+15]% Strength <vs [Phalanx I] units> <when attacking>","[+15]% Strength <vs [Shield Wall I] units> <when attacking>",
+		"[+15]% Strength <vs [Schiltrom I] units> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 19,
@@ -681,7 +682,8 @@
 	{
 	"name": "Formation Crusher II",
 	"prerequisites": ["Formation Crusher I"],
-	"uniques": ["[+15]% Strength <vs [Phalanx I] units>","[+15]% Strength <vs [Shield Wall I] units>","[+15]% Strength <vs [Schiltrom I] units>"],
+	"uniques": ["[+15]% Strength <vs [Phalanx I] units> <when attacking>","[+15]% Strength <vs [Shield Wall I] units> <when attacking>",
+		"[+15]% Strength <vs [Schiltrom I] units> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 19,
@@ -690,8 +692,8 @@
 	{
 	"name": "Formation Crusher III",
 	"prerequisites": ["Formation Crusher II"],
-	"uniques": ["[+15]% Strength <vs [Phalanx I] units>","[+15]% Strength <vs [Shield Wall I] units>","[+15]% Strength <vs [Schiltrom I] units>",
-		"[+15]% Strength <vs [Phalanx II] units>","[+15]% Strength <vs [Shield Wall II] units>","[+15]% Strength <vs [Schiltrom II] units>"],
+	"uniques": ["[+15]% Strength <vs [Phalanx I] units> <when attacking>","[+15]% Strength <vs [Shield Wall I] units> <when attacking>",
+		"[+15]% Strength <vs [Schiltrom I] units> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 19,
@@ -742,16 +744,16 @@
 	{
 	"name": "Firing Ranks I",
 	"prerequisites": ["Smoothbore Gun","Rifle-Musket"],
-	"uniques": ["[+10]% Strength <vs [Ranged] units> <when defending>","[+15]% Strength <vs [Phalanx I] units>"],
+	"uniques": ["[+10]% Strength <vs [Ranged] units> <when defending>","[+15]% Strength <vs [Phalanx I] units>","Only available <for units without [Elephant]>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 22,
         "row": 2
     	},
 	{
-	"name": "Firing ranks II",
+	"name": "Firing Ranks II",
 	"prerequisites": ["Firing Ranks I"],
-	"uniques": ["[+10]% Strength <vs [Ranged] units> <when defending>","[+15]% Strength <vs [Phalanx I] units>"],
+	"uniques": ["[+10]% Strength <vs [Ranged] units> <when defending>","[+15]% Strength <vs [Phalanx I] units>","Only available <for units without [Elephant]>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 22,
@@ -760,7 +762,7 @@
 	{
 	"name": "Firing Ranks III",
 	"prerequisites": ["Firing Ranks II"],
-	"uniques": ["[+10]% Strength <vs [Ranged] units> <when defending>","[+15]% Strength <vs [Phalanx I] units>"],
+	"uniques": ["[+10]% Strength <vs [Ranged] units> <when defending>","[+15]% Strength <vs [Phalanx I] units>","Only available <for units without [Elephant]>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 22,
@@ -805,6 +807,114 @@
 	"name": "Dirigible",
         "column": 30,
         "row": 1
+    	},
+	{
+	"name": "Machine Gun",
+        "column": 31,
+        "row": 1
+    	},
+	{
+	"name": "Suppression I",
+	"prerequisites": ["Machine Gun"],
+	"uniques": ["[+15]% Strength <vs [Ranged] units> <when attacking>","[+15]% Strength <vs [Phalanx I] units>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 31,
+        "row": 2
+    	},
+	{
+	"name": "Suppression II",
+	"prerequisites": ["Suppression I"],
+	"uniques": ["[+15]% Strength <vs [Ranged] units> <when attacking>","[+15]% Strength <vs [Phalanx I] units>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 31,
+        "row": 3
+    	},
+	{
+	"name": "Suppression III",
+	"prerequisites": ["Suppression II"],
+	"uniques": ["[+15]% Strength <vs [Ranged] units> <when attacking>","[+15]% Strength <vs [Phalanx I] units>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 31,
+        "row": 4
+    	},
+	{
+	"name": "Extended magazine",
+	"prerequisites": ["Suppression III"],
+	"uniques": ["[1] additional attacks per turn"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 31,
+        "row": 5
+    	},
+	{
+	"name": "Bayonet",
+        "column": 32,
+        "row": 1
+    	},
+	{
+	"name": "Pike Square I",
+	"prerequisites": ["Pike","Bayonet"],
+	"uniques": ["[+15]% Strength <when defending>","[-15]% Strength <when attacking>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 32,
+        "row": 2
+    	},
+	{
+	"name": "Pike Square II",
+	"prerequisites": ["Pike Square I"],
+	"uniques": ["[+15]% Strength <when defending>","[-15]% Strength <when attacking>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 32,
+        "row": 3
+    	},
+	{
+	"name": "Pike Square III",
+	"prerequisites": ["Pike Square II"],
+	"uniques": ["[+15]% Strength <when defending>","[-15]% Strength <when attacking>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 32,
+        "row": 4
+    	},
+	{
+	"name": "Scythed Wheels",
+        "column": 33,
+        "row": 1
+    	},
+	{
+	"name": "Formation Eater I",
+	"prerequisites": ["Scythed Wheels","Machine Gun"],
+	"uniques": ["[+25]% Strength <vs [Phalanx I] units> <when attacking>","[+25]% Strength <vs [Schiltrom I] units> <when attacking>",
+		"[+25]% Strength <vs [Firing Ranks I] units> <when attacking>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 33,
+        "row": 2
+    	},
+	{
+	"name": "Formation Eater II",
+	"prerequisites": ["Formation Eater I"],
+	"uniques": ["[+25]% Strength <vs [Phalanx I] units> <when attacking>","[+25]% Strength <vs [Schiltrom I] units> <when attacking>",
+		"[+25]% Strength <vs [Firing Ranks I] units> <when attacking>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 33,
+        "row": 3
+    	},
+	{
+	"name": "Formation Eater III",
+	"prerequisites": ["Formation Eater II"],
+	"uniques": ["[+25]% Strength <vs [Phalanx I] units> <when attacking>","[+25]% Strength <vs [Schiltrom I] units> <when attacking>",
+		"[+25]% Strength <vs [Firing Ranks I] units> <when attacking>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 33,
+        "row": 4
     	},
 	{
 	"name": "Ignore Terrain Cost",
