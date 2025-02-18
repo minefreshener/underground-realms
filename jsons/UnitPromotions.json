@@ -1033,6 +1033,11 @@
         "row": 1
     	},
 	{
+	"name": "Grenade",
+        "column": 39,
+        "row": 1
+    	},
+	{
 	"name": "Ignore Terrain Cost",
 	"uniques": ["Ignores terrain cost"]
 	},
