@@ -561,7 +561,7 @@
 		"obsoleteTech": "Blast Furnace",
 		"uniques": ["Elite","Consumes [1] [Bronze]","[+50]% Strength <vs [Light Cavalry] units> <when defending>",
 			"[+25]% Strength <vs [Heavy Cavalry] units> <when defending>"],
-		"promotions": ["Bow","Spear","Heavy Armor"],
+		"promotions": ["Bow","Spear","Shield"],
 		"attackSound": "arrow"
 	},
 	{
@@ -1435,9 +1435,9 @@
 		"requiredTech": "Military Specialization",
 		"upgradesTo": "Militia Cavalry 8A",
 		"obsoleteTech": "Military Science",
-		"uniques": ["Militia","Gunpowder","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]",
+		"uniques": ["Militia","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]",
 			"[+33]% Strength <vs [Heavy Infantry] units> <when attacking>","[+33]% Strength <vs [Heavy Cavalry] units> <when attacking>"],
-		"promotions": ["Horse","Pistol"],
+		"promotions": ["Horse","Horse Spear"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
@@ -1452,9 +1452,9 @@
 		"requiredTech": "Military Science",
 		"upgradesTo": "Militia Cavalry 9A",
 		"obsoleteTech": "Encased Bullets",
-		"uniques": ["Militia","Gunpowder","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]",
+		"uniques": ["Militia","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]",
 			"[+33]% Strength <vs [Heavy Infantry] units> <when attacking>","[+33]% Strength <vs [Heavy Cavalry] units> <when attacking>"],
-		"promotions": ["Horse","Pistol"],
+		"promotions": ["Horse","Horse Spear"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
@@ -1544,7 +1544,7 @@
 		"obsoleteTech": "Metallurgy",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]",
 			"[+25]% Strength <vs [Missile Infantry] units>"],
-		"promotions": ["Horse","Sword"],
+		"promotions": ["Horse","Horse Spear"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -2095,7 +2095,7 @@
 		"obsoleteTech": "The Bayonet",
 		"uniques": ["[+100]% Strength <vs [Light Cavalry] units>","[+100]% Strength <vs [Charioteer] units>","[+50]% Strength <vs [Heavy Cavalry] units>",
 			"[+25]% Strength <vs [Light Infantry] units>"],
-		"promotions": ["Pike","Heavy Armor"],
+		"promotions": ["Pike"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
