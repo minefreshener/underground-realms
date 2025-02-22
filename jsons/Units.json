@@ -1742,14 +1742,14 @@
 		"range": 2,
 		"rangedStrength": 20,
 		"cost": 150,
-		"requiredTech": "Paved Roads",
-		"upgradesTo": "Regular Horse Archer 6A",
-		"obsoleteTech": "The Lance",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]",
+		"requiredTech": "The Crossbow",
+		"upgradesTo": "Huzvar 6A",
+		"obsoleteTech": "Matchlocks",
+		"uniques": ["Feudal","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]",
 			"[+25]% Strength <vs [Heavy Infantry] units> <when attacking>"],
 		"promotions": ["Horse","Crossbow","[Hussar] ability"],
 		"hurryCostModifier": 20,
-		"attackSound": "arrow"
+		"attackSound": "crossbow"
 	},
 	{
 		"name": "Regular Horse Archer 6A",
@@ -1830,7 +1830,7 @@
 		"rangedStrength": 33,
 		"cost": 170,
 		"requiredTech": "Matchlocks",
-		"uniques": ["Gunpowder","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]",
+		"uniques": ["Gunpowder","Feudal","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]",
 			"[+25]% Strength <vs [Heavy Infantry] units> <when attacking>","[+25]% Strength <vs [Heavy Cavalry] units> <when attacking>"],
 		"promotions": ["Horse","Pistol","Lance","[Hussar] ability"],
 		"hurryCostModifier": 20,
