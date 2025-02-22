@@ -2639,7 +2639,7 @@
 		"range": 2,
 		"rangedStrength": 40,
 		"cost": 200,
-		"requiredTech": "Metallurgy",
+		"requiredTech": "Chemistry",
 		"upgradesTo": "Field Gun 8A",
 		"obsoleteTech": "Rifling",
 		"uniques": ["[+100]% Strength <vs cities> <when attacking>","Must set up to ranged attack","Rough terrain penalty","Consumes [1] [Bronze]"],
