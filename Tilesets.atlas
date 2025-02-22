@@ -45,7 +45,7 @@ TileSets/HexaRealm/Tiles/Polder
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Polder+Dyes
+TileSets/HexaRealm/Tiles/Dyes+Polder
   rotate: false
   xy: 1365, 1026
   size: 64, 56
@@ -1528,6 +1528,27 @@ TileSets/HexaRealm/Units/Cannon Elephant 8A
   orig: 64, 65
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Machine Gun Elephant 9A
+  rotate: false
+  xy: 1081, 1287
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Field Gun 7A
+  rotate: false
+  xy: 1462, 1922
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Field Gun 8A
+  rotate: false
+  xy: 1462, 1922
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/War Canoe 1A
   rotate: false
   xy: 292, 730
@@ -1554,5 +1575,19 @@ TileSets/HexaRealm/Units/War Canoe 4A
   xy: 292, 730
   size: 64, 56
   orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Fire Sloop 7A
+  rotate: false
+  xy: 1534, 1922
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Frigate 9A
+  rotate: false
+  xy: 364, 733
+  size: 64, 64
+  orig: 64, 64
   offset: 0, 0
   index: -1
