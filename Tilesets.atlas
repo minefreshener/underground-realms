@@ -334,7 +334,7 @@ TileSets/HexaRealm/Units/Pistolier 8A-Sodederai
   index: -1
 TileSets/HexaRealm/Units/Pistolier 9A
   rotate: false
-  xy: 364, 273
+  xy: 1318, 1849
   size: 64, 65
   orig: 64, 65
   offset: 0, 0
@@ -411,14 +411,14 @@ TileSets/HexaRealm/Units/War Galley 3A
   index: -1
 TileSets/HexaRealm/Units/War Galley 4A
   rotate: false
-  xy: 544, 471
+  xy: 1797, 954
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/War Galley 5A
   rotate: false
-  xy: 544, 471
+  xy: 1797, 954
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -475,6 +475,13 @@ TileSets/HexaRealm/Units/Galleass 6A
 TileSets/HexaRealm/Units/Galleass 7A
   rotate: false
   xy: 292, 794
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Galleass 8A
+  rotate: false
+  xy: 1700, 1394
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -786,11 +793,11 @@ TileSets/HexaRealm/Units/Scout 8A
   orig: 64, 65
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Scout 9A
+TileSets/HexaRealm/Units/Recon Blimp 9A
   rotate: false
-  xy: 364, 273
-  size: 64, 65
-  orig: 64, 65
+  xy: 148, 310
+  size: 64, 64
+  orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Levy Javelinman 1A
@@ -870,11 +877,25 @@ TileSets/HexaRealm/Units/Levy Archer 3A
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Mikreshkir 3A
+  rotate: false
+  xy: 364, 1253
+  size: 64, 58
+  orig: 64, 58
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Levy Archer 4A
   rotate: false
   xy: 220, 1009
   size: 64, 56
   orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Mikreshkir 4A
+  rotate: false
+  xy: 364, 1253
+  size: 64, 58
+  orig: 64, 58
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Levy Archer 5A
@@ -887,6 +908,20 @@ TileSets/HexaRealm/Units/Levy Archer 5A
 TileSets/HexaRealm/Units/Levy Archer 6A
   rotate: false
   xy: 1390, 1712
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Longbowman 7A
+  rotate: false
+  xy: 1153, 1448
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Levy Longbowman 8A
+  rotate: false
+  xy: 1153, 1448
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -905,6 +940,13 @@ TileSets/HexaRealm/Units/Elite Archer 5A
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Mikreshkir 5A
+  rotate: false
+  xy: 364, 1253
+  size: 64, 58
+  orig: 64, 58
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Elite Archer 6A
   rotate: false
   xy: 1153, 1448
@@ -912,9 +954,37 @@ TileSets/HexaRealm/Units/Elite Archer 6A
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Pavise Crossbowman 5A
+TileSets/HexaRealm/Units/ELite Longbowman 7A
+  rotate: false
+  xy: 1153, 1448
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/ELite Longbowman 8A
+  rotate: false
+  xy: 1153, 1448
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Pavise Crossbowman 6A
   rotate: false
   xy: 1894, 1722
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Pavise Crossbowman 7A
+  rotate: false
+  xy: 1894, 1722
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Gun Militia 9A
+  rotate: false
+  xy: 793, 1552
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -936,6 +1006,48 @@ TileSets/HexaRealm/Units/Arquebuser 6A
 TileSets/HexaRealm/Units/Arquebuser 7A
   rotate: false
   xy: 508, 991
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Line Infantry 8A
+  rotate: false
+  xy: 1873, 1130
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Line Infantry 9A
+  rotate: false
+  xy: 1873, 1130
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Line Infantry 7A
+  rotate: false
+  xy: 1797, 890
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Line Infantry 8A
+  rotate: false
+  xy: 292, 62
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Line Infantry 9A
+  rotate: false
+  xy: 1657, 1257
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Rifleman 8A
+  rotate: false
+  xy: 1225, 1237
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -1020,6 +1132,13 @@ TileSets/HexaRealm/Units/Elite Swordsman 2A
 TileSets/HexaRealm/Units/Elite Swordsman 3A
   rotate: false
   xy: 508, 1119
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Longswordsman 7A
+  rotate: false
+  xy: 364, 1189
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -1157,6 +1276,13 @@ TileSets/HexaRealm/Units/Militia Cavalry 6A
   orig: 64, 63
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Militia Cavalry 9A
+  rotate: false
+  xy: 1318, 1849
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Regular Cavalry 2A
   rotate: false
   xy: 1462, 1702
@@ -1192,6 +1318,13 @@ TileSets/HexaRealm/Units/Regular Cavalry 8A
   orig: 64, 68
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Huzvar 5A
+  rotate: false
+  xy: 1606, 1699
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Pistolier 6A
   rotate: false
   xy: 958, 1890
@@ -1204,6 +1337,34 @@ TileSets/HexaRealm/Units/Pistolier 7A
   xy: 958, 1890
   size: 64, 65
   orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Pistolier 8A
+  rotate: false
+  xy: 1318, 1849
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Dragoon 7A
+  rotate: false
+  xy: 436, 1157
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Dragoon 8A
+  rotate: false
+  xy: 436, 1157
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Dragoon 9A
+  rotate: false
+  xy: 76, 58
+  size: 64, 56
+  orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Militia Phalangist 4A
@@ -1264,7 +1425,7 @@ TileSets/HexaRealm/Units/Levy Pikeman 6A
   index: -1
 TileSets/HexaRealm/Units/Levy Pikeman 7A
   rotate: false
-  xy: 1030, 1922
+  xy: 364, 1061
   size: 70, 56
   orig: 64, 56
   offset: 0, 0
@@ -1273,6 +1434,13 @@ TileSets/HexaRealm/Units/Regular Pikeman 6A
   rotate: false
   xy: 721, 1534
   size: 70, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Regular Pikeman 7A
+  rotate: false
+  xy: 364, 1061
+  size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
