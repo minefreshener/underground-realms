@@ -180,7 +180,7 @@
     	},
 	{
 	"name": "Barrage I",
-	"prerequisites": ["Bow","Cannon","Catapult","Mobile Tower","Pistol","Rifle","Rockets","Breach-Loaded Cannon"],
+	"prerequisites": ["Bow","Cannon","Catapult","Mobile Tower","Pistol","Rifle","Rockets","Breach-Loaded Cannon","Grenade"],
 	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -672,9 +672,9 @@
     	},
 	{
 	"name": "Formation Crusher I",
-	"prerequisites": ["Elephant","Halberd","Rockets"],
+	"prerequisites": ["Elephant","Halberd","Rockets","Grenade"],
 	"uniques": ["[+15]% Strength <vs [Phalanx I] units> <when attacking>","[+15]% Strength <vs [Shield Wall I] units> <when attacking>",
-		"[+15]% Strength <vs [Schiltrom I] units> <when attacking>"],
+		"[+15]% Strength <vs [Schiltrom I] units> <when attacking>","[+15]% Strength <vs [Firing Ranks I] units> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 19,
@@ -684,7 +684,7 @@
 	"name": "Formation Crusher II",
 	"prerequisites": ["Formation Crusher I"],
 	"uniques": ["[+15]% Strength <vs [Phalanx I] units> <when attacking>","[+15]% Strength <vs [Shield Wall I] units> <when attacking>",
-		"[+15]% Strength <vs [Schiltrom I] units> <when attacking>"],
+		"[+15]% Strength <vs [Schiltrom I] units> <when attacking>","[+15]% Strength <vs [Firing Ranks I] units> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 19,
@@ -694,7 +694,7 @@
 	"name": "Formation Crusher III",
 	"prerequisites": ["Formation Crusher II"],
 	"uniques": ["[+15]% Strength <vs [Phalanx I] units> <when attacking>","[+15]% Strength <vs [Shield Wall I] units> <when attacking>",
-		"[+15]% Strength <vs [Schiltrom I] units> <when attacking>"],
+		"[+15]% Strength <vs [Schiltrom I] units> <when attacking>","[+15]% Strength <vs [Firing Ranks I] units> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 19,
@@ -900,7 +900,7 @@
 	"name": "Formation Eater I",
 	"prerequisites": ["Scythed Wheels","Machine Gun","Flamethrower"],
 	"uniques": ["[+25]% Strength <vs [Phalanx I] units> <when attacking>","[+25]% Strength <vs [Schiltrom I] units> <when attacking>",
-		"[+25]% Strength <vs [Firing Ranks I] units> <when attacking>"],
+		"[+25]% Strength <vs [Firing Ranks I] units> <when attacking>","[+15]% Strength <vs [Pike Square I] units> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 33,
@@ -910,7 +910,7 @@
 	"name": "Formation Eater II",
 	"prerequisites": ["Formation Eater I"],
 	"uniques": ["[+25]% Strength <vs [Phalanx I] units> <when attacking>","[+25]% Strength <vs [Schiltrom I] units> <when attacking>",
-		"[+25]% Strength <vs [Firing Ranks I] units> <when attacking>"],
+		"[+25]% Strength <vs [Firing Ranks I] units> <when attacking>","[+15]% Strength <vs [Pike Square I] units> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 33,
@@ -920,7 +920,7 @@
 	"name": "Formation Eater III",
 	"prerequisites": ["Formation Eater II"],
 	"uniques": ["[+25]% Strength <vs [Phalanx I] units> <when attacking>","[+25]% Strength <vs [Schiltrom I] units> <when attacking>",
-		"[+25]% Strength <vs [Firing Ranks I] units> <when attacking>"],
+		"[+25]% Strength <vs [Firing Ranks I] units> <when attacking>","[+15]% Strength <vs [Pike Square I] units> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 33,
@@ -1036,6 +1036,65 @@
 	"name": "Grenade",
         "column": 39,
         "row": 1
+    	},
+	{
+	"name": "Urban Warfare I",
+	"prerequisites": ["Grenade","Rifle","Sword"],
+	"uniques": ["[+20]% Strength <when fighting in [Hamlet] tiles>","[+3] HP when healing <in [Hamlet] tiles>","[+33]% Strength <vs cities> <when attacking>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 39,
+        "row": 2
+    	},
+	{
+	"name": "Urban Warfare II",
+	"prerequisites": ["Urban Warfare I"],
+	"uniques": ["[+20]% Strength <when fighting in [Hamlet] tiles>","[+3] HP when healing <in [Hamlet] tiles>","[+33]% Strength <vs cities> <when attacking>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 39,
+        "row": 3
+    	},
+	{
+	"name": "Urban Warfare III",
+	"prerequisites": ["Urban Warfare II"],
+	"uniques": ["[+20]% Strength <when fighting in [Hamlet] tiles>","[+3] HP when healing <in [Hamlet] tiles>","[+33]% Strength <vs cities> <when attacking>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 39,
+        "row": 4
+    	},
+	{
+	"name": "Tank Cannon",
+        "column": 40,
+        "row": 1
+    	},
+	{
+	"name": "Armor Piercing I",
+	"prerequisites": ["Tank Cannon","Grenade"],
+	"uniques": ["[+15]% Strength <vs [Armor Plating I] units> <when attacking>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 40,
+        "row": 2
+    	},
+	{
+	"name": "Armor Piercing II",
+	"prerequisites": ["Armor Piercing I"],
+	"uniques": ["[+15]% Strength <vs [Armor Plating I] units> <when attacking>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 40,
+        "row": 3
+    	},
+	{
+	"name": "Armor Piercing III",
+	"prerequisites": ["Armor Piercing II"],
+	"uniques": ["[+15]% Strength <vs [Armor Plating I] units> <when attacking>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 40,
+        "row": 4
     	},
 	{
 	"name": "Ignore Terrain Cost",
