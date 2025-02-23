@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Forestry Camp",
-		"terrainsCanBeBuiltOn": ["Forest","Jungle","Marsh","Oasis"],
+		"terrainsCanBeBuiltOn": ["Forest","Jungle","Marsh"],
 		"food": 1,
 		"turnsToBuild": 5,
 		"techRequired": "Foraging",
@@ -84,12 +84,11 @@
     		"terrainsCanBeBuiltOn": ["Mountain","Boneyard"],
 		"turnsToBuild": 8,
 		"techRequired": "Stoneworking",
-		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]","[+1 Production] for each adjacent [Mountain]"],
 		"shortcutKey": "Q"
 	},
   {
 		"name": "Fishing Boats",
-	  	"turnsToBuild": 5,
 		"food": 1,
 		"techRequired": "Sailing",
 		"uniques": ["Pillaging this improvement yields approximately [+10 Gold]","Can only be built to improve a resource",
@@ -110,6 +109,7 @@
     		"terrainsCanBeBuiltOn": ["Plains","Grassland","Flood Plains","Boneyard"],
 		"turnsToBuild": 8,
 		"production": 1,
+		"culture": 1,
 		"techRequired": "Urbanization",
 		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]","Gives a defensive bonus of [15]%","[+1 Gold] <after discovering [Banking]>"],
 		"shortcutKey": "H"
@@ -117,7 +117,7 @@
 	{
 		"name": "Polder",
 		"uniqueTo": "Grenelgad",
-		"food": 2,
+		"food": 1,
 		"terrainsCanBeBuiltOn": ["Marsh","Flood Plains"],
 		"turnsToBuild": 8,
 		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]"],
