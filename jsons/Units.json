@@ -647,6 +647,8 @@
 		"range": 2,
 		"rangedStrength": 30,
 		"cost": 150,
+		"upgradesTo": "Pavise Crossbowman 7A",
+		"obsoleteTech": "Military Specialization",
 		"requiredTech": "Advanced Engineering",
 		"uniques": ["[+15]% Strength <vs [Heavy Infantry] units>","[+15]% Strength <vs [Heavy Cavalry] units> <when attacking>"],
 		"promotions": ["Crossbow","Pavise"],
