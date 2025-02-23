@@ -143,6 +143,27 @@ TileSets/HexaRealm/Units/Feudal Longswordsman 6A
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Western Alliance Cavalry 2A
+  rotate: false
+  xy: 1297, 1385
+  size: 64, 63
+  orig: 64, 63
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Western Alliance Cavalry 3A
+  rotate: false
+  xy: 1297, 1385
+  size: 64, 63
+  orig: 64, 63
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Western Alliance Cavalry 4A
+  rotate: false
+  xy: 1297, 1385
+  size: 64, 63
+  orig: 64, 63
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Militia Cavalry 7A
   rotate: false
   xy: 256, 467
