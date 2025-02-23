@@ -1886,7 +1886,7 @@
 		"cost": 450,
 		"requiredTech": "Crystal Synthesis",
 		"upgradesTo": "Elite Cavalry 9A",
-		"obsoleteTech": "Indsutrial Education",
+		"obsoleteTech": "Industrial Education",
 		"uniques": ["Feudal","Elite","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]",
 			"[+25]% Strength <vs [Missile Infantry] units>","Can only be built <in cities with a [Holy Order]>","Limited to [5] per Civilization"],
 		"promotions": ["Horse","Lance","Heavy Armor","Devout"],
