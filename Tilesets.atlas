@@ -241,6 +241,27 @@ TileSets/HexaRealm/Units/Feudal cavalry 6A
   orig: 64, 66
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Holy Knight 6A
+  rotate: false
+  xy: 937, 1519
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Holy Knight 7A
+  rotate: false
+  xy: 937, 1519
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Holy Knight 8A
+  rotate: false
+  xy: 937, 1519
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Elite Cavalry 7A
   rotate: false
   xy: 1009, 1521
