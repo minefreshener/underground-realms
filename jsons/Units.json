@@ -786,6 +786,24 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Lion Warrior 6A",
+		"unitType": "Light Infantry",
+		"replaces": "Arquebusier 6A",
+		"uniqueTo": "Zvongombe",
+		"movement": 2,
+		"strength": 35,
+		"range": 1,
+		"rangedStrength": 30,
+		"cost": 260,
+		"requiredTech": "Matchlocks",
+		"upgradesTo": "Lion Warrior 7A",
+		"obsoleteTech": "Metallurgy",
+		"uniques": ["Gunpowder","Elite","[+33]% Strength <vs [Heavy Infantry] units> <when attacking>","[+33]% Strength <vs [Heavy Cavalry] units> <when attacking>",
+			"[+50]% Strength <vs [Light Cavalry] units> <when defending>","[+50]% Strength <vs [Heavy Cavalry] units> <when defending>"],
+		"promotions": ["Smoothbore Gun","Shield","Spear"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Arquebusier 7A",
 		"unitType": "Missile Infantry",
 		"movement": 2,
@@ -864,6 +882,24 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Lion Warrior 7A",
+		"unitType": "Light Infantry",
+		"replaces": "Elite Line Infantry 7A",
+		"uniqueTo": "Zvongombe",
+		"movement": 2,
+		"strength": 42,
+		"range": 1,
+		"rangedStrength": 38,
+		"cost": 370,
+		"requiredTech": "Metallurgy",
+		"upgradesTo": "Lion Warrior 8A",
+		"obsoleteTech": "Political Education",
+		"uniques": ["Gunpowder","Elite","[+33]% Strength <vs [Heavy Infantry] units> <when attacking>","[+33]% Strength <vs [Heavy Cavalry] units> <when attacking>",
+			"[+50]% Strength <vs [Light Cavalry] units> <when defending>","[+50]% Strength <vs [Heavy Cavalry] units> <when defending>"],
+		"promotions": ["Smoothbore Gun","Shield","Spear"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Elite Line Infantry 8A",
 		"unitType": "Light Infantry",
 		"movement": 2,
@@ -877,6 +913,24 @@
 		"uniques": ["Elite","Gunpowder","[+33]% Strength <vs [Heavy Infantry] units> <when attacking>","[+33]% Strength <vs [Heavy Cavalry] units> <when attacking>",
 			"[+33]% Strength <vs [Spear Infantry] units>"],
 		"promotions": ["Smoothbore Gun","Bayonet"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Lion Warrior 8A",
+		"unitType": "Light Infantry",
+		"replaces": "Elite Line Infantry 8A",
+		"uniqueTo": "Zvongombe",
+		"movement": 2,
+		"strength": 47,
+		"range": 1,
+		"rangedStrength": 43,
+		"cost": 420,
+		"requiredTech": "Political Education",
+		"upgradesTo": "Lion Warrior 9A",
+		"obsoleteTech": "Biology",
+		"uniques": ["Elite","Gunpowder","[+33]% Strength <vs [Heavy Infantry] units> <when attacking>","[+33]% Strength <vs [Heavy Cavalry] units> <when attacking>",
+			"[+33]% Strength <vs [Spear Infantry] units>"],
+		"promotions": ["Smoothbore Gun","Shield","Sword"],
 		"attackSound": "shot"
 	},
 	{
@@ -921,6 +975,22 @@
 		"uniques": ["Elite","Gunpowder","[+33]% Strength <vs [Heavy Infantry] units> <when attacking>","[+33]% Strength <vs [Heavy Cavalry] units> <when attacking>",
 			"[+33]% Strength <vs [Spear Infantry] units>"],
 		"promotions": ["Rifle-Musket"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Lion Warrior 9A",
+		"unitType": "Light Infantry",
+		"replaces": "Elite Rifleman 9A",
+		"uniqueTo": "Zvongombe",
+		"movement": 2,
+		"strength": 55,
+		"range": 1,
+		"rangedStrength": 45,
+		"cost": 470,
+		"requiredTech": "Biology",
+		"uniques": ["Elite","Gunpowder","[+33]% Strength <vs [Heavy Infantry] units> <when attacking>","[+33]% Strength <vs [Heavy Cavalry] units> <when attacking>",
+			"[+33]% Strength <vs [Spear Infantry] units>"],
+		"promotions": ["Rifle-Musket","Shield","Sword"],
 		"attackSound": "shot"
 	},
 	{
