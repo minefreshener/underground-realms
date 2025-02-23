@@ -122,6 +122,90 @@ UnitIcons/Levy Archer 6A
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Levy Longbowman 7A
+  rotate: false
+  xy: 1496, 1804
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Levy Longbowman 8A
+  rotate: false
+  xy: 1496, 1804
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Elite Archer 4A
+  rotate: false
+  xy: 190, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Elite Archer 5A
+  rotate: false
+  xy: 190, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Elite Archer 6A
+  rotate: false
+  xy: 190, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Levy Crossbowman 5A
+  rotate: false
+  xy: 644, 1402
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Levy Crossbowman 6A
+  rotate: false
+  xy: 644, 1402
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Pavise Crossbowman 6A
+  rotate: false
+  xy: 406, 948
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Pavise Crossbowman 7A
+  rotate: false
+  xy: 406, 948
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Hand Gunner 6A
+  rotate: false
+  xy: 1832, 1697
+  size: 100, 99
+  orig: 100, 99
+  offset: 0, 0
+  index: -1
+UnitIcons/Arquebusier 6A
+  rotate: false
+  xy: 1832, 1697
+  size: 100, 99
+  orig: 100, 99
+  offset: 0, 0
+  index: -1
+UnitIcons/Arquebusier 7A
+  rotate: false
+  xy: 1832, 1697
+  size: 100, 99
+  orig: 100, 99
+  offset: 0, 0
+  index: -1
 UnitIcons/Levy Spearman 1A
   rotate: false
   xy: 1378, 616
