@@ -1,1 +1,131 @@
-
+ConstructionIcons.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, Linear
+repeat: none
+UnitIcons/War Chariot 2A
+  rotate: false
+  xy: 190, 732
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/War Chariot 3A
+  rotate: false
+  xy: 190, 732
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/War Chariot 4A
+  rotate: false
+  xy: 190, 732
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Levy Javelinman 1A
+  rotate: false
+  xy: 1486, 832
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Levy Javelinman 2A
+  rotate: false
+  xy: 1486, 832
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Levy Javelinman 3A
+  rotate: false
+  xy: 1486, 832
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Levy Javelinman 4A
+  rotate: false
+  xy: 1486, 832
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Levy Javelinman 5A
+  rotate: false
+  xy: 1486, 832
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Levy Javelinman 6A
+  rotate: false
+  xy: 1486, 832
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Elite Javelinman 5A
+  rotate: false
+  xy: 376, 1704
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Elite Javelinman 6A
+  rotate: false
+  xy: 376, 1704
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Levy Archer 1A
+  rotate: false
+  xy: 644, 1510
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Levy Archer 2A
+  rotate: false
+  xy: 644, 1510
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Levy Archer 3A
+  rotate: false
+  xy: 644, 1510
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Levy Archer 4A
+  rotate: false
+  xy: 644, 1510
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Levy Archer 5A
+  rotate: false
+  xy: 644, 1510
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Levy Archer 6A
+  rotate: false
+  xy: 644, 1510
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Levy Spearman 1A
+  rotate: false
+  xy: 1378, 616
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
