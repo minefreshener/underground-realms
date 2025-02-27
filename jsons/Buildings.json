@@ -1364,6 +1364,15 @@
 		"uniques": ["[+1 Production] from [Cotton] tiles [in this city]",
 			"[+1 Production] <after discovering [Steam Engine]>"]
 	},
+	{
+		"name": "Granary",
+		"requiredNearbyImprovedResources": ["Wheat"],
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Wheat] tiles [in this city]","[+1 Food] <after discovering [Fertilizer]>"],
+		"requiredTech": "Agriculture"
+	},
 	//////////////////////// guilds
 	{
 		"name": "Merchant's Guild",
