@@ -8,7 +8,7 @@
         "startingMilitaryUnit": "Scout 1A",
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
-        "embarkDefense": 5,
+        "embarkDefense": 1,
         "startPercent": 0,
         "citySound": "cityAncient",
         "iconRGB": [255, 87, 35]
@@ -22,7 +22,7 @@
         "startingMilitaryUnit": "Scout 2A",
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
-        "embarkDefense": 10,
+        "embarkDefense": 5,
         "startPercent": 0,
         "citySound": "cityAncient",
         "iconRGB": [255, 87, 35]
@@ -36,7 +36,7 @@
         "startingMilitaryUnit": "Scout 3A",
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
-        "embarkDefense": 15,
+        "embarkDefense": 10,
         "startPercent": 0,
         "citySound": "cityAncient",
         "iconRGB": [255, 87, 35]
@@ -50,7 +50,7 @@
         "startingMilitaryUnit": "Scout 4A",
         "settlerPopulation": 1,
         "baseUnitBuyCost": 300,
-        "embarkDefense": 20,
+        "embarkDefense": 15,
         "startPercent": 0,
         "citySound": "cityAncient",
         "iconRGB": [255, 87, 35]
@@ -64,7 +64,7 @@
         "startingMilitaryUnit": "Scout 5A",
         "settlerPopulation": 1,
         "baseUnitBuyCost": 300,
-        "embarkDefense": 25,
+        "embarkDefense": 20,
         "startPercent": 0,
         "citySound": "cityAncient",
         "iconRGB": [255, 87, 35]
@@ -78,7 +78,7 @@
         "startingMilitaryUnit": "Scout 6A",
         "settlerPopulation": 1,
         "baseUnitBuyCost": 400,
-        "embarkDefense": 30,
+        "embarkDefense": 25,
         "startPercent": 0,
         "citySound": "cityAncient",
         "iconRGB": [255, 87, 35]
@@ -106,7 +106,7 @@
         "startingMilitaryUnit": "Scout 6A",
         "settlerPopulation": 1,
         "baseUnitBuyCost": 400,
-        "embarkDefense": 30,
+        "embarkDefense": 35,
         "startPercent": 0,
         "citySound": "cityAncient",
         "iconRGB": [255, 87, 35]
@@ -120,7 +120,21 @@
         "startingMilitaryUnit": "Scout 6A",
         "settlerPopulation": 1,
         "baseUnitBuyCost": 400,
-        "embarkDefense": 30,
+        "embarkDefense": 40,
+        "startPercent": 0,
+        "citySound": "cityAncient",
+        "iconRGB": [255, 87, 35]
+    },
+    {
+        "name": "Tenth Age",
+        "researchAgreementCost": 1000,
+        "startingSettlerCount": 2, 
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Scout 6A",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 400,
+        "embarkDefense": 45,
         "startPercent": 0,
         "citySound": "cityAncient",
         "iconRGB": [255, 87, 35]
