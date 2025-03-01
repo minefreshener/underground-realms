@@ -1270,140 +1270,7 @@
 	},
 	{
 		"columnNumber": 29,
-		"era": "Tenth Age",
-		"techCost": 9500,
-		"buildingCost": 1060,
-		"wonderCost": 9500,
-		"techs": [
-			{
-				"name": "Combustion",
-				"row": 3,
-				"prerequisites": ["Oil Fracking","Dynamite","Chemical Weapons"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
-			},
-			{
-				"name": "Electricity",
-				"row": 5,
-				"prerequisites": ["The Telegram","Fertilizer"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
-			},
-			{
-				"name": "Film",
-				"row": 6,
-				"prerequisites": ["The Telegram","Historical Studies"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
-			},
-			{
-				"name": "Replaceable Parts",
-				"row": 7,
-				"prerequisites": ["Stock Market","Dynamite","Fertilizer"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
-			},
-			{
-				"name": "Heavy Urbanization",
-				"row": 9,
-				"prerequisites": ["Stock Market","Fertilizer"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
-			},
-
-		]
-	},
-	{
-		"columnNumber": 30,
-		"era": "Tenth Age",
-		"techCost": 10000,
-		"buildingCost": 1160,
-		"wonderCost": 10000,
-		"techs": [
-			{
-				"name": "Combustion Energy",
-				"row": 3,
-				"prerequisites": ["Combustion","Electricity"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
-			},
-			{
-				"name": "Floatstone Technology",
-				"row": 4,
-				"prerequisites": ["Combustion","Electricity"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
-			},
-			{
-				"name": "Refrigeration",
-				"row": 5,
-				"prerequisites": ["Electricity"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
-			},
-			{
-				"name": "Radio",
-				"row": 6,
-				"prerequisites": ["Electricity","Film"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
-			},
-			{
-				"name": "Flight",
-				"row": 7,
-				"prerequisites": ["Replaceable Parts","Combustion"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
-			},
-			{
-				"name": "Concrete",
-				"row": 8,
-				"prerequisites": ["Replaceable Parts","Heavy Urbanization"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
-			},
-			{
-				"name": "Motor Vehicles",
-				"row": 9,
-				"prerequisites": ["Combustion","Heavy Urbanization"],
-				"uniques": ["Improves movement speed on roads"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
-			},
-
-		]
-	},
-	{
-		"columnNumber": 31,
-		"era": "Tenth Age",
-		"techCost": 11000,
-		"buildingCost": 1360,
-		"wonderCost": 11000,
-		"techs": [
-			{
-				"name": "Naval Mechanization",
-				"row": 3,
-				"prerequisites": ["Combustion Energy","Refrigeration","Flight"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
-			},
-			{
-				"name": "Air Defense",
-				"row": 4,
-				"prerequisites": ["Floatstone technology","Flight"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
-			},
-			{
-				"name": "Industrial Comerce",
-				"row": 5,
-				"prerequisites": ["Refrigeration","Flight","Motor Vehicles"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
-			},
-			{
-				"name": "Subterrainean Infrastructure",
-				"row": 8,
-				"prerequisites": ["Concrete","Refrigeration"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
-			},
-			{
-				"name": "Armorcraft",
-				"row": 9,
-				"prerequisites": ["Combustion Energy","Motor Vehicles","Radio"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
-			},
-
-		]
-	},
-	{
-		"columnNumber": 32,
-		"era": "Tenth Age",
+		"era": "Ninth Age",
 		"techCost": 999999999,
 		"buildingCost": 750,
 		"wonderCost": 1250,
@@ -1411,7 +1278,7 @@
 			{
 				"name": "Future Tech",
 				"row": 5,
-				"prerequisites": ["Naval Mechanization","Air Defense","Stock Market","Industrial Comerce","Subterrainean Infrastructure","Armorcraft"],
+				"prerequisites": ["Oil Fracking","The Telegram","Stock Market","Historical Studies","Dynamite","Chemical Weapons","Fertilizer"],
 				"uniques": ["Can be continually researched"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
                 "civilopediaText": [{"text": "Who knows what the future holds?"}]
