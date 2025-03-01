@@ -108,6 +108,57 @@
         ]
     },
       {
+        "name": "Piety",
+        "era": "Third Age",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 20,
+            "Diplomatic": 5,
+            "Domination": 10,
+            "Scientific": 0
+        },
+        "uniques": ["[+1 Faith] [in all cities]"],
+        "policies": [
+            {
+                "name": "Cultural Doctrines",
+                "uniques": ["[+1 Culture] from every [Shrine]","[+1 Culture] from every [Temple]"],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Religious Law",
+                "uniques": ["[+1 Faith] from every [Courthouse]","[+1 Faith] from every [Congress]","[+1 Faith] from every [Royal Court]"],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Free Religion",
+                "uniques": ["[-10]% Culture cost of adopting new Policies"],
+                "requires": ["Religious Law","Cultural Doctrines"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Religious Festivals",
+                "uniques": ["[+1 Faith] from every [Gathering Square]","[25]% of excess happiness converted to [Faith]"],
+                "requires": ["Cultural Doctrines"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Reformation",
+                "uniques": [],
+                "requires": ["Religious Festivals","Free Religion"],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Piety Complete",
+                "uniques": ["[Faith] cost of purchasing items in cities [-20]%"]
+            }
+        ]
+    },
+      {
         "name": "Might",
         "era": "Second Age",
         "priorities": {
@@ -296,7 +347,8 @@
             "Domination": 20,
             "Scientific": 10
         },
-        "uniques": [],
+        "uniques": ["[Great General] units gain the [Deterent Tactics] promotion",
+              "All newly-trained [Great General] units [in all cities] receive the [Deterent Tactics] promotion"],
         "policies": [
             {
                 "name": "Ranged Solutions",
@@ -334,7 +386,8 @@
             },
             {
                 "name": "Deterent Warfare Complete",
-                "uniques": []
+                "uniques": ["[General] units gain the [Deterent Tactics] promotion",
+                      "All newly-trained [General] units [in all cities] receive the [Deterent Tactics] promotion"]
             }
         ]
     },
