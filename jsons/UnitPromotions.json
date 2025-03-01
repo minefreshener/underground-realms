@@ -1097,6 +1097,21 @@
         "row": 4
     	},
 	{
+	"name": "Deterent Tactics",
+        "column": 41,
+        "row": 1
+    	},
+	{
+	"name": "Attrition Tactics",
+        "column": 42,
+        "row": 1
+    	},
+	{
+	"name": "Lightning Tactics",
+        "column": 43,
+        "row": 1
+    	},
+	{
 	"name": "Ignore Terrain Cost",
 	"uniques": ["Ignores terrain cost"]
 	},
