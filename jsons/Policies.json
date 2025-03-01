@@ -147,9 +147,9 @@
             },
             {
                 "name": "Reformation",
-                "uniques": [],
+                "uniques": ["Gain a free [Follower] belief"],
                 "requires": ["Religious Festivals","Free Religion"],
-                "row": 1,
+                "row": 3,
                 "column": 2
             },
             {
