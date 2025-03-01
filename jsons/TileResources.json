@@ -82,6 +82,18 @@
 		"uniques": ["Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>","Generated on every [10] tiles <in [{Featureless} {Ocean}] tiles>",
       "Generated on every [5] tiles <in [{Featureless} {Lakes}] tiles>"]
 	},
+	  {
+		"name": "Sulfur",
+		"resourceType": "Bonus",
+    		"revealedBy": "Alchemy",
+		"terrainsCanBeFoundOn": ["Grassland","Desert","Snow"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"science": 1},
+		"uniques": ["Generated on every [22] tiles <in [{Featureless} {Grassland}] tiles>",
+			"Generated on every [18] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>",
+			"Generated on every [22] tiles <in [{Featureless} {Desert}] tiles>","Generated on every [22] tiles <in [{Featureless} {Snow}] tiles>"]
+	},
   {
 		"name": "Horses",
 		"resourceType": "Strategic",
