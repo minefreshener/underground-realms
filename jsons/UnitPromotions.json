@@ -98,7 +98,7 @@
     	},
 	{
 	"name": "Shock I",
-	"prerequisites": ["Sword","Axe","Chariot","Elephant","Lance","Horse Spear","Halberd","Autocannon"],
+	"prerequisites": ["Sword","Axe","Chariot","Elephant","Lance","Horse Spear","Halberd","Autocannon","Mace"],
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -672,7 +672,7 @@
     	},
 	{
 	"name": "Formation Crusher I",
-	"prerequisites": ["Elephant","Halberd","Rockets","Grenade","Autocannon"],
+	"prerequisites": ["Elephant","Halberd","Rockets","Grenade","Autocannon","Mace"],
 	"uniques": ["[+15]% Strength <vs [Phalanx I] units> <when attacking>","[+15]% Strength <vs [Shield Wall I] units> <when attacking>",
 		"[+15]% Strength <vs [Schiltrom I] units> <when attacking>","[+15]% Strength <vs [Firing Ranks I] units> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
@@ -1134,6 +1134,11 @@
 	{
 	"name": "Medical Training",
         "column": 48,
+        "row": 1
+    	},
+	{
+	"name": "Mace",
+        "column": 49,
         "row": 1
     	},
 	{
