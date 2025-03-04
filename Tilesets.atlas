@@ -10,6 +10,13 @@ TileSets/HexaRealm/Tiles/Flood Plains
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Sulfur
+  rotate: false
+  xy: 652, 1022
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Tin
   rotate: false
   xy: 112, 446
