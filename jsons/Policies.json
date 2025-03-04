@@ -380,7 +380,7 @@
             {
                 "name": "Fortified Emplacements",
                 "uniques": ["[+1 Production] from every [Bastions]","[+1 Production] from every [Battery]"],
-                "requires": ["Artillery Superiority","Heavy Fortification"],
+                "requires": ["Artillery Superiority","Heavy Fortifications"],
                 "row": 3,
                 "column": 2
             },
