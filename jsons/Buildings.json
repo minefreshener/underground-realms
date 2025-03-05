@@ -1647,7 +1647,6 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Corporations",
 		"uniques": ["[+1 Food] per [10] population [in this city]","[+1 Food, -1 Production] from [Manufactory] tiles [in this city]",
-			"[+1 Food] from [Luxury Resource] tiles [in this city]","Only available <after discovering [Guilds]>",
-			"Enables conversion of city production to [Food]"]
+			"[+1 Food] from [Luxury Resource] tiles [in this city]","Only available <after discovering [Guilds]>"]
 	},
 ]
