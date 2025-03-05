@@ -200,6 +200,15 @@
 			"[+1 Culture] <after discovering [Historical Studies]>"],
 		"requiredTech": "Architecture"
 	},
+	{
+		"name": "National Historic Society",
+		"culture": 6,
+		"gold": 2,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Academy Of The Arts] is constructed in all [non-[Puppeted]] cities>","[+15]% Great Person generation [in all cities]",
+			"Cost increases by [30] per owned city"],
+		"requiredTech": "National Identity"
+	},
 	////////////////// faith buildings
 	{
 		"name": "Shrine",
@@ -624,6 +633,25 @@
 		"hurryCostModifier": 0,
 		"uniques": ["[+10]% Production when constructing [Gunpowder] units [in this city]"],
 		"requiredTech": "Encased Bullets"
+	},
+	////////////////// electric buildings
+	{
+		"name": "Coal Power Plant",
+		"requiredNearbyImprovedResources": ["Coal"],
+		"maintenance": 2,
+		"food": -1,
+		"hurryCostModifier": 25,
+		"uniques": ["Consumes [1] [Coal]","Provides [3] [Power]"],
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Oil Power Plant",
+		"requiredNearbyImprovedResources": ["Oil"],
+		"maintenance": 2,
+		"food": -2,
+		"hurryCostModifier": 25,
+		"uniques": ["Consumes [1] [Oil]","Provides [4] [Power]"],
+		"requiredTech": "Electricity"
 	},
 	////////////////// Defensive Buildings
 	{
@@ -1209,6 +1237,16 @@
 		"uniques": ["Consumes [1] [Oil]","Provides [1] [Magic Crystals]"]
 	},
 	{
+		"name": "Crystal Recycler",
+		"requiredNearbyImprovedResources": ["Magic Crystals"],
+		"science": 2,
+		"production": -2,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Crystal Recycling",
+		"uniques": ["Provides [1] [Magic Crystals]","Limited to [5] per Civilization"]
+	},
+	{
 		"name": "Observatory",
 		"maintenance": 1,
 		"hurryCostModifier": 15,
@@ -1475,6 +1513,16 @@
 			"[+15]% Production when constructing [All] buildings [in this city]","Only available <after discovering [Guilds]>"]
 	},
 	{
+		"name": "Manufacturing Company",
+		"maintenance": 8,
+		"Production": 5,
+		"specialistSlots": {"Engineer": 10},
+		"hurryCostModifier": 25,
+		"requiredTech": "Corporations",
+		"uniques": ["[+1 Production] per [10] population [in this city]","[+3 Gold, -1 Food] from [Manufactory] tiles [in this city]",
+			"[+1 Production] from [Luxury Resource] tiles [in this city]","Only available <after discovering [Guilds]>"]
+	},
+	{
 		"name": "Cartographer's Guild",
 		"maintenance": 3,
 		"hurryCostModifier": 25,
@@ -1490,5 +1538,16 @@
 		"uniques": ["[+1 Culture] per [6] population [in this city]","New [Officer] units start with [10] Experience [in this city]",
 			"[+1 Culture] from [Academy] tiles [in this city]","[+1 Culture] from [Landmark] tiles [in this city]",
 			"Only available <after discovering [Guilds]>","Enables conversion of city production to [Culture]"]
+	},
+	{
+		"name": "Food Company",
+		"maintenance": 11,
+		"Food": 5,
+		"specialistSlots": {"Farmer": 10},
+		"hurryCostModifier": 25,
+		"requiredTech": "Corporations",
+		"uniques": ["[+1 Food] per [10] population [in this city]","[+1 Food, -1 Production] from [Manufactory] tiles [in this city]",
+			"[+1 Food] from [Luxury Resource] tiles [in this city]","Only available <after discovering [Guilds]>",
+			"Enables conversion of city production to [Food]"]
 	},
 ]
