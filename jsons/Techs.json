@@ -1428,7 +1428,7 @@
 			{
 				"name": "Automatic Weapons",
 				"row": 7,
-				"prerequisites": ["Advanced Infrastructure","Armorcraft"],
+				"prerequisites": ["Heavy Infrastructure","Armorcraft"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
