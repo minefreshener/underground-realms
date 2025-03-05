@@ -103,6 +103,12 @@
 			"Gain [30] [Culture] <upon declaring a defensive pact>","Gain [30] [Culture] <upon declaring friendship>",
 			"[+5]% Production when constructing [Culture] buildings [in all cities]","Destroyed when the city is captured"]
 	},
+	{
+		"name": "Embassy",
+		"hurryCostModifier": 25,
+		"requiredTech": "Mutual Defense",
+		"uniques": ["Gain [20] [Gold] <upon declaring a defensive pact>","Gain [20] [Gold] <upon declaring friendship>"]
+	},
 	///////////// Culture Buildings
 	{
 		"name": "Cave Shelter",
