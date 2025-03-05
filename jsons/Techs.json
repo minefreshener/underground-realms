@@ -1270,7 +1270,179 @@
 	},
 	{
 		"columnNumber": 29,
-		"era": "Ninth Age",
+		"era": "Tenth Age",
+		"techCost": 9500,
+		"buildingCost": 1000,
+		"wonderCost": 9500,
+		"techs": [
+			{
+				"name": "Combustion",
+				"row": 3,
+				"prerequisites": ["Oil Fracking","Dynamite"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Electricity",
+				"row": 4,
+				"prerequisites": ["Oil Fracking","The Telegram"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Corporations",
+				"row": 5,
+				"prerequisites": ["Oil Fracking","The Telegram","Stock Market"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "National Identity",
+				"row": 6,
+				"prerequisites": ["Historical Studies","The Telegram","Fertilizer"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Magazines",
+				"row": 7,
+				"prerequisites": ["Dynamite","Fertilizer"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Crystal Recycling",
+				"row": 8,
+				"prerequisites": ["Historical Studies","Chemical Weapons","Fertilizer"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+
+		]
+	},
+	{
+		"columnNumber": 30,
+		"era": "Tenth Age",
+		"techCost": 10000,
+		"buildingCost": 1050,
+		"wonderCost": 10000,
+		"techs": [
+			{
+				"name": "Floatstone Technology",
+				"row": 4,
+				"prerequisites": ["Combustion","Electricity"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Replaceable Parts",
+				"row": 5,
+				"prerequisites": ["Combustion","Magazines","Corporations"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Mutual Defense",
+				"row": 6,
+				"prerequisites": ["National Identity","Corporations"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Trench Warfare",
+				"row": 7,
+				"prerequisites": ["Magazines","Combustion"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "The Healing Potion",
+				"row": 8,
+				"prerequisites": ["Magazines","Combustion"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Heavy Urbanization",
+				"row": 9,
+				"prerequisites": ["National Identity","Combustion","Electricity"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+
+		]
+	},
+	{
+		"columnNumber": 31,
+		"era": "Tenth Age",
+		"techCost": 10500,
+		"buildingCost": 1100,
+		"wonderCost": 10500,
+		"techs": [
+			{
+				"name": "Flight",
+				"row": 4,
+				"prerequisites": ["Floatstone Technology","Replaceable Parts"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Film",
+				"row": 5,
+				"prerequisites": ["Replaceable Parts","Heavy Urbanization"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Armorcraft",
+				"row": 7,
+				"prerequisites": ["Replaceable Parts","Mutual Defense","Trench Warfare"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Advanced Healthcare",
+				"row": 8,
+				"prerequisites": ["Replaceable Parts","The Healing Potion","Trench Warfare"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Heavy Infrastructure",
+				"row": 9,
+				"prerequisites": ["Replaceable Parts","Heavy Urbanization"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+
+		]
+	},
+	{
+		"columnNumber": 32,
+		"era": "Eleventh Age",
+		"techCost": 11500,
+		"buildingCost": 1200,
+		"wonderCost": 11500,
+		"techs": [
+			{
+				"name": "Naval Armorcraft",
+				"row": 4,
+				"prerequisites": ["Armorcraft","Flight"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Radio",
+				"row": 5,
+				"prerequisites": ["Film","Heavy Infrastructure"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Stealth Tactics",
+				"row": 6,
+				"prerequisites": ["Advanced Healthcare","Armorcraft"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Automatic Weapons",
+				"row": 7,
+				"prerequisites": ["Advanced Infrastructure","Armorcraft"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Industrial Architecture",
+				"row": 9,
+				"prerequisites": ["Heavy Infrastructure"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+
+		]
+	},
+	{
+		"columnNumber": 33,
+		"era": "Eleventh Age",
 		"techCost": 999999999,
 		"buildingCost": 750,
 		"wonderCost": 1250,
@@ -1278,7 +1450,7 @@
 			{
 				"name": "Future Tech",
 				"row": 5,
-				"prerequisites": ["Oil Fracking","The Telegram","Stock Market","Historical Studies","Dynamite","Chemical Weapons","Fertilizer"],
+				"prerequisites": ["Naval Armorcraft","Radio","Stealth Tactics","Automatic Weapons","Industrial Architecture"],
 				"uniques": ["Can be continually researched"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
                 "civilopediaText": [{"text": "Who knows what the future holds?"}]
