@@ -280,6 +280,10 @@
 		"name": "Steel",
 		"resourceType": "Strategic"
 	},
+	{
+		"name": "Power",
+		"resourceType": "Strategic"
+	},
   {
 		"name": "Furs",
 		"resourceType": "Luxury",
