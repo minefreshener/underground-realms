@@ -1223,6 +1223,8 @@
 		"rangedStrength": 45,
 		"cost": 470,
 		"requiredTech": "Biology",
+		"upgradesTo": "Elite Rifleman 10A",
+		"obsoleteTech": "Replaceable Parts",
 		"uniques": ["Elite","Gunpowder","[+33]% Strength <vs [Heavy Infantry] units> <when attacking>","[+33]% Strength <vs [Heavy Cavalry] units> <when attacking>",
 			"[+33]% Strength <vs [Spear Infantry] units>"],
 		"promotions": ["Rifle-Musket","Shield","Sword"],
@@ -1781,7 +1783,7 @@
 		"rangedStrength": 40,
 		"cost": 500,
 		"requiredTech": "Combustion",
-		"promotions": ["Automobile","Machine Gun","Heavy Armor"],
+		"promotions": ["Automobile","Machine Gun"],
 		"uniques": ["Gunpowder","Can move after attacking","No defensive terrain bonus","Rough terrain penalty","Consumes [1] [Oil]",
 			"[1] additional attacks per turn"],
 		"attackSound": "machinegun"
