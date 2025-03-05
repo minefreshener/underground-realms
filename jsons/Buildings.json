@@ -178,6 +178,27 @@
 		"requiredTech": "Printing Press"
 	},
 	{
+		"name": "Cinema",
+		"culture": 4,
+		"percentStatBonus": {"culture": 5},
+		"percentStatBonus": {"happiness": 5},
+		"happiness": 2,
+		"maintenance": 4,
+		"hurryCostModifier": 25,
+		"uniques": [],
+		"requiredTech": "Film"
+	},
+	{
+		"name": "Broadcast Tower",
+		"culture": 5,
+		"percentStatBonus": {"culture": 5},
+		"happiness": 2,
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["Consumes [1] [Power]"],
+		"requiredTech": "Radio"
+	},
+	{
 		"name": "Telegram Office",
 		"requiredBuilding": "Printing House",
 		"culture": 4,
@@ -366,20 +387,37 @@
 		"requiredTech": "Civil Engineering"
 	},
 	{
-		"name": "Hospital",
+		"name": "infirmary",
 		"requiredBuilding": "Public Sewers",
+		"percentStatBonus": {"food": 5},
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": ["[All] Units adjacent to this city heal [+2] HP per turn when healing"],
+		"requiredTech": "Medical Science"
+	},
+	{
+		"name": "Hospital",
+		"requiredBuilding": "Infirmary",
 		"percentStatBonus": {"food": 5},
 		"maintenance": 3,
 		"hurryCostModifier": 0,
 		"uniques": ["[All] Units adjacent to this city heal [+5] HP per turn when healing"],
-		"requiredTech": "Medical Science"
+		"requiredTech": "Advanced Healthcare"
 	},
 	{
 		"name": "Military Hospital",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
-		"uniques": ["[All] Units adjacent to this city heal [+10] HP per turn when healing"],
+		"uniques": ["[All] Units adjacent to this city heal [+5] HP per turn when healing"],
 		"requiredTech": "Surgery"
+	},
+	{
+		"name": "Healing Potion Factory",
+		"maintenance": 3,
+		"production": -3,
+		"hurryCostModifier": 0,
+		"uniques": ["[All] Units adjacent to this city heal [+10] HP per turn when healing"],
+		"requiredTech": "The Healing Potion"
 	},
 	{
 		"name": "Farmstead",
@@ -630,15 +668,23 @@
 		"requiredBuilding": "Factory",
 		"production": -2,
 		"hurryCostModifier": 0,
-		"uniques": ["[+15]% Production when constructing [Gunpowder] units [in this city]"],
+		"uniques": ["[+10]% Production when constructing [Gunpowder] units [in this city]"],
 		"requiredTech": "Advanced Ballistics"
 	},
 	{
 		"name": "Bullet Factory",
 		"production": -2
 		"hurryCostModifier": 0,
-		"uniques": ["[+10]% Production when constructing [Gunpowder] units [in this city]"],
+		"uniques": ["[+5]% Production when constructing [Gunpowder] units [in this city]"],
 		"requiredTech": "Encased Bullets"
+	},
+	{
+		"name": "Tank Factory",
+		"requiredBuilding": "Factory",
+		"production": -4,
+		"hurryCostModifier": 0,
+		"uniques": ["[+30]% Production when constructing [Tank] units [in this city]"],
+		"requiredTech": "Armorcraft"
 	},
 	////////////////// electric buildings
 	{
@@ -782,6 +828,13 @@
 		"requiredTech": "Ballistics",
 		"uniques": ["Destroyed when the city is captured"]
 	},
+	{
+		"name": "Military Bunkers",
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Heavy Infrastructure",
+		"uniques": ["Destroyed when the city is captured"]
+	},
 	//////////////// Military Buildings
 	{
 		"name": "Raiding Camp",
@@ -816,6 +869,13 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+5]% Production when constructing [Gunpowder] units [in this city]"],
 		"requiredTech": "Flintlocks"
+	},
+	{
+		"name": "Military Hangar",
+		"maintenance": 2
+		"hurryCostModifier": 25,
+		"uniques": ["[+10]% Production when constructing [Aircraft] units [in this city]"],
+		"requiredTech": "Flight"
 	},
 	{
 		"name": "Rocket Maker",
@@ -1088,6 +1148,13 @@
 		"maintenance": 1,
 		"uniques": ["New [Military] units start with [15] Experience [in this city]","Destroyed when the city is captured"],
 		"requiredTech": "Standing Army"
+	},
+	{
+		"name": "Military Base",
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Heavy Infrastructure",
+		"uniques": ["Destroyed when the city is captured","New [Military] units start with [15] Experience [in this city]"]
 	},
 	{
 		"name": "Supply Depot",
@@ -1458,6 +1525,15 @@
 			"Enables conversion of city production to [Faith]"]
 	},
 	{
+		"name": "Military Contractor",
+		"requiredBuilding": "Factory",
+		"production": -5,
+		"maintenance": 7,
+		"hurryCostModifier": 25,
+		"uniques": ["[+30]% Production when constructing [Military] units [in this city]","[+2 Production] from [Manufactory] tiles [in this city]"],
+		"requiredTech": "Automatic Weapons"
+	},
+	{
 		"name": "Alchemist's Guild",
 		"maintenance": 4,
 		"specialistSlots": {"Scientist": 2},
@@ -1509,6 +1585,15 @@
 			"[+10]% Production when constructing [All] buildings [in this city]","Only available <after discovering [Guilds]>"]
 	},
 	{
+		"name": "Construction Company",
+		"maintenance": 11,
+		"specialistSlots": {"Engineer": 10},
+		"hurryCostModifier": 25,
+		"requiredTech": "Industrial Architecture",
+		"uniques": ["[+1 Production] per [4] population [in this city]","[+2 Production] from [Landmark] tiles [in this city]",
+			"[+20]% Production when constructing [All] buildings [in this city]","Only available <after discovering [Guilds]>"]
+	},
+	{
 		"name": "Labor Union",
 		"maintenance": 3,
 		"Production": 5,
@@ -1544,6 +1629,15 @@
 		"uniques": ["[+1 Culture] per [6] population [in this city]","New [Officer] units start with [10] Experience [in this city]",
 			"[+1 Culture] from [Academy] tiles [in this city]","[+1 Culture] from [Landmark] tiles [in this city]",
 			"Only available <after discovering [Guilds]>","Enables conversion of city production to [Culture]"]
+	},
+	{
+		"name": "Film Studio",
+		"maintenance": 8,
+		"specialistSlots": {"Performer": 10},
+		"hurryCostModifier": 25,
+		"requiredTech": "Film",
+		"uniques": ["[+1 Culture] per [4] population [in this city]","[+1 Culture] from [Manufactory] tiles [in this city]",
+			"[+1 Happiness] from [Landmark] tiles [in this city]","Only available <after discovering [Guilds]>","Enables conversion of city production to [Culture]"]
 	},
 	{
 		"name": "Food Company",
