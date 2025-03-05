@@ -159,7 +159,7 @@
 		"Minor deposits generated with weight [20] <in [Desert] tiles>"],
 		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
-	}
+	},
   	{
 		"name": "Iron",
 		"resourceType": "Strategic",
@@ -272,6 +272,19 @@
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 8},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
 	},
+	{
+		"name": "Floatstone",
+		"resourceType": "Strategic",
+		"revealedBy": "Floatstone Technology",
+		"terrainsCanBeFoundOn": ["Mountain","Boneyard"], // Hill only if plains or grassland
+		"science": 1,
+		"improvedBy": ["Mine"],
+		"improvementStats": {"science": 2},
+	  	"uniques": ["Guaranteed with Strategic Balance resource option","Generated with weight [35] <in [Snow] Regions>",
+		"Minor deposits generated with weight [5] <in [Mountain] tiles>"],
+		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	}
   {
 		"name": "Bronze",
 		"resourceType": "Strategic"
