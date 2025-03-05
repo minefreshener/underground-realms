@@ -1200,6 +1200,15 @@
 		"uniques": ["Consumes [1] [Iron]","Provides [1] [Magic Crystals]","[+1 Production] <after discovering [Medical Science]>"]
 	},
 	{
+		"name": "Oil Crystal Synthesizer",
+		"requiredNearbyImprovedResources": ["Magic Crystals"],
+		"science": -3,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Combustion",
+		"uniques": ["Consumes [1] [Oil]","Provides [1] [Magic Crystals]"]
+	},
+	{
 		"name": "Observatory",
 		"maintenance": 1,
 		"hurryCostModifier": 15,
