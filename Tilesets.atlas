@@ -66,6 +66,48 @@ TileSets/HexaRealm/Tiles/Dyes+Polder
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Civilian
+  rotate: false
+  xy: 1894, 1530
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Civilian-Modern era
+  rotate: false
+  xy: 1966, 1522
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Civilian-Renaissance era
+  rotate: false
+  xy: 1678, 1512
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Military
+  rotate: false
+  xy: 1750, 1522
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Military-Modern era
+  rotate: false
+  xy: 1822, 1522
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Military-Renaissance era
+  rotate: false
+  xy: 1894, 1466
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Scout 1A
   rotate: false
   xy: 364, 1189
@@ -115,9 +157,37 @@ TileSets/HexaRealm/Units/Musketeer 7A
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Line Infantry 11A
+  rotate: false
+  xy: 361, 1511
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Elite Rifleman 9A
   rotate: false
   xy: 292, 62
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Rifleman 10A
+  rotate: false
+  xy: 292, 62
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Sniper 11A
+  rotate: false
+  xy: 1657, 1257
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Modern Infantry 11A
+  rotate: false
+  xy: 577, 1447
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -157,6 +227,13 @@ TileSets/HexaRealm/Units/Feudal Longswordsman 6A
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Land Ship 10A
+  rotate: false
+  xy: 1081, 1428
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Western Alliance Cavalry 2A
   rotate: false
   xy: 1297, 1385
@@ -190,6 +267,20 @@ TileSets/HexaRealm/Units/Militia Cavalry 8A
   xy: 256, 467
   size: 64, 63
   orig: 64, 63
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Militia Cavalry 9A
+  rotate: false
+  xy: 1318, 1849
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Militia Cavalry 10A
+  rotate: false
+  xy: 1318, 1849
+  size: 64, 65
+  orig: 64, 65
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Regular Cavalry 5A
@@ -360,13 +451,6 @@ TileSets/HexaRealm/Units/Regular Horse Archer 8A
   orig: 64, 63
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Militia Cavalry 9A
-  rotate: false
-  xy: 1318, 1849
-  size: 64, 65
-  orig: 64, 65
-  offset: 0, 0
-  index: -1
 TileSets/HexaRealm/Units/Huzvar 6A
   rotate: false
   xy: 1606, 1699
@@ -444,11 +528,60 @@ TileSets/HexaRealm/Units/Pistolier 9A-Sodederai
   orig: 64, 65
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Pistolier 10A
+  rotate: false
+  xy: 1318, 1849
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Regular Halberdier 6A
   rotate: false
   xy: 933, 1195
   size: 64, 60
   orig: 64, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Mage Elephant 5A
+  rotate: false
+  xy: 220, 1265
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Mage Elephant 6A
+  rotate: false
+  xy: 220, 1265
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Mage Elephant 7A
+  rotate: false
+  xy: 220, 1265
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Mage Elephant 8A
+  rotate: false
+  xy: 220, 1265
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Mage Elephant 9A
+  rotate: false
+  xy: 220, 1265
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Mage Tank 10A
+  rotate: false
+  xy: 1081, 1428
+  size: 64, 56
+  orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/War Galley 2A
@@ -563,9 +696,58 @@ TileSets/HexaRealm/Units/Rocket Sloop 8A
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Rocket Sloop 9A
+  rotate: false
+  xy: 1534, 1922
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/MG Sloop 9A
   rotate: false
   xy: 1534, 1922
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/MG Sloop 10A
+  rotate: false
+  xy: 1534, 1922
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/MG Sloop 10A
+  rotate: false
+  xy: 1534, 1922
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Artillery Barge 7A
+  rotate: false
+  xy: 292, 794
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Artillery Barge 8A
+  rotate: false
+  xy: 292, 794
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Artillery Barge 9A
+  rotate: false
+  xy: 292, 794
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Artillery Barge 10A
+  rotate: false
+  xy: 292, 794
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -594,6 +776,20 @@ TileSets/HexaRealm/Units/Hwach'a 6A
 TileSets/HexaRealm/Units/Machine Gun 9A
   rotate: false
   xy: 292, 666
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Machine Gun 10A
+  rotate: false
+  xy: 292, 666
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Machine Gun 11A
+  rotate: false
+  xy: 1297, 1456
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -759,6 +955,20 @@ TileSets/HexaRealm/Units/Field Gun 9A
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Field Gun 10A
+  rotate: false
+  xy: 220, 945
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Field Gun 11A
+  rotate: false
+  xy: 220, 945
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 
 Tilesets4.png
 size: 2048, 2048
@@ -850,6 +1060,13 @@ TileSets/HexaRealm/Units/Scout 8A
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Recon Blimp 9A
+  rotate: false
+  xy: 148, 310
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Recon Blimp 10A
   rotate: false
   xy: 148, 310
   size: 64, 64
@@ -1045,6 +1262,20 @@ TileSets/HexaRealm/Units/Gun Militia 9A
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Gun Militia 10A
+  rotate: false
+  xy: 793, 1552
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Gun Militia 11A
+  rotate: false
+  xy: 793, 1552
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Hand Gunner 6A
   rotate: false
   xy: 937, 1327
@@ -1080,6 +1311,13 @@ TileSets/HexaRealm/Units/Line Infantry 9A
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Line Infantry 10A
+  rotate: false
+  xy: 1657, 1257
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Elite Line Infantry 7A
   rotate: false
   xy: 1797, 890
@@ -1097,6 +1335,13 @@ TileSets/HexaRealm/Units/Elite Line Infantry 8A
 TileSets/HexaRealm/Units/Elite Line Infantry 9A
   rotate: false
   xy: 1657, 1257
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Elite Line Infantry 10A
+  rotate: false
+  xy: 1225, 1237
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -1417,6 +1662,13 @@ TileSets/HexaRealm/Units/Dragoon 8A
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Dragoon 9A
+  rotate: false
+  xy: 76, 58
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Dragoon 10A
   rotate: false
   xy: 76, 58
   size: 64, 56
