@@ -387,7 +387,7 @@
 		"requiredTech": "Civil Engineering"
 	},
 	{
-		"name": "infirmary",
+		"name": "Infirmary",
 		"requiredBuilding": "Public Sewers",
 		"percentStatBonus": {"food": 5},
 		"maintenance": 2,
@@ -1323,7 +1323,7 @@
 		"name": "Observatory",
 		"maintenance": 1,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 50},
+		"percentStatBonus": {"science": 10},
 		"requiredBuilding": "Library",
 		"uniques": ["Must be next to [Mountain]","[+1 Science] <after discovering [Empiricism]>"],
 		"requiredTech": "Astronomy"
