@@ -16,7 +16,7 @@
     	},
 	{
 	"name": "Assassination I",
-	"prerequisites": ["Dagger"],
+	"prerequisites": ["Dagger","Torpedo"],
 	"uniques": ["[+15]% to Flank Attack bonuses","Pistol"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -48,7 +48,7 @@
     	},
 	{
 	"name": "Drill I",
-	"prerequisites": ["Sword","Spear","Crossbow","Rifle-Musket","Rifle","Horse Spear","Flamethrower"],
+	"prerequisites": ["Sword","Spear","Crossbow","Rifle-Musket","Rifle","Horse Spear","Flamethrower","Automatic Rifle"],
 	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -139,7 +139,7 @@
     	},
 	{
 	"name": "Accuracy I",
-	"prerequisites": ["Javelin","Bow","Ballista","Cannon","Smoothbore Gun","Crossbow","Rifle-Musket","Rifle","Breach-Loaded Cannon"],
+	"prerequisites": ["Javelin","Bow","Ballista","Cannon","Smoothbore Gun","Crossbow","Rifle-Musket","Rifle","Breach-Loaded Cannon","Automatic Rifle"],
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -323,7 +323,7 @@
     	},
 	{
 	"name": "Scouting I",
-	"prerequisites": ["Hunting Dog","Horse","Dirigible"],
+	"prerequisites": ["Hunting Dog","Horse","Dirigible","Radar System"],
 	"uniques": ["[+1] Sight"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -364,7 +364,7 @@
     	},
 	{
 	"name": "Survivalism I",
-	"prerequisites": ["Staff","Elephant","Mobile Tower","Dirigible"],
+	"prerequisites": ["Staff","Elephant","Mobile Tower","Dirigible","Tank"],
 	"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>","[+15]% Strength <when defending>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -577,7 +577,7 @@
 	"prerequisites": ["Barrage III","Accuracy III","Targeting III","Bombardment III"],
 	"uniques": ["Ranged attacks may be performed over obstacles","Only available <for units without [Crossbow]>","Only available <for units without [Pistol]>",
 		"Only available <for units without [Smoothbore Gun]>","Only available <for units without [Rifle-Musket]>","Only available <for units without [Rifle]>",
-		"Only available <for units without [Machine Gun]>","Only available <for units without [Flamethrower]>"],
+		"Only available <for units without [Machine Gun]>","Only available <for units without [Flamethrower]>","Only available <for units without [Automatic Rifle]>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 16,
@@ -825,7 +825,7 @@
     	},
 	{
 	"name": "Suppression I",
-	"prerequisites": ["Machine Gun","Autocannon"],
+	"prerequisites": ["Machine Gun","Autocannon","Automatic Rifle"],
 	"uniques": ["[+15]% Strength <vs [Ranged] units> <when attacking>","[+15]% Strength <vs [Phalanx I] units>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -1209,6 +1209,33 @@
 	"name": "Automatic Rifle",
         "column": 52,
         "row": 1
+    	},
+	{
+	"name": "Burst I",
+	"prerequisites": ["Automatic Rifle"],
+	"uniques": ["[+15]% Strength <when attacking> <with [50]% chance>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 52,
+        "row": 2
+    	},
+	{
+	"name": "Burst II",
+	"prerequisites": ["Burst I"],
+	"uniques": ["[+15]% Strength <when attacking> <with [50]% chance>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 52,
+        "row": 3
+    	},
+	{
+	"name": "Burst III",
+	"prerequisites": ["Burst II"],
+	"uniques": ["[+15]% Strength <when attacking> <with [50]% chance>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 52,
+        "row": 4
     	},
 	{
 	"name": "AA Gun",
