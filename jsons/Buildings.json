@@ -728,6 +728,15 @@
 		"uniques": ["[+1 Production, -1 Food] from [Oil] tiles [in this city]"],
 		"requiredTech": "Plastics"
 	},
+	{
+		"name": "Recycling Station",
+		"requiredNearbyImprovedResources": ["Copper","Tin","Iron"],
+		"gold": 1,
+		"production": -5,
+		"hurryCostModifier": 25,
+		"requiredTech": "Ecology",
+		"uniques": ["Provides [1] [Copper]","Provides [1] [Tin]","Provides [1] [Steel]","Limited to [5] per Civilization"]
+	},
 	////////////////// electric buildings
 	{
 		"name": "Coal Power Plant",
