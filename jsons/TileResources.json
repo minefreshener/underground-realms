@@ -297,6 +297,10 @@
 		"name": "Power",
 		"resourceType": "Strategic"
 	},
+	{
+		"name": "Circuits",
+		"resourceType": "Strategic"
+	},
   {
 		"name": "Furs",
 		"resourceType": "Luxury",
