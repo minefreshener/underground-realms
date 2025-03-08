@@ -4242,6 +4242,34 @@
 		"promotions": ["Autocannon","Machine Gun","Heavy Armor","Fighting Crew","Landing Craft","Radar System"],
 		"attackSound": "shipCannonVolley"
 	},
+	{
+		"name": "Submarine 11A",
+		"unitType": "Submarine",
+		"movement": 3,
+		"strength": 60,
+		"range": 2,
+		"rangedStrength": 55,
+		"cost": 600,
+		"requiredTech": "Submersibles",
+		"upgradesTo": "Submarine 12A",
+		"obsoleteTech": "Hydrodynamics",
+		"uniques": ["Gunpowder","Consumes [1] [Oil]","Can only attack [Water] tiles"],
+		"promotions": ["Submarine","Torpedo","Fighting Crew"],
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Submarine 12A",
+		"unitType": "Submarine",
+		"movement": 3,
+		"strength": 65,
+		"range": 2,
+		"rangedStrength": 60,
+		"cost": 650,
+		"requiredTech": "Hydrodynamics",
+		"uniques": ["Gunpowder","Consumes [1] [Oil]","Can only attack [Water] tiles"],
+		"promotions": ["Submarine","Torpedo","Fighting Crew","Radar System"],
+		"attackSound": "torpedo"
+	},
 	////////////// mercenary units
 	{
 		"name": "Privateer 7A",
@@ -4424,7 +4452,7 @@
 		"requiredTech": "Military Specialization",
 		"upgradesTo": "Marine 8A",
 		"obsoleteTech": "The Bayonet",
-		"uniques": ["Elite","Gunpowder","[+1] Sight <when [Embarked]>","[+100]% Strength <when defending> <when [Embarked]>"],
+		"uniques": ["Elite","Gunpowder","[+1] Sight <when [Embarked]>","[+100]% Strength <when defending> <when [Embarked]>","Limited to [5] per Civilization"],
 		"promotions": ["Sword","Smoothbore Gun","Amphibious"],
 		"attackSound": "shot"
 	},
@@ -4437,7 +4465,7 @@
 		"requiredTech": "The Bayonet",
 		"upgradesTo": "Marine 9A",
 		"obsoleteTech": "Encased Bullets",
-		"uniques": ["Elite","Gunpowder","[+1] Sight <when [Embarked]>","[+100]% Strength <when defending> <when [Embarked]>"],
+		"uniques": ["Elite","Gunpowder","[+1] Sight <when [Embarked]>","[+100]% Strength <when defending> <when [Embarked]>","Limited to [5] per Civilization"],
 		"promotions": ["Sword","Rifle-Musket","Amphibious"],
 		"attackSound": "shot"
 	},
@@ -4450,7 +4478,7 @@
 		"requiredTech": "Encased Bullets",
 		"upgradesTo": "Marine 10A",
 		"obsoleteTech": "The Healing Potion",
-		"uniques": ["Elite","Gunpowder","[+1] Sight <when [Embarked]>","[+100]% Strength <when defending> <when [Embarked]>"],
+		"uniques": ["Elite","Gunpowder","[+1] Sight <when [Embarked]>","[+100]% Strength <when defending> <when [Embarked]>","Limited to [5] per Civilization"],
 		"promotions": ["Sword","Rifle","Amphibious"],
 		"attackSound": "shot"
 	},
@@ -4463,7 +4491,7 @@
 		"requiredTech": "The Healing Potion",
 		"upgradesTo": "Marine 11A",
 		"obsoleteTech": "Refrigeration",
-		"uniques": ["Elite","Gunpowder","[+1] Sight <when [Embarked]>","[+100]% Strength <when defending> <when [Embarked]>"],
+		"uniques": ["Elite","Gunpowder","[+1] Sight <when [Embarked]>","[+100]% Strength <when defending> <when [Embarked]>","Limited to [5] per Civilization"],
 		"promotions": ["Grenade","Rifle","Amphibious","Rejuvenation"],
 		"attackSound": "shot"
 	},
@@ -4476,7 +4504,7 @@
 		"requiredTech": "Refrigeration",
 		"upgradesTo": "Marine 12A",
 		"obsoleteTech": "Aerodynamics",
-		"uniques": ["Elite","Gunpowder","[+1] Sight <when [Embarked]>","[+100]% Strength <when defending> <when [Embarked]>"],
+		"uniques": ["Elite","Gunpowder","[+1] Sight <when [Embarked]>","[+100]% Strength <when defending> <when [Embarked]>","Limited to [5] per Civilization"],
 		"promotions": ["Grenade","Automatic Rifle","Amphibious","Rejuvenation"],
 		"attackSound": "shot"
 	},
@@ -4487,21 +4515,38 @@
 		"strength": 65,
 		"cost": 600,
 		"requiredTech": "Aerodynamics",
-		"uniques": ["Elite","Gunpowder","[+1] Sight <when [Embarked]>","[+100]% Strength <when defending> <when [Embarked]>"],
+		"uniques": ["Elite","Gunpowder","[+1] Sight <when [Embarked]>","[+100]% Strength <when defending> <when [Embarked]>","Limited to [5] per Civilization"],
 		"promotions": ["Grenade","Automatic Rifle","Dagger","Amphibious","Rejuvenation"],
 		"attackSound": "shot"
 	},
 	{
 		"name": "Commando 11A",
-		"unitType": "Light Infantry",
+		"unitType": "Missile Infantry",
 		"movement": 2,
 		"strength": 60,
+		"range": 1,
+		"rangedStrength": 60,
 		"cost": 550,
 		"requiredTech": "Stealth Tactics",
-		"upgradesTo": "Marine 12A",
-		"obsoleteTech": "Electronics",
-		"uniques": ["Elite","Gunpowder","May Paradrop up to [5] tiles from inside friendly territory"],
-		"promotions": ["Grenade","Automatic Rifle","Woodsman"],
+		"upgradesTo": "Commando 12A",
+		"obsoleteTech": "Ecology",
+		"uniques": ["Elite","Gunpowder","May Paradrop up to [5] tiles from inside friendly territory","Invisible to non-adjacent units",
+			"Limited to [5] per Civilization"],
+		"promotions": ["Grenade","Dagger","Automatic Rifle","Woodsman"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Commando 12A",
+		"unitType": "Missile Infantry",
+		"movement": 2,
+		"strength": 65,
+		"range": 1,
+		"rangedStrength": 65,
+		"cost": 600,
+		"requiredTech": "Ecology",
+		"uniques": ["Elite","Gunpowder","May Paradrop up to [5] tiles from inside friendly territory","Invisible to non-adjacent units",
+			"Limited to [5] per Civilization"],
+		"promotions": ["Grenade","Dagger","Automatic Rifle","Woodsman","Radar System"],
 		"attackSound": "shot"
 	},
 ]
