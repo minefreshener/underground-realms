@@ -1075,8 +1075,6 @@
 		"rangedStrength": 60,
 		"cost": 440,
 		"requiredTech": "Automatic Weapons",
-		"upgradesTo": "Line Infantry 11A",
-		"obsoleteTech": "Automatic Weapons",
 		"uniques": ["Gunpowder","[+33]% Strength <vs [Heavy Infantry] units> <when attacking>","[+33]% Strength <vs [Heavy Cavalry] units> <when attacking>",
 			"[+33]% Strength <vs [Spear Infantry] units>"],
 		"promotions": ["Rifle","Bayonet"],
