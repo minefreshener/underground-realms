@@ -1443,6 +1443,200 @@
 	{
 		"columnNumber": 33,
 		"era": "Eleventh Age",
+		"techCost": 12000,
+		"buildingCost": 1250,
+		"wonderCost": 12000,
+		"techs": [
+			{
+				"name": "Submersibles",
+				"row": 4,
+				"prerequisites": ["Naval Armorcraft"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Refrigeration",
+				"row": 5,
+				"prerequisites": ["Naval Armorcraft","Radio"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Radar",
+				"row": 6,
+				"prerequisites": ["Radio","Stealth tactics"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Heavy Industrialization",
+				"row": 7,
+				"prerequisites": ["Automatic Weapons","Industrial Architecture"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Electromagnetics",
+				"row": 8,
+				"prerequisites": ["Radio","Industrial Architecture"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+
+		]
+	},
+	{
+		"columnNumber": 34,
+		"era": "Eleventh Age",
+		"techCost": 12500,
+		"buildingCost": 1300,
+		"wonderCost": 12500,
+		"techs": [
+			{
+				"name": "Naval Defenses",
+				"row": 4,
+				"prerequisites": ["Submersibles","Radar"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Plastics",
+				"row": 5,
+				"prerequisites": ["Refrigeration","Heavy Industrialization"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Magical Energy",
+				"row": 6,
+				"prerequisites": ["Electromagnetics","Radar"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Advanced Armorcraft",
+				"row": 7,
+				"prerequisites": ["Heavy Industrialization","Radar","Eelectromagnetics"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+
+		]
+	},
+	{
+		"columnNumber": 35,
+		"era": "Twelfth Age",
+		"techCost": 13500,
+		"buildingCost": 1400,
+		"wonderCost": 13500,
+		"techs": [
+			{
+				"name": "Hydrodynamics",
+				"row": 4,
+				"prerequisites": ["Naval Defenses","Advanced Armorcraft"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Pharmaceuticals",
+				"row": 5,
+				"prerequisites": ["Plastics"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Eelectronics",
+				"row": 6,
+				"prerequisites": ["Magical Energy","Plastics"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Crystal Fabrication",
+				"row": 7,
+				"prerequisites": ["Magical Energy"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Combined Arms",
+				"row": 8,
+				"prerequisites": ["Advanced Armorcraft","Naval Defenses","Plastics"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+
+		]
+	},
+	{
+		"columnNumber": 36,
+		"era": "Twelfth Age",
+		"techCost": 14000,
+		"buildingCost": 1450,
+		"wonderCost": 14000,
+		"techs": [
+			{
+				"name": "Aerodynamics",
+				"row": 4,
+				"prerequisites": ["Hydrodynamics","Combined Arms"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Ecology",
+				"row": 5,
+				"prerequisites": ["Pharmaceuticals","Crystal Fabrication"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Television",
+				"row": 6,
+				"prerequisites": ["Eelectronics"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Modular Weapons",
+				"row": 7,
+				"prerequisites": ["Crystal Fabrication","Combined Arms"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Advanced Radar",
+				"row": 8,
+				"prerequisites": ["Hydrodynamics","Combined Arms","Eelectronics"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+
+		]
+	},
+	{
+		"columnNumber": 37,
+		"era": "Twelfth Age",
+		"techCost": 14500,
+		"buildingCost": 1500,
+		"wonderCost": 14500,
+		"techs": [
+			{
+				"name": "Advanced Motors",
+				"row": 4,
+				"prerequisites": ["Aerodynamics","Modular Weapons"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Sustainable Energy",
+				"row": 5,
+				"prerequisites": ["Ecology"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Computers",
+				"row": 6,
+				"prerequisites": ["Television","Advanced Radar"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Missiles",
+				"row": 7,
+				"prerequisites": ["Modular Weapons","Advanced Radar"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Magical Hypercombustion Theory",
+				"row": 8,
+				"prerequisites": ["Ecology","Television","Advanced Radar"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+
+		]
+	},
+	{
+		"columnNumber": 33,
+		"era": "Eleventh Age",
 		"techCost": 999999999,
 		"buildingCost": 750,
 		"wonderCost": 1250,
