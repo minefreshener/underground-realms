@@ -193,7 +193,7 @@
 		"culture": 5,
 		"percentStatBonus": {"culture": 5},
 		"happiness": 2,
-		"maintenance": 3,
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["Consumes [1] [Power]"],
 		"requiredTech": "Radio"
@@ -209,6 +209,19 @@
 		"hurryCostModifier": 25,
 		"uniques": [],
 		"requiredTech": "The Telegram"
+	},
+	{
+		"name": "TV Network",
+		"culture": 2,
+		"percentStatBonus": {"culture": 5},
+		"faith": 2,
+		"percentStatBonus": {"faith": 5},
+		"happiness": 2,
+		"percentStatBonus": {"happiness": 5},
+		"maintenance": 5,
+		"hurryCostModifier": 25,
+		"uniques": ["Consumes [1] [Power]"],
+		"requiredTech": "Television"
 	},
 	{
 		"name": "National Epic",
@@ -452,7 +465,7 @@
 		"name": "Water Mill",
 		"maintenance": 2,
 		"food": 3,
-		"percentStatBonus": {"production": 10},
+		"percentStatBonus": {"production": 5},
 		"hurryCostModifier": 25,
 		"uniques": ["Must be on [River]"],
 		"requiredTech": "Kinetics"
@@ -467,8 +480,18 @@
 		"requiredTech": "Wind Power"
 	},
 	{
+		"name": "Nature Preserve",
+		"happiness": 4,
+		"specialistSlots": {"Farmer": 1},
+		"percentStatBonus": {"food": -5},
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["Must be next to [Jungle]"],
+		"requiredTech": "Ecology"
+	},
+	{
 		"name": "Garden",
-		"uniques": ["[+25]% Great Person generation [in this city]","Must be next to [Fresh water]","[+1 Culture] <after discovering [Historical Studies]>"],
+		"uniques": ["[+15]% Great Person generation [in this city]","Must be next to [Fresh water]","[+1 Culture] <after discovering [Historical Studies]>"],
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"requiredTech": "Civil Engineering"
@@ -725,6 +748,20 @@
 		"requiredTech": "Electricity"
 	},
 	{
+		"name": "Solar Plant",
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be next to [Desert]","Provides [2] [Power]"],
+		"requiredTech": "Sustainable Energy"
+	},
+	{
+		"name": "Tidal Plant",
+		"maintenance": 4,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be next to [Coast]","Provides [2] [Power]"],
+		"requiredTech": "Sustainable Energy"
+	},
+	{
 		"name": "Crystal Power Plant",
 		"requiredNearbyImprovedResources": ["Magic Crystals"],
 		"maintenance": 2,
@@ -736,10 +773,51 @@
 	{
 		"name": "Electronics Production Facility",
 		"maintenance": 4,
-		"science": 2,
+		"science": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["Consumes [1] [Copper]","Consumes [1] [power]","Provides [3] [Circuits]"],
 		"requiredTech": "Electronics"
+	},
+	{
+		"name": "Crystal Fabricator",
+		"maintenance": 3,
+		"science": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Consumes [1] [power]","Provides [1] [Magic Crystals]"],
+		"requiredTech": "Crystal Fabrication"
+	},
+	{
+		"name": "Resource Management Server",
+		"production": 3,
+		"percentStatBonus": {"production": 5},
+		"food": 2,
+		"percentStatBonus": {"gold": 5},
+		"maintenance": 4,
+		"hurryCostModifier": 25,
+		"uniques": ["Consumes [1] [Power]"],
+		"requiredTech": "Computers"
+	},
+	{
+		"name": "Scientific Computer",
+		"production": 3,
+		"percentStatBonus": {"science": 10},
+		"food": 4,
+		"maintenance": 5,
+		"hurryCostModifier": 25,
+		"uniques": ["Consumes [1] [Power]"],
+		"requiredTech": "Computers"
+	},
+	{
+		"name": "National Computer Database",
+		"percentStatBonus": {"production": 5},
+		"percentStatBonus": {"gold": 5},
+		"percentStatBonus": {"culture": 5},
+		"percentStatBonus": {"faith": 5},
+		"percentStatBonus": {"science": 5},
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Resource Management Server] is constructed in all [non-[Puppeted]] cities>","[+25]% Great Person generation [in all cities]",
+			"Cost increases by [100] per owned city"],
+		"requiredTech": "Computers"
 	},
 	////////////////// Defensive Buildings
 	{
@@ -877,6 +955,15 @@
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "Radar",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "City Defense Network",
+		"requiredBuilding": "City Radar System",
+		"cityStrength": 15,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredTech": "Advanced Radar",
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
@@ -1090,6 +1177,16 @@
 		"uniques": ["All newly-trained [Officer] units [in this city] receive the [Pistol] promotion","New [Officer] units start with [30] Experience [in this city]",
 		"[+15]% Production when constructing [Officer] units [in this city]","[+1 Science] <after discovering [Empiricism]>"],
 		"requiredTech": "Military Education"
+	},
+	{
+		"name": "Central Command",
+		"culture": 3,
+		"greatPersonPoints": {"Great General": 3},
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Military Academy] is constructed in all [non-[Puppeted]] cities>",
+			"All newly-trained [Military] units [in this city] receive the [Quick Study] promotion","Cost increases by [100] per owned city",
+			"[+15]% Production when constructing [Officer] units [in this city]"],
+		"requiredTech": "Combined Arms"
 	},
 	{
 		"name": "Military Engineering Workshop",
