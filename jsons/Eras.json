@@ -153,4 +153,18 @@
         "citySound": "cityAncient",
         "iconRGB": [255, 87, 35]
     },
+    {
+        "name": "Twelfth Age",
+        "researchAgreementCost": 1100,
+        "startingSettlerCount": 2, 
+        "startingWorkerCount": 2,
+        "startingMilitaryUnitCount": 4,
+        "startingMilitaryUnit": "Scout 8A",
+        "settlerPopulation": 4,
+        "baseUnitBuyCost": 400,
+        "embarkDefense": 55,
+        "startPercent": 0,
+        "citySound": "cityAncient",
+        "iconRGB": [255, 87, 35]
+    },
 ]
