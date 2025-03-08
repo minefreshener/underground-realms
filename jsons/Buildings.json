@@ -470,18 +470,28 @@
 		"name": "Garden",
 		"uniques": ["[+25]% Great Person generation [in this city]","Must be next to [Fresh water]","[+1 Culture] <after discovering [Historical Studies]>"],
 		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"maintenance": 2,
 		"requiredTech": "Civil Engineering"
 	},
 	{
 		"name": "Greenhouse",
-		"food": 5,
-		"percentStatBonus": {"food": 10},
-		"specialistSlots": {"Farmer": 2},
-		"maintenance": 4,
+		"food": 3,
+		"percentStatBonus": {"food": 5},
+		"specialistSlots": {"Farmer": 1},
+		"maintenance": 3,
 		"hurryCostModifier": 0,
 		"uniques": ["Consumes [1] [Coal]"],
 		"requiredTech": "Biology"
+	},
+	{
+		"name": "Cold Storage",
+		"food": 3,
+		"percentStatBonus": {"food": 5},
+		"specialistSlots": {"Engineer": 1},
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": ["Consumes [1] [Power]","Must have an owned [Ice] within [3] tiles"],
+		"requiredTech": "Refrigeration"
 	},
 	//////////////// production buildings
 	{
@@ -835,6 +845,14 @@
 		"requiredTech": "Heavy Infrastructure",
 		"uniques": ["Destroyed when the city is captured"]
 	},
+	{
+		"name": "City Radar System",
+		"requiredBuilding": "Military Base",
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Radar",
+		"uniques": ["Destroyed when the city is captured"]
+	},
 	//////////////// Military Buildings
 	{
 		"name": "Raiding Camp",
@@ -876,6 +894,13 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+10]% Production when constructing [Aircraft] units [in this city]"],
 		"requiredTech": "Flight"
+	},
+	{
+		"name": "Submarine Base",
+		"maintenance": 2
+		"hurryCostModifier": 25,
+		"uniques": ["[+10]% Production when constructing [Submarine] units [in this city]"],
+		"requiredTech": "Submersibles"
 	},
 	{
 		"name": "Rocket Maker",
@@ -1484,6 +1509,58 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Wheat] tiles [in this city]","[+1 Food] <after discovering [Fertilizer]>"],
 		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "Factory Ranch",
+		"requiredNearbyImprovedResources": ["Cattle"],
+		"food": 5,
+		"percentStatBonus": {"production": -5},
+		"percentStatBonus": {"food": 10},
+		"specialistSlots": {"Engineer": 1},
+		"specialistSlots": {"Farmer": 1},
+		"maintenance": 5,
+		"hurryCostModifier": 0,
+		"uniques": ["Consumes [1] [Coal]","[+1 Food] from [Cattle] tiles [in this city]"],
+		"requiredTech": "Heavy Industrialization"
+	},
+	{
+		"name": "Paint Factory",
+		"requiredNearbyImprovedResources": ["Dyes"],
+		"gold": 5,
+		"percentStatBonus": {"production": -5},
+		"specialistSlots": {"Engineer": 2},
+		"specialistSlots": {"Artist": 2},
+		"maintenance": 5,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Food] from [Dyes] tiles [in this city]"],
+		"requiredTech": "Heavy Industrialization"
+	},
+	{
+		"name": "Orange Grove",
+		"requiredNearbyImprovedResources": ["Citrus"],
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Citrus] tiles [in this city]","[+1 Production] <after discovering [Navigation]>"],
+		"requiredTech": "Profit Farming"
+	},
+	{
+		"name": "Chocolatier",
+		"requiredNearbyImprovedResources": ["Cocoa"],
+		"production": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Gold] from [Cocoa] tiles [in this city]"],
+		"requiredTech": "Profit Farming"
+	},
+	{
+		"name": "Crab Farm",
+		"requiredNearbyImprovedResources": ["Crab"],
+		"production": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Crab] tiles [in this city]"],
+		"requiredTech": "Refrigeration"
 	},
 	//////////////////////// guilds
 	{
