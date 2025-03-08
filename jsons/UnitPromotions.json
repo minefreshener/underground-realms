@@ -510,7 +510,7 @@
     	},
 	{
 	"name": "Targeting I",
-	"prerequisites": ["Ballista","Cannon","Breach-Loaded Cannon","Autocannon"],
+	"prerequisites": ["Ballista","Cannon","Breach-Loaded Cannon","Autocannon","Torpedo"],
 	"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -933,7 +933,7 @@
     	},
 	{
 	"name": "Salvo I",
-	"prerequisites": ["Rockets"],
+	"prerequisites": ["Rockets","Torpedo"],
 	"uniques": ["[+25]% Strength <when attacking> <with [50]% chance>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -1132,6 +1132,33 @@
         "row": 1
     	},
 	{
+	"name": "Detection I",
+	"prerequisites": ["Radar System"],
+	"uniques": ["[+1] Sight"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 47,
+        "row": 2
+    	},
+	{
+	"name": "Detection II",
+	"prerequisites": ["Detection I"],
+	"uniques": ["Can see invisible [Submarine] units"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 47,
+        "row": 3
+    	},
+	{
+	"name": "Detection III",
+	"prerequisites": ["Detection II"],
+	"uniques": ["Can see invisible [Geurilla] units"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 47,
+        "row": 4
+    	},
+	{
 	"name": "Medical Training",
         "column": 48,
         "row": 1
@@ -1140,6 +1167,80 @@
 	"name": "Mace",
         "column": 49,
         "row": 1
+    	},
+	{
+	"name": "Submarine",
+        "column": 50,
+        "row": 1
+    	},
+	{
+	"name": "Hit And Run I",
+	"prerequisites": ["Submarine","Automobile"],
+	"uniques": ["Withdraws before melee combat <with [20]% chance>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 50,
+        "row": 2
+    	},
+	{
+	"name": "Hit And Run II",
+	"prerequisites": ["Hit And Run I"],
+	"uniques": ["Withdraws before melee combat <with [20]% chance>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 50,
+        "row": 3
+    	},
+	{
+	"name": "Hit And Run III",
+	"prerequisites": ["Hit And Run II"],
+	"uniques": ["Withdraws before melee combat <with [20]% chance>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 50,
+        "row": 4
+    	},
+	{
+	"name": "Torpedo",
+        "column": 51,
+        "row": 1
+    	},
+	{
+	"name": "Automatic Rifle",
+        "column": 52,
+        "row": 1
+    	},
+	{
+	"name": "AA Gun",
+        "column": 53,
+        "row": 1
+    	},
+	{
+	"name": "Interception I",
+	"prerequisites": ["AA Gun"],
+	"uniques": ["[+15]% Damage when intercepting"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 53,
+        "row": 2
+    	},
+	{
+	"name": "Interception II",
+	"prerequisites": ["Interception I"],
+	"uniques": ["[+15]% Damage when intercepting"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 53,
+        "row": 3
+    	},
+	{
+	"name": "Interception III",
+	"prerequisites": ["Interception II"],
+	"uniques": ["[+15]% Damage when intercepting"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 53,
+        "row": 4
     	},
 	{
 	"name": "Ignore Terrain Cost",
