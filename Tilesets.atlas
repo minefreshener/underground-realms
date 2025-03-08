@@ -66,6 +66,13 @@ TileSets/HexaRealm/Tiles/Dyes+Polder
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Black Mountains
+  rotate: false
+  xy: 793, 1358
+  size: 64, 58
+  orig: 64, 58
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/EmbarkedUnit-Civilian
   rotate: false
   xy: 1894, 1530
