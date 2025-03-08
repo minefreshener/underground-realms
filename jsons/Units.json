@@ -3632,7 +3632,7 @@
 		"rangedStrength": 40,
 		"cost": 450,
 		"requiredTech": "Encased Bullets",
-		"upgradesTo": "Mg Sloop 10A",
+		"upgradesTo": "MG Sloop 10A",
 		"obsoleteTech": "Combustion",
 		"uniques": ["Gunpowder","[1] additional attacks per turn"],
 		"promotions": ["Landing Craft","Machine Gun"],
