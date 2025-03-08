@@ -332,15 +332,6 @@
 		"uniques": []
 	},
 	{
-		"name": "Fish Traps",
-		"requiredBuilding": "Hunting Camp",
-		"hurryCostModifier": 25,
-		"food": 1,
-		"maintenance": 1,
-		"uniques": ["Must be next to [Water]","[+1 Food] from [Fish] tiles [in this city]"],
-		"requiredTech": "Sailing"
-	},
-	{
 		"name": "Sundial",
 		"percentStatBonus": {"food": 5},
 		"hurryCostModifier": 25,
@@ -418,6 +409,15 @@
 		"hurryCostModifier": 0,
 		"uniques": ["[All] Units adjacent to this city heal [+10] HP per turn when healing"],
 		"requiredTech": "The Healing Potion"
+	},
+	{
+		"name": "Medical Laboratory",
+		"requiredBuilding": "Healing Potion Factory",
+		"percentStatBonus": {"food": 5},
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"uniques": ["[15]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Pharmaceuticals"
 	},
 	{
 		"name": "Farmstead",
@@ -694,7 +694,16 @@
 		"production": -4,
 		"hurryCostModifier": 0,
 		"uniques": ["[+30]% Production when constructing [Tank] units [in this city]"],
-		"requiredTech": "Armorcraft"
+		"requiredTech": "Advanced Armorcraft"
+	},
+	{
+		"name": "Plastic Refinery",
+		"requiredNearbyImprovedResources": ["Oil"],
+		"maintenance": 3,
+		"production": 4,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production, -1 Food] from [Oil] tiles [in this city]"],
+		"requiredTech": "Plastics"
 	},
 	////////////////// electric buildings
 	{
@@ -714,6 +723,23 @@
 		"hurryCostModifier": 25,
 		"uniques": ["Consumes [1] [Oil]","Provides [4] [Power]"],
 		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Crystal Power Plant",
+		"requiredNearbyImprovedResources": ["Magic Crystals"],
+		"maintenance": 2,
+		"science": -2,
+		"hurryCostModifier": 25,
+		"uniques": ["Consumes [1] [Magic Crystals]","Provides [4] [Power]"],
+		"requiredTech": "Magical Energy"
+	},
+	{
+		"name": "Electronics Production Facility",
+		"maintenance": 4,
+		"science": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Consumes [1] [Copper]","Consumes [1] [power]","Provides [3] [Circuits]"],
+		"requiredTech": "Electronics"
 	},
 	////////////////// Defensive Buildings
 	{
@@ -852,6 +878,14 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Radar",
 		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Fortified Ports",
+		"cityStrength": 5,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be next to [Coast]"],
+		"requiredTech": "Naval Defenses"
 	},
 	//////////////// Military Buildings
 	{
@@ -1072,8 +1106,25 @@
 		"maintenance": 3,
 		"greatPersonPoints": {"Great General": 1},
 		"hurryCostModifier": 25,
-		"uniques": ["New [Water] units start with [30] Experience [in this city]","[-30]% Production when constructing [Water] units [in this city]"],
+		"uniques": ["Must be next to [Coast]","New [Water] units start with [30] Experience [in this city]",
+			"[-30]% Production when constructing [Water] units [in this city]"],
 		"requiredTech": "Navigation"
+	},
+	{
+		"name": "Captain Training Facility",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be next to [Coast]","New [Water] units start with [15] Experience [in this city]",
+			"[-10]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Hydrodynamics"
+	},
+	{
+		"name": "Pilot Training Facility",
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["New [Aircraft] units start with [15] Experience [in this city]",
+			"[-10]% Production when constructing [Aircraft] units [in this city]"],
+		"requiredTech": "Aerodynamics"
 	},
 	{
 		"name": "Chemical Weapons Laboratory",
@@ -1511,6 +1562,15 @@
 		"requiredTech": "Agriculture"
 	},
 	{
+		"name": "Fish Traps",
+		"requiredNearbyImprovedResources": ["Fish"],
+		"hurryCostModifier": 25,
+		"food": 1,
+		"maintenance": 1,
+		"uniques": ["Must be next to [Water]","[+1 Food] from [Fish] tiles [in this city]"],
+		"requiredTech": "Sailing"
+	},
+	{
 		"name": "Factory Ranch",
 		"requiredNearbyImprovedResources": ["Cattle"],
 		"food": 5,
@@ -1526,14 +1586,66 @@
 	{
 		"name": "Paint Factory",
 		"requiredNearbyImprovedResources": ["Dyes"],
-		"gold": 5,
+		"production": 3,
 		"percentStatBonus": {"production": -5},
 		"specialistSlots": {"Engineer": 2},
 		"specialistSlots": {"Artist": 2},
 		"maintenance": 5,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Food] from [Dyes] tiles [in this city]"],
+		"uniques": ["[+1 Production] from [Dyes] tiles [in this city]"],
 		"requiredTech": "Heavy Industrialization"
+	},
+	{
+		"name": "Artificial Dye Factory",
+		"percentStatBonus": {"production": -5},
+		"specialistSlots": {"Engineer": 1},
+		"maintenance": 4,
+		"hurryCostModifier": 0,
+		"uniques": ["Provides [1] [Dyes]"],
+		"requiredTech": "Pharmaceuticals"
+	},
+	{
+		"name": "Incense Farm",
+		"requiredNearbyImprovedResources": ["Incense"],
+		"faith": 3,
+		"percentStatBonus": {"food": -5},
+		"specialistSlots": {"Shaman": 1},
+		"specialistSlots": {"Farmer": 1},
+		"maintenance": 5,
+		"hurryCostModifier": 0,
+		"uniques": ["Provides [1] [Incense]","[+1 Production, -1 Faith] from [Incense] tiles [in this city]"],
+		"requiredTech": "Advanced Machinery"
+	},
+	{
+		"name": "Wool Farm",
+		"requiredNearbyImprovedResources": ["Sheep"],
+		"production": 3,
+		"specialistSlots": {"Farmer": 1},
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Production] from [Sheep] tiles [in this city]"],
+		"requiredTech": "Crop Rotation"
+	},
+	{
+		"name": "Vineyard",
+		"requiredNearbyImprovedResources": ["Wine"],
+		"culture": 3,
+		"specialistSlots": {"Farmer": 1},
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Gold] from [Wine] tiles [in this city]"],
+		"requiredTech": "Comercialism"
+	},
+	{
+		"name": "Restaurant",
+		"requiredNearbyImprovedResources": ["Spices","Salt","Sugar","Truffles"],
+		"food": 4
+		"specialistSlots": {"Cook": 1},
+		"maintenance": 4,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Gold] from [Spices] tiles [in this city]","[+1 Production] from [Salt] tiles [in this city]",
+			"[+1 Production] from [Sugar] tiles [in this city]","[+1 Production, +1 Gold] from [Truffles] tiles [in this city]"],
+		"requiredTech": "Economics"
 	},
 	{
 		"name": "Orange Grove",
@@ -1561,6 +1673,26 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Crab] tiles [in this city]"],
 		"requiredTech": "Refrigeration"
+	},
+	{
+		"name": "Clothier",
+		"requiredNearbyImprovedResources": ["Furs","Silk","Cotton"],
+		"production": 1,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Cotton] tiles [in this city]","[+1 Production] from [Furs] tiles [in this city]",
+			"[+1 Gold] from [Silk] tiles [in this city]"],
+		"requiredTech": "Comercialism"
+	},
+	{
+		"name": "Jeweler",
+		"requiredNearbyImprovedResources": ["Pearls","Gems","Gold Ore","Silver"],
+		"production": 1,
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Gold Ore] tiles [in this city]","[+1 Production] from [Silver] tiles [in this city]",
+			"[+1 Gold] from [Gems] tiles [in this city]","[+1 Gold] from [Pearls] tiles [in this city]"],
+		"requiredTech": "Comercialism"
 	},
 	//////////////////////// guilds
 	{
