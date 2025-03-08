@@ -30,6 +30,13 @@
 	  	"greatPersonPoints": {"Great Engineer":1},
 		"color": [139,69,19]
 	},
+	{
+		"name":"Cook",
+		"food":2,
+		"gold":1,
+	  	"greatPersonPoints": {"Great Scientist":1},
+		"color": [139,69,19]
+	},
   {
 		"name":"Priest",
 		"faith":3,
