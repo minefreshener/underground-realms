@@ -775,7 +775,7 @@
 		"maintenance": 4,
 		"science": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Consumes [1] [Copper]","Consumes [1] [power]","Provides [3] [Circuits]"],
+		"uniques": ["Consumes [1] [Copper]","Consumes [1] [Power]","Provides [3] [Circuits]"],
 		"requiredTech": "Electronics"
 	},
 	{
@@ -783,7 +783,7 @@
 		"maintenance": 3,
 		"science": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Consumes [1] [power]","Provides [1] [Magic Crystals]"],
+		"uniques": ["Consumes [1] [Power]","Provides [1] [Magic Crystals]"],
 		"requiredTech": "Crystal Fabrication"
 	},
 	{
