@@ -1534,7 +1534,7 @@
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
-				"name": "Eelectronics",
+				"name": "Electronics",
 				"row": 6,
 				"prerequisites": ["Magical Energy","Plastics"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
@@ -1576,7 +1576,7 @@
 			{
 				"name": "Television",
 				"row": 6,
-				"prerequisites": ["Eelectronics"],
+				"prerequisites": ["Electronics"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -1588,7 +1588,7 @@
 			{
 				"name": "Advanced Radar",
 				"row": 8,
-				"prerequisites": ["Hydrodynamics","Combined Arms","Eelectronics"],
+				"prerequisites": ["Hydrodynamics","Combined Arms","Electronics"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 
