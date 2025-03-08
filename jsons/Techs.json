@@ -1462,7 +1462,7 @@
 			{
 				"name": "Radar",
 				"row": 6,
-				"prerequisites": ["Radio","Stealth tactics"],
+				"prerequisites": ["Radio","Stealth Tactics"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -1508,7 +1508,7 @@
 			{
 				"name": "Advanced Armorcraft",
 				"row": 7,
-				"prerequisites": ["Heavy Industrialization","Radar","Eelectromagnetics"],
+				"prerequisites": ["Heavy Industrialization","Radar","Electromagnetics"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 
@@ -1635,8 +1635,8 @@
 		]
 	},
 	{
-		"columnNumber": 33,
-		"era": "Eleventh Age",
+		"columnNumber": 38,
+		"era": "Twelfth Age",
 		"techCost": 999999999,
 		"buildingCost": 750,
 		"wonderCost": 1250,
@@ -1644,7 +1644,7 @@
 			{
 				"name": "Future Tech",
 				"row": 5,
-				"prerequisites": ["Naval Armorcraft","Radio","Stealth Tactics","Automatic Weapons","Industrial Architecture"],
+				"prerequisites": ["Advanced Motors","Sustainable Energy","Computers","Missiles","Magical Hypercombustion Theory"],
 				"uniques": ["Can be continually researched"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
                 "civilopediaText": [{"text": "Who knows what the future holds?"}]
