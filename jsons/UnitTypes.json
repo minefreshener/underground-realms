@@ -73,6 +73,7 @@
     },
     {
         "name": "Submarine",
+        "uniques": ["Invisible to non-adjacent units"],
         "movementType": "Water"
     },
     {
