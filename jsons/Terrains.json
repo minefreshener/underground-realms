@@ -310,6 +310,19 @@
 		"occursOn": ["Coast"],
 		"uniques": ["Rare feature"]
 	},
+	////////////////// natural wonders
+	{
+		"name": "Black Mountains",
+		"type": "NaturalWonder",
+		"production": 4,
+		"culture": 2,
+		"occursOn": ["Snow","Tundra"],
+		"uniques": ["Must be adjacent to [4] to [6] [Elevated] tiles","Occurs in groups of [1] to [3] tiles"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
 
     // Virtual River entry, used for stats, Uniques and Civilopedia
     // Modders take heed:
