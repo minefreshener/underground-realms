@@ -192,7 +192,21 @@ TileSets/HexaRealm/Units/Sniper 11A
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Sniper 12A
+  rotate: false
+  xy: 1657, 1257
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Modern Infantry 11A
+  rotate: false
+  xy: 577, 1447
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Modern Infantry 12A
   rotate: false
   xy: 577, 1447
   size: 64, 56
@@ -1080,6 +1094,20 @@ TileSets/HexaRealm/Units/Recon Blimp 10A
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Recon Blimp 11A
+  rotate: false
+  xy: 148, 310
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Recon Blimp 12A
+  rotate: false
+  xy: 148, 310
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Levy Javelinman 1A
   rotate: false
   xy: 220, 817
@@ -1276,13 +1304,6 @@ TileSets/HexaRealm/Units/Gun Militia 10A
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Gun Militia 11A
-  rotate: false
-  xy: 793, 1552
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
 TileSets/HexaRealm/Units/Hand Gunner 6A
   rotate: false
   xy: 937, 1327
@@ -1290,14 +1311,14 @@ TileSets/HexaRealm/Units/Hand Gunner 6A
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Arquebuser 6A
+TileSets/HexaRealm/Units/Arquebusier 6A
   rotate: false
   xy: 508, 991
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Arquebuser 7A
+TileSets/HexaRealm/Units/Arquebusier 7A
   rotate: false
   xy: 508, 991
   size: 64, 56
@@ -1319,6 +1340,13 @@ TileSets/HexaRealm/Units/Line Infantry 9A
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Line Infantry 10A
+  rotate: false
+  xy: 1657, 1257
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Line Infantry 11A
   rotate: false
   xy: 1657, 1257
   size: 64, 56
