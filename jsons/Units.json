@@ -967,7 +967,7 @@
 		"obsoleteTech": "Combined Arms",
 		"uniques": ["Militia","Gunpowder","[+33]% Strength <vs [Heavy Infantry] units> <when attacking>","[+33]% Strength <vs [Heavy Cavalry] units> <when attacking>",
 			"[+33]% Strength <vs [Spear Infantry] units>"],
-		"promotions": ["Rifle"],
+		"promotions": ["Rifle","Bayonet"],
 		"attackSound": "shot"
 	},
 	{
@@ -1305,9 +1305,25 @@
 		"rangedStrength": 60,
 		"cost": 550,
 		"requiredTech": "Stealth Tactics",
+		"upgradesTo": "Sniper 12A",
+		"obsoleteTech": "Electronics",
 		"uniques": ["Elite","Gunpowder","[+33]% Strength <vs [Heavy Infantry] units> <when attacking>","[+33]% Strength <vs [Heavy Cavalry] units> <when attacking>",
 			"[+33]% Strength <vs [Spear Infantry] units>"],
 		"promotions": ["Rifle"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Sniper 12A",
+		"unitType": "Missile Infantry",
+		"movement": 2,
+		"strength": 60,
+		"range": 2,
+		"rangedStrength": 65,
+		"cost": 600,
+		"requiredTech": "Electronics",
+		"uniques": ["Elite","Gunpowder","[+33]% Strength <vs [Heavy Infantry] units> <when attacking>","[+33]% Strength <vs [Heavy Cavalry] units> <when attacking>",
+			"[+33]% Strength <vs [Spear Infantry] units>"],
+		"promotions": ["Rifle","Radar System"],
 		"attackSound": "shot"
 	},
 	{
@@ -1331,7 +1347,7 @@
 		"cost": 550,
 		"requiredTech": "Modular Weapons",
 		"uniques": ["Gunpowder","[+33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Grenade","Rifle","Dagger"],
+		"promotions": ["Grenade","Automatic Rifle","Dagger"],
 		"attackSound": "shot"
 	},
 	{
