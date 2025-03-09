@@ -25,10 +25,3 @@ UnitIcons/Infantry
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Settler
-  rotate: false
-  xy: 212, 4
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
